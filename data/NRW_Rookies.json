@@ -1,0 +1,82 @@
+[
+  {
+    "platz": "1",
+    "team": "SK Germania Herringen",
+    "spiele": "3",
+    "siege": "3",
+    "unentschieden": "0",
+    "niederlagen": "0",
+    "tore": "24 : 6",
+    "punkte": "9"
+  },
+  {
+    "platz": "2",
+    "team": "RSC Cronenberg II",
+    "spiele": "3",
+    "siege": "2",
+    "unentschieden": "0",
+    "niederlagen": "1",
+    "tore": "20 : 10",
+    "punkte": "6"
+  },
+  {
+    "platz": "3",
+    "team": "RSC Cronenberg I",
+    "spiele": "3",
+    "siege": "1",
+    "unentschieden": "0",
+    "niederlagen": "2",
+    "tore": "13 : 10",
+    "punkte": "3"
+  },
+  {
+    "platz": "4",
+    "team": "IGR Remscheid I",
+    "spiele": "0",
+    "siege": "0",
+    "unentschieden": "0",
+    "niederlagen": "0",
+    "tore": "0 : 0",
+    "punkte": "0"
+  },
+  {
+    "platz": "5",
+    "team": "IGR Remscheid II",
+    "spiele": "0",
+    "siege": "0",
+    "unentschieden": "0",
+    "niederlagen": "0",
+    "tore": "0 : 0",
+    "punkte": "0"
+  },
+  {
+    "platz": "6",
+    "team": "RHC Recklinghausen",
+    "spiele": "0",
+    "siege": "0",
+    "unentschieden": "0",
+    "niederlagen": "0",
+    "tore": "0 : 0",
+    "punkte": "0"
+  },
+  {
+    "platz": "7",
+    "team": "TuS-Düsseldorf Nord",
+    "spiele": "0",
+    "siege": "0",
+    "unentschieden": "0",
+    "niederlagen": "0",
+    "tore": "0 : 0",
+    "punkte": "0"
+  },
+  {
+    "platz": "8",
+    "team": "Hülser SV Krefeld",
+    "spiele": "3",
+    "siege": "0",
+    "unentschieden": "0",
+    "niederlagen": "3",
+    "tore": "1 : 32",
+    "punkte": "0"
+  }
+]
