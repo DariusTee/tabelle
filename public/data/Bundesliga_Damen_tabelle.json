@@ -1,0 +1,72 @@
+[
+  {
+    "platz": "1",
+    "team": "RSC Cronenberg",
+    "spiele": "10",
+    "siege": "8",
+    "unentschieden": "1",
+    "niederlagen": "1",
+    "tore": "74 : 18",
+    "punkte": "25"
+  },
+  {
+    "platz": "2",
+    "team": "IGR Remscheid",
+    "spiele": "10",
+    "siege": "7",
+    "unentschieden": "2",
+    "niederlagen": "1",
+    "tore": "80 : 31",
+    "punkte": "25"
+  },
+  {
+    "platz": "3",
+    "team": "TuS-Düsseldorf Nord",
+    "spiele": "10",
+    "siege": "7",
+    "unentschieden": "0",
+    "niederlagen": "3",
+    "tore": "41 : 27",
+    "punkte": "21"
+  },
+  {
+    "platz": "4",
+    "team": "SG Calenberg/Recklinghausen",
+    "spiele": "12",
+    "siege": "6",
+    "unentschieden": "2",
+    "niederlagen": "4",
+    "tore": "62 : 46",
+    "punkte": "21"
+  },
+  {
+    "platz": "5",
+    "team": "SG Gera-Wuppertal Girls United",
+    "spiele": "10",
+    "siege": "3",
+    "unentschieden": "0",
+    "niederlagen": "7",
+    "tore": "35 : 60",
+    "punkte": "9"
+  },
+  {
+    "platz": "6",
+    "team": "Team Holland",
+    "spiele": "10",
+    "siege": "2",
+    "unentschieden": "0",
+    "niederlagen": "8",
+    "tore": "32 : 62",
+    "punkte": "6"
+  },
+  {
+    "platz": "7",
+    "team": "SG Hüls/Schwerte",
+    "spiele": "10",
+    "siege": "0",
+    "unentschieden": "1",
+    "niederlagen": "9",
+    "tore": "11 : 91",
+    "punkte": "1"
+  }
+]
