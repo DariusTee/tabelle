@@ -29,10 +29,10 @@ jobs:
       - name: Tabellen aktualisieren
         run: node scripts/updateData.js
 
-      - name: Änderungen committen & pushen
+      - name: Commit data
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add public/data/
-          git commit -m "Auto update Tabellen" || echo "Keine Änderungen"
+          git add public/data
+          git commit -m "update tables" || echo "no changes"
           git push
