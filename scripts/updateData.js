@@ -18,6 +18,9 @@ const ligas = [
       args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
     });
 
+    const basePath = path.join(process.cwd(), 'public/data');
+    fs.mkdirSync(basePath, { recursive: true });
+
     for (const liga of ligas) {
       const page = await browser.newPage();
       console.log(`Lade Tabelle für: ${liga.name}`);
@@ -45,28 +48,30 @@ const ligas = [
         })
       );
 
-      // Dateien speichern
-      const basePath = path.join(process.cwd(), 'public/data');
-      fs.mkdirSync(basePath, { recursive: true });
-
-      // Tabelle speichern
       fs.writeFileSync(
         path.join(basePath, liga.name.replace(/\s+/g, '_') + '_tabelle.json'),
         JSON.stringify(table, null, 2),
         'utf-8'
       );
 
-      // Spieltags-Link speichern (nur als URL)
+      // Spieltage HTML abrufen
+      // Liga-Hauptseite: Tabellen-URL auf /tabelle und Query-Parameter kürzen
       const ligaIdMatch = liga.url.match(/liga\/(\d+)\//);
       const ligaId = ligaIdMatch ? ligaIdMatch[1] : '';
       const spieltagUrl = `https://spielplan.rollhockey.de/lm/saison/29/liga/${ligaId}`;
+
+      await page.goto(spieltagUrl, { waitUntil: 'networkidle2' });
+      await page.waitForSelector('div.flex.justify-center.p-4', { timeout: 60000 });
+
+      const spieltageHTML = await page.$eval('div.flex.justify-center.p-4', (el) => el.innerHTML);
+
       fs.writeFileSync(
-        path.join(basePath, liga.name.replace(/\s+/g, '_') + '_spieltag.json'),
-        JSON.stringify({ spieltagUrl }, null, 2),
+        path.join(basePath, liga.name.replace(/\s+/g, '_') + '_spieltage.html'),
+        spieltageHTML,
         'utf-8'
       );
 
-      console.log(`✅ Liga ${liga.name} gespeichert: ${table.length} Teams, Spieltagslink erstellt`);
+      console.log(`✅ Liga ${liga.name} gespeichert: ${table.length} Teams, Spieltage HTML gespeichert`);
       await page.close();
     }
 
