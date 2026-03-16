@@ -2,7 +2,7 @@ name: Update Tabellen
 
 on:
   schedule:
-    - cron: "0 * * * *"   # jede volle Stunde
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -11,22 +11,24 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      # Repository auschecken
+      # Repository auschecken mit Token für Schreibrechte
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       # Node installieren
       - uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      # Abhängigkeiten installieren
+      # Dependencies installieren
       - run: npm install
 
       # Tabellen scrapen
       - name: Scrape Tabellen
         run: node scripts/updateData.js
 
-      # Änderungen committen und pushen mit GitHub Token
+      # Änderungen committen und pushen
       - name: Commit & Push updated tables
         run: |
           git config user.name "github-actions"
