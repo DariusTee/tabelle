@@ -28,4 +28,4 @@ jobs:
           git config user.email "actions@github.com"
           git add public/data
           git commit -m "update tables" || echo "no changes"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+          git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
