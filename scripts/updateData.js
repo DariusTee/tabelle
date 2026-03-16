@@ -18,8 +18,36 @@ const ligas = [
     const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] });
     const page = await browser.newPage();
 
-    for (const liga of ligas) {
-      console.log(`Lade Tabelle: ${liga.name}`);
+const browser = await puppeteer.launch({
+  headless: true,
+  args: [
+    "--no-sandbox",
+    "--disable-setuid-sandbox",
+    "--disable-dev-shm-usage"
+  ]
+});
+
+await Promise.all(
+  ligas.map(async liga => {
+    const page = await browser.newPage();
+
+    console.log(`Lade Tabelle: ${liga.name}`);
+
+    await page.goto(liga.url, { waitUntil: "networkidle2" });
+    await page.waitForSelector("lm-schedule-stats-entry-row");
+
+    const table = await page.$$eval(
+      "lm-schedule-stats-entry-row",
+      rows => rows.map(row => row.innerText)
+    );
+
+    console.log(liga.name, table.length);
+
+    await page.close();
+  })
+);
+
+await browser.close();
       await page.goto(liga.url, { waitUntil: 'networkidle2' });
       await page.waitForTimeout(3000); // warten, bis JS die Tabelle rendert
       await page.waitForSelector('lm-schedule-stats-entry-row', { timeout: 60000 });
