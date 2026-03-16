@@ -7,8 +7,8 @@ repo
 │   └─ data.json
 │
 ├─ scripts
-│   └─ updateData.js
+│   └─ updateAllLigen.js
 │
 └─ .github
     └─ workflows
-        └─ update-data.yml
+        └─ updateAllLigen.yml
