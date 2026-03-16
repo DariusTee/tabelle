@@ -18,17 +18,14 @@ const ligas = [
       args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
     });
 
-    const basePath = path.join(process.cwd(), 'public/data');
-    fs.mkdirSync(basePath, { recursive: true });
-
     for (const liga of ligas) {
       const page = await browser.newPage();
-      console.log(`Lade Tabelle für: ${liga.name}`);
+      console.log(`Lade Liga: ${liga.name}`);
 
-      // Tabelle abrufen
       await page.goto(liga.url, { waitUntil: 'networkidle2' });
       await page.waitForSelector('lm-schedule-stats-entry-row', { timeout: 60000 });
 
+      // Tabelle extrahieren
       const table = await page.$$eval('lm-schedule-stats-entry-row', (rows) =>
         rows.map((row) => {
           const text = row.innerText.trim();
@@ -48,30 +45,25 @@ const ligas = [
         })
       );
 
-      fs.writeFileSync(
-        path.join(basePath, liga.name.replace(/\s+/g, '_') + '_tabelle.json'),
-        JSON.stringify(table, null, 2),
-        'utf-8'
+      // Spieltage extrahieren
+      const spiele = await page.$$eval('lm-schedule-entry', (entries) =>
+        entries.map((entry) => {
+          const date = entry.querySelector('.lm-schedule-entry-date')?.innerText || '';
+          const teams = entry.querySelector('.lm-schedule-entry-teams')?.innerText || '';
+          const result = entry.querySelector('.lm-schedule-entry-result')?.innerText || '';
+          return { date, teams, result };
+        })
       );
 
-      // Spieltage HTML abrufen
-      // Liga-Hauptseite: Tabellen-URL auf /tabelle und Query-Parameter kürzen
-      const ligaIdMatch = liga.url.match(/liga\/(\d+)\//);
-      const ligaId = ligaIdMatch ? ligaIdMatch[1] : '';
-      const spieltagUrl = `https://spielplan.rollhockey.de/lm/saison/29/liga/${ligaId}`;
+      // Dateien speichern
+      const basePath = path.join(process.cwd(), 'public/data');
+      fs.mkdirSync(basePath, { recursive: true });
 
-      await page.goto(spieltagUrl, { waitUntil: 'networkidle2' });
-      await page.waitForSelector('div.flex.justify-center.p-4', { timeout: 60000 });
+      const safeName = liga.name.replace(/\s+/g, '_').replace(/[^\w]/g, '');
+      fs.writeFileSync(path.join(basePath, `${safeName}_tabelle.json`), JSON.stringify(table, null, 2), 'utf-8');
+      fs.writeFileSync(path.join(basePath, `${safeName}_spiele.json`), JSON.stringify(spiele, null, 2), 'utf-8');
 
-      const spieltageHTML = await page.$eval('div.flex.justify-center.p-4', (el) => el.innerHTML);
-
-      fs.writeFileSync(
-        path.join(basePath, liga.name.replace(/\s+/g, '_') + '_spieltage.html'),
-        spieltageHTML,
-        'utf-8'
-      );
-
-      console.log(`✅ Liga ${liga.name} gespeichert: ${table.length} Teams, Spieltage HTML gespeichert`);
+      console.log(`✅ Liga ${liga.name} gespeichert: ${table.length} Teams, ${spiele.length} Spiele`);
       await page.close();
     }
 
