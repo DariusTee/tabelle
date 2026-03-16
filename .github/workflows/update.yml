@@ -1,38 +1,37 @@
-name: Update Rollhockey Tabellen
+name: Update Tabellen
 
+# Löst aus jede Stunde und manuell
 on:
   schedule:
-    - cron: "0 * * * *"  # jede Stunde
-  workflow_dispatch:     # manuelles Testen möglich
-
-
+    - cron: "0 * * * *"  # jede volle Stunde
+  workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
-      - name: Repo auschecken
-        uses: actions/checkout@v4
+      # Code auschecken
+      - uses: actions/checkout@v4
 
-      - name: Node.js einrichten
-        uses: actions/setup-node@v4
+      # Node installieren
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
 
+      # Dependencies installieren
       - run: npm install
 
-      - name: Puppeteer installieren
-        run: npm install puppeteer
-
-      - name: Tabellen aktualisieren
+      # Scraping Script ausführen
+      - name: Scrape Tabellen
         run: node scripts/updateData.js
 
-      - name: Commit data
+      # Änderungen committen und pushen
+      - name: Commit & Push updated tables
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add public/data
           git commit -m "update tables" || echo "no changes"
-          git push
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
