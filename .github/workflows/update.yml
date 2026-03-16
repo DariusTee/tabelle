@@ -13,7 +13,6 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - run: npm install
       - name: Repo auschecken
         uses: actions/checkout@v4
 
@@ -21,6 +20,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+
+      - run: npm install
 
       - name: Puppeteer installieren
         run: npm install puppeteer
