@@ -5,11 +5,15 @@ on:
     - cron: "0 * * * *"  # jede Stunde
   workflow_dispatch:     # manuelles Testen möglich
 
+
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
+      - run: npm install
       - name: Repo auschecken
         uses: actions/checkout@v4
 
