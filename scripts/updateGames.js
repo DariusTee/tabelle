@@ -10,7 +10,7 @@ async function scrapeSpieltage() {
   const page = await browser.newPage();
   await page.goto(url, { waitUntil: 'networkidle2' });
 
-  // Warte, bis die Web Components geladen sind
+  // Warten bis alle Spiele geladen sind
   await page.waitForSelector('lm-schedule-game-entry-row');
 
   const spieltage = await page.evaluate(() => {
@@ -18,13 +18,14 @@ async function scrapeSpieltage() {
     const spiele = [];
 
     rows.forEach(row => {
-      // Shadow DOM prüfen
       const shadow = row.shadowRoot || row;
+
+      // Alle Texte sammeln, leere Strings, Leerzeichen und unerwünschte Symbole ignorieren
       const texts = Array.from(shadow.querySelectorAll('*'))
         .map(el => el.textContent.trim())
-        .filter(t => t.length > 0); // nur reiner Text, keine leeren Strings
+        .filter(t => t && t !== '' && t !== 'circle' && t !== 'open_in_new');
 
-      // nur die ersten 5 Texte verwenden: Datum, Ort, Heimteam, Ergebnis, Auswärtsteam
+      // Nur die ersten 5 Texte pro Spiel verwenden
       if (texts.length >= 5) {
         spiele.push({
           datum: texts[0],
