@@ -15,21 +15,18 @@ const url = 'https://spielplan.rollhockey.de/lm/saison/29/liga/407';
     console.log(`Lade Spielplan von ${url} ...`);
     await page.goto(url, { waitUntil: 'networkidle2' });
 
-    // Kurze Wartezeit, um dynamische Inhalte zu laden
+    // kleine Wartezeit für dynamische Inhalte
     await new Promise(resolve => setTimeout(resolve, 5000));
 
-    // Spieltage aus Shadow DOM extrahieren
     const spiele = await page.evaluate(() => {
-      const entries = Array.from(document.querySelectorAll('lm-schedule-entry'));
-      return entries.map(entry => {
-        const shadow = entry.shadowRoot;
-        const date = shadow?.querySelector('.lm-schedule-entry-date')?.innerText || '';
-        const teamsText = shadow?.querySelector('.lm-schedule-entry-teams')?.innerText || '';
-        const result = shadow?.querySelector('.lm-schedule-entry-result')?.innerText || '';
-        const location = shadow?.querySelector('.lm-schedule-entry-location')?.innerText || '';
-
-        const [homeTeam = '', awayTeam = ''] = teamsText.split(' - ').map(t => t.trim());
-
+      const rows = Array.from(document.querySelectorAll('lm-schedule-game-entry-row'));
+      return rows.map(row => {
+        const cells = Array.from(row.querySelectorAll('div.grid > div'));
+        const date = cells[0]?.innerText.trim() || '';
+        const location = cells[1]?.innerText.trim() || '';
+        const homeTeam = cells[2]?.innerText.trim() || '';
+        const result = cells[3]?.innerText.trim() || '';
+        const awayTeam = cells[4]?.innerText.trim() || '';
         return { date, location, homeTeam, awayTeam, result };
       });
     });
