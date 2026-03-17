@@ -4,8 +4,8 @@ import xml2js from 'xml2js';
 
 // ⚡ Hier alle Ligen eintragen
 const ligas = [
-  { name: '1. Bundesliga Herren', url: 'https://service.liga.rollhockey.de/xml/spielplan.aspx?id=407&typ=liga&list=all' },
-  { name: 'Bundesliga Damen', url: 'https://service.liga.rollhockey.de/xml/spielplan.aspx?id=411&typ=liga&list=all' },
+  { name: '1. Bundesliga Herren Spielplan', url: 'https://service.liga.rollhockey.de/xml/spielplan.aspx?id=407&typ=liga&list=all' },
+  { name: 'Bundesliga Damen Spielplan', url: 'https://service.liga.rollhockey.de/xml/spielplan.aspx?id=411&typ=liga&list=all' },
   // weitere Ligen hier hinzufügen
 ];
 
@@ -31,7 +31,7 @@ const ligas = [
         auswaertsteam: spiel.Gast,
       }));
 
-      const fileName = liga.name.replace(/\s+/g, '_') + '_spielplan.json';
+      const fileName = liga.name.replace(/\s+/g, '_') + '.json';
       const dataPath = path.join(process.cwd(), 'public/data', fileName);
       fs.mkdirSync(path.dirname(dataPath), { recursive: true });
       fs.writeFileSync(dataPath, JSON.stringify(spiele, null, 2), 'utf-8');
