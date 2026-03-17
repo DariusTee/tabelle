@@ -48,26 +48,28 @@ const ligaToTeam = {
       ];
 
       const spiele = spieleArray
-        .map((spiel) => {
-          // Datum in amerikanisches Format
-          const [day, month, yearAndTime] = spiel.datum.split('.');
-          const [year, time] = yearAndTime.split(' ');
+  .map((spiel) => {
+    // Datum in amerikanisches Format
+    const [day, month, yearAndTime] = spiel.datum.split('.');
+    const [year, fullTime] = yearAndTime.split(' ');
+    const [hour, minute] = fullTime.split(':'); // Sekunden ignorieren
+    const time = `${hour}:${minute}`;
 
-          return {
-            type: "Spiel",
-            team: ligaToTeam[spiel.liga] || "Unbekannt",
-            date: `${year}-${month}-${day}`, // YYYY-MM-DD
-            time: time, // HH:MM:SS
-            location: spiel.spielort,
-            description: spiel.liga,
-            home: spiel.heim,
-            away: spiel.gast,
-            result: spiel.resultat || null,
-          };
-        })
-        .filter(
-          (spiel) => teams.includes(spiel.home) || teams.includes(spiel.away)
-        );
+    return {
+      type: "Spiel",
+      team: ligaToTeam[spiel.liga] || "Unbekannt",
+      date: `${year}-${month}-${day}`, // YYYY-MM-DD
+      time: time, // HH:MM
+      location: spiel.spielort,
+      description: spiel.liga,
+      home: spiel.heim,
+      away: spiel.gast,
+      result: spiel.resultat || null,
+    };
+  })
+  .filter(
+    (spiel) => teams.includes(spiel.home) || teams.includes(spiel.away)
+  );
 
       // 🔥 Optional: nach Datum sortieren
       spiele.sort(
