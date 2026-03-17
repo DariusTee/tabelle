@@ -22,7 +22,7 @@ const ligas = [
     await page.waitForFunction(() =>
       Array.from(document.querySelectorAll('lm-schedule-game-entry-row'))
         .some(row => row.shadowRoot && row.shadowRoot.children.length > 0),
-      { timeout: 60000 }
+      { timeout: 120000 }
     );
 
     // Hole alle Row-Handles
