@@ -1,6 +1,11 @@
 import fs from "fs";
-import path from "path";
+import path, { dirname, join } from "path";
 import { parseStringPromise } from "xml2js";
+import { fileURLToPath } from "url";
+
+// aktuelles Skript-Verzeichnis
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 // ⚡ Ligen hier eintragen
 const ligas = [
@@ -39,23 +44,25 @@ const ligaToTeam = {
   "Rookies Landesmeisterschaft": "Rookies"
 };
 
-// Funktion zum Speichern der aktuellen Ausführungszeit
+// ---------------- Funktion: Ausführungszeit speichern ----------------
 function saveExecutionTime() {
   try {
     const now = new Date();
-    const timestamp = now.toISOString(); // ISO-Format
-    const dirPath = path.join(process.cwd(), "public/data");
-    const filePath = path.join(dirPath, "last_run.txt");
+    const timestamp = now.toISOString();
 
-    fs.mkdirSync(dirPath, { recursive: true }); // Verzeichnis sicher erstellen
+    const dirPath = join(__dirname, "public/data");
+    const filePath = join(dirPath, "last_run.txt");
+
+    fs.mkdirSync(dirPath, { recursive: true });
     fs.writeFileSync(filePath, timestamp, "utf-8");
 
-    console.log(`✅ Ausführungszeit gespeichert: ${timestamp}`);
+    console.log(`✅ Ausführungszeit gespeichert in: ${filePath}`);
   } catch (err) {
     console.error("❌ Fehler beim Speichern der Ausführungszeit:", err);
   }
 }
 
+// ---------------- Script ----------------
 (async () => {
   for (const liga of ligas) {
     try {
@@ -112,9 +119,9 @@ function saveExecutionTime() {
       );
 
       const fileName = liga.name.replace(/\s+/g, "_") + ".json";
-      const filePath = path.join(process.cwd(), "public/data", fileName);
+      const filePath = join(__dirname, "public/data", fileName);
 
-      fs.mkdirSync(path.dirname(filePath), { recursive: true });
+      fs.mkdirSync(dirname(filePath), { recursive: true });
       fs.writeFileSync(filePath, JSON.stringify(spiele, null, 2), "utf-8");
 
       console.log(`✅ ${liga.name}: ${spiele.length} Spiele gespeichert`);
@@ -123,7 +130,7 @@ function saveExecutionTime() {
     }
   }
 
-  // ⚡ Hier die Ausführungszeit speichern
+  // ⚡ Ausführungszeit speichern
   saveExecutionTime();
 
   console.log("🎉 Alle Ligen verarbeitet!");
