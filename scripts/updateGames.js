@@ -1,87 +1,46 @@
-import puppeteer from "puppeteer";
 import fs from "fs";
 import path from "path";
 
 const ligas = [
-  { name: "1_bundesliga_herren", url: "https://spielplan.rollhockey.de/lm/saison/29/liga/407" }
+  { name: "1_bundesliga_herren", id: 407 },
+  { name: "bundesliga_damen", id: 411 }
 ];
 
-(async () => {
+const saison = 29;
 
-  const browser = await puppeteer.launch({
-    headless: true,
-    args: ["--no-sandbox", "--disable-setuid-sandbox"]
-  });
+async function loadLiga(liga) {
+
+  const url = `https://spielplan.rollhockey.de/api/lm/schedule/${saison}/${liga.id}`;
+
+  console.log("Lade:", url);
+
+  const res = await fetch(url);
+  const data = await res.json();
+
+  const games = data.map(g => ({
+    date: g.date,
+    location: g.location,
+    homeTeam: g.homeTeam,
+    awayTeam: g.awayTeam,
+    result: g.result ?? ""
+  }));
 
   const basePath = path.join(process.cwd(), "public/data");
   fs.mkdirSync(basePath, { recursive: true });
 
+  const file = path.join(basePath, `${liga.name}_spiele.json`);
+
+  fs.writeFileSync(file, JSON.stringify(games, null, 2));
+
+  console.log(`Gespeichert: ${games.length} Spiele`);
+}
+
+async function run() {
+
   for (const liga of ligas) {
-
-    const page = await browser.newPage();
-
-    console.log("Lade:", liga.url);
-
-    await page.goto(liga.url, {
-      waitUntil: "networkidle2",
-      timeout: 120000
-    });
-
-    // warten bis mehrere Spiele geladen sind
-    await page.waitForFunction(() => {
-      return document.querySelectorAll("lm-schedule-game-entry-row").length > 5;
-    });
-
-    const spiele = await page.evaluate(() => {
-
-      const rows = document.querySelectorAll("lm-schedule-game-entry-row");
-
-      const games = [];
-
-      rows.forEach(row => {
-
-        const grid = row.querySelector(".grid");
-        if (!grid) return;
-
-        const cols = grid.querySelectorAll(":scope > div");
-
-        if (cols.length < 5) return;
-
-        const date = cols[0].innerText.trim();
-        const location = cols[1].innerText.trim();
-        const homeTeam = cols[2].innerText.trim();
-        const result = cols[3].innerText.trim();
-        const awayTeam = cols[4].innerText.trim();
-
-        if (!homeTeam || !awayTeam) return;
-
-        games.push({
-          date,
-          location,
-          homeTeam,
-          awayTeam,
-          result
-        });
-
-      });
-
-      return games;
-
-    });
-
-    const filePath = path.join(basePath, `${liga.name}_spiele.json`);
-
-    fs.writeFileSync(
-      filePath,
-      JSON.stringify(spiele, null, 2),
-      "utf-8"
-    );
-
-    console.log(`Gespeichert: ${spiele.length} Spiele`);
-
-    await page.close();
+    await loadLiga(liga);
   }
 
-  await browser.close();
+}
 
-})();
+run();
