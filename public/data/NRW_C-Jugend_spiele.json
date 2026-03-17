@@ -1,1 +1,632 @@
-[]
+[
+  {
+    "date": "",
+    "location": "Marl-Hüls",
+    "homeTeam": "RSG",
+    "awayTeam": "Bandidos",
+    "result": "0:11"
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "awayTeam": "",
+    "result": ""
+  }
+]
