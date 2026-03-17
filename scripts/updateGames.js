@@ -13,65 +13,45 @@ const ligas = [
 ];
 
 (async () => {
-  try {
-    const browser = await puppeteer.launch({
-      headless: true,
-      args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
-    });
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
+  });
 
-    // Hilfsfunktion: nur direkte Textknoten eines divs auslesen
-    function getDirectText(div) {
-      if (!div) return '';
-      return Array.from(div.childNodes)
-        .filter(node => node.nodeType === 3) // nur Textknoten
-        .map(node => node.textContent.trim())
-        .join(' ')
-        .replace(/\s+/g, ' ');
-    }
+  for (const liga of ligas) {
+    const page = await browser.newPage();
+    console.log(`Lade Spiele: ${liga.name}`);
 
-    await Promise.all(
-      ligas.map(async (liga) => {
-        const page = await browser.newPage();
-        console.log(`Lade Spiele: ${liga.name}`);
+    await page.goto(liga.url, { waitUntil: 'networkidle2' });
 
-        await page.goto(liga.url, { waitUntil: 'networkidle2' });
-        await page.waitForSelector('lm-schedule-game-entry-row', { timeout: 60000 });
+    // Warten, bis mindestens ein Spiel geladen ist
+    await page.waitForFunction(() => {
+      return document.querySelectorAll('lm-schedule-game-entry-row div.col-span-2').length > 0;
+    }, { timeout: 30000 });
 
-const games = await page.$$eval('lm-schedule-game-entry-row', (rows) =>
-  rows.map((row) => {
-    // Alle divs der Zeile
-    const divs = Array.from(row.querySelectorAll('div'));
-
-    // Nur sichtbare Texte extrahieren und Icons/Buttons ignorieren
-    const texts = divs
-      .map(d => d.innerText.trim())
-      .filter(t => t && !['check_circle', 'circle', 'open_in_new'].includes(t));
-
-    return {
-      date: texts[0] || '',
-      location: texts[1] || '',
-      homeTeam: texts[2] || '',
-      result: texts[3] || '',
-      awayTeam: texts[4] || '',
-    };
-  })
-);
-
-        const fileName = liga.name.replace(/\s+/g, '_') + '.json';
-        const dataPath = path.join(process.cwd(), 'public/data', fileName);
-        fs.mkdirSync(path.dirname(dataPath), { recursive: true });
-        fs.writeFileSync(dataPath, JSON.stringify(games, null, 2), 'utf-8');
-
-        console.log(`Spiele gespeichert: ${fileName} (${games.length} Spiele)`);
-
-        await page.close();
+    const games = await page.$$eval('lm-schedule-game-entry-row', rows =>
+      rows.map(row => {
+        const divs = row.querySelectorAll(':scope > div');
+        const getText = div => div.innerText.trim().replace(/\n/g, ' ');
+        return {
+          date: divs[0] ? getText(divs[0]) : '',
+          location: divs[1] ? getText(divs[1]) : '',
+          homeTeam: divs[2] ? getText(divs[2]) : '',
+          result: divs[3] ? getText(divs[3]) : '',
+          awayTeam: divs[4] ? getText(divs[4]) : '',
+        };
       })
     );
 
-    await browser.close();
-    console.log('✅ Alle Ligen erfolgreich aktualisiert!');
-  } catch (err) {
-    console.error('❌ Fehler beim Laden der Spiele:', err);
-    process.exit(1);
+    const fileName = liga.name.replace(/\s+/g, '_') + '.json';
+    const dataPath = path.join(process.cwd(), 'public/data', fileName);
+    fs.mkdirSync(path.dirname(dataPath), { recursive: true });
+    fs.writeFileSync(dataPath, JSON.stringify(games, null, 2), 'utf-8');
+
+    console.log(`Spiele gespeichert: ${fileName} (${games.length} Spiele)`);
+    await page.close();
   }
+
+  await browser.close();
+  console.log('✅ Alle Ligen erfolgreich aktualisiert!');
 })();
