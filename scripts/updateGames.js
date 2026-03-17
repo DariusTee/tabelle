@@ -41,12 +41,19 @@ const ligaToTeam = {
 
 // Funktion zum Speichern der aktuellen Ausführungszeit
 function saveExecutionTime() {
-  const now = new Date();
-  const timestamp = now.toISOString(); // ISO-Format
-  const filePath = path.join(process.cwd(), "public/data/last_run.txt");
-  fs.mkdirSync(path.dirname(filePath), { recursive: true });
-  fs.writeFileSync(filePath, timestamp, "utf-8");
-  console.log(`✅ Ausführungszeit gespeichert: ${timestamp}`);
+  try {
+    const now = new Date();
+    const timestamp = now.toISOString(); // ISO-Format
+    const dirPath = path.join(process.cwd(), "public/data");
+    const filePath = path.join(dirPath, "last_run.txt");
+
+    fs.mkdirSync(dirPath, { recursive: true }); // Verzeichnis sicher erstellen
+    fs.writeFileSync(filePath, timestamp, "utf-8");
+
+    console.log(`✅ Ausführungszeit gespeichert: ${timestamp}`);
+  } catch (err) {
+    console.error("❌ Fehler beim Speichern der Ausführungszeit:", err);
+  }
 }
 
 (async () => {
