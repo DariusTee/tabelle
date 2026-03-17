@@ -20,7 +20,7 @@ const ligas = [
         console.log(`Lade Tabelle: ${liga.name}`);
 
         await page.goto(liga.url, { waitUntil: 'networkidle2' });
-        await page.waitForSelector('lm-schedule-stats-entry-row', { timeout: 60000 });
+        await page.waitForSelector('lm-schedule-game-entry-row', { timeout: 60000 });
 
         const table = await page.$$eval('lm-schedule-stats-entry-row', (rows) =>
           rows.map((row) => {
