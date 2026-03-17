@@ -5,7 +5,7 @@ import { parseStringPromise } from "xml2js";
 // ⚡ Ligen hier eintragen
 const ligas = [
   {
-    name: "1. Bundesliga Herren",
+    name: "1. Bundesliga Herren Spielplan",
     url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=407&typ=liga&list=all",
   },
 ];
@@ -34,17 +34,29 @@ const ligas = [
         ? spieleRaw
         : [spieleRaw];
 
-      const spiele = spieleArray.map((spiel) => ({
-        id: spiel.spielid,
-        nummer: spiel.spielnr,
-        datum: spiel.datum,
-        liga: spiel.liga,
-        heim: spiel.heim,
-        gast: spiel.gast,
-        ergebnis: spiel.resultat || null,
-        ort: spiel.spielort,
-        gespielt: spiel.gespielt === "1",
-      }));
+      const teams = [
+          "RHC Recklinghausen",
+          "RHC Recklinghausen II",
+          "SG Calenberg/Recklinghausen",
+      ];
+
+const spiele = spieleArray
+  .map((spiel) => ({
+    id: spiel.spielid,
+    nummer: spiel.spielnr,
+    datum: spiel.datum,
+    liga: spiel.liga,
+    heim: spiel.heim,
+    gast: spiel.gast,
+    ergebnis: spiel.resultat || null,
+    ort: spiel.spielort,
+    gespielt: spiel.gespielt === "1",
+  }))
+  .filter(
+    (spiel) =>
+      teams.includes(spiel.heim) ||
+      teams.includes(spiel.gast)
+  );
 
       // 🔥 Optional: nach Datum sortieren
       spiele.sort((a, b) => new Date(a.datum) - new Date(b.datum));
