@@ -37,7 +37,7 @@ const ligaToTeam = {
   "Regionalliga West": "2. Herren",
   "NRW C-Jugend": "C-Jugend",
   "NRW D-Jugend": "D-Jugend",
-  "NRW Rookies": "Rookies"
+  "Rookies Landesmeisterschaft": "Rookies"
 };
 
 (async () => {
