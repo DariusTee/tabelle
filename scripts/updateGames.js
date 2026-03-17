@@ -2,7 +2,7 @@ import puppeteer from 'puppeteer';
 import fs from 'fs';
 import path from 'path';
 
-const url = 'https://spielplan.rollhockey.de/lm/saison/29/liga/407'; // 1. Bundesliga Herren
+const url = 'https://spielplan.rollhockey.de/lm/saison/29/liga/407';
 
 (async () => {
   try {
@@ -16,7 +16,7 @@ const url = 'https://spielplan.rollhockey.de/lm/saison/29/liga/407'; // 1. Bunde
     await page.goto(url, { waitUntil: 'networkidle2' });
 
     // Kurze Wartezeit, um dynamische Inhalte zu laden
-    await page.waitForTimeout(5000);
+    await new Promise(resolve => setTimeout(resolve, 5000));
 
     // Spieltage aus Shadow DOM extrahieren
     const spiele = await page.evaluate(() => {
@@ -26,18 +26,14 @@ const url = 'https://spielplan.rollhockey.de/lm/saison/29/liga/407'; // 1. Bunde
         const date = shadow?.querySelector('.lm-schedule-entry-date')?.innerText || '';
         const teamsText = shadow?.querySelector('.lm-schedule-entry-teams')?.innerText || '';
         const result = shadow?.querySelector('.lm-schedule-entry-result')?.innerText || '';
-
-        // Heim- und Auswärtsteam trennen
-        const [homeTeam = '', awayTeam = ''] = teamsText.split(' - ').map(t => t.trim());
-
-        // Ort ggf. aus teamName oder extra Feld
         const location = shadow?.querySelector('.lm-schedule-entry-location')?.innerText || '';
+
+        const [homeTeam = '', awayTeam = ''] = teamsText.split(' - ').map(t => t.trim());
 
         return { date, location, homeTeam, awayTeam, result };
       });
     });
 
-    // Dateien speichern
     const basePath = path.join(process.cwd(), 'public/data');
     fs.mkdirSync(basePath, { recursive: true });
     fs.writeFileSync(
