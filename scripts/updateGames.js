@@ -1,11 +1,6 @@
 import fs from "fs";
-import path, { dirname, join } from "path";
+import path from "path";
 import { parseStringPromise } from "xml2js";
-import { fileURLToPath } from "url";
-
-// aktuelles Skript-Verzeichnis
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
 
 // ⚡ Ligen hier eintragen
 const ligas = [
@@ -44,25 +39,7 @@ const ligaToTeam = {
   "Rookies Landesmeisterschaft": "Rookies"
 };
 
-// ---------------- Funktion: Ausführungszeit speichern ----------------
-function saveExecutionTime() {
-  try {
-    const now = new Date();
-    const timestamp = now.toISOString();
 
-    const dirPath = join(__dirname, "public/data");
-    const filePath = join(dirPath, "last_run.txt");
-
-    fs.mkdirSync(dirPath, { recursive: true });
-    fs.writeFileSync(filePath, timestamp, "utf-8");
-
-    console.log(`✅ Ausführungszeit gespeichert in: ${filePath}`);
-  } catch (err) {
-    console.error("❌ Fehler beim Speichern der Ausführungszeit:", err);
-  }
-}
-
-// ---------------- Script ----------------
 (async () => {
   for (const liga of ligas) {
     try {
@@ -119,9 +96,9 @@ function saveExecutionTime() {
       );
 
       const fileName = liga.name.replace(/\s+/g, "_") + ".json";
-      const filePath = join(__dirname, "public/data", fileName);
+      const filePath = path.join(process.cwd(), "public/data", fileName);
 
-      fs.mkdirSync(dirname(filePath), { recursive: true });
+      fs.mkdirSync(path.dirname(filePath), { recursive: true });
       fs.writeFileSync(filePath, JSON.stringify(spiele, null, 2), "utf-8");
 
       console.log(`✅ ${liga.name}: ${spiele.length} Spiele gespeichert`);
@@ -130,8 +107,6 @@ function saveExecutionTime() {
     }
   }
 
-  // ⚡ Ausführungszeit speichern
-  saveExecutionTime();
 
   console.log("🎉 Alle Ligen verarbeitet!");
 })();
