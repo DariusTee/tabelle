@@ -28,7 +28,6 @@ const ligas = [
     name: "NRW Rookies Spielplan",
     url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=418&typ=liga&list=all",
   },
- 
 ];
 
 const ligaToTeam = {
@@ -39,6 +38,16 @@ const ligaToTeam = {
   "NRW D-Jugend": "D-Jugend",
   "Rookies Landesmeisterschaft": "Rookies"
 };
+
+// Funktion zum Speichern der aktuellen Ausführungszeit
+function saveExecutionTime() {
+  const now = new Date();
+  const timestamp = now.toISOString(); // ISO-Format
+  const filePath = path.join(process.cwd(), "public/data/last_run.txt");
+  fs.mkdirSync(path.dirname(filePath), { recursive: true });
+  fs.writeFileSync(filePath, timestamp, "utf-8");
+  console.log(`✅ Ausführungszeit gespeichert: ${timestamp}`);
+}
 
 (async () => {
   for (const liga of ligas) {
@@ -54,7 +63,6 @@ const ligaToTeam = {
       });
 
       const spieleRaw = result?.ihs?.Spiel;
-
       if (!spieleRaw) {
         console.log(`❌ Keine Spiele gefunden für ${liga.name}`);
         continue;
@@ -69,28 +77,27 @@ const ligaToTeam = {
       ];
 
       const spiele = spieleArray
-  .map((spiel) => {
-    // Datum in amerikanisches Format
-    const [day, month, yearAndTime] = spiel.datum.split('.');
-    const [year, fullTime] = yearAndTime.split(' ');
-    const [hour, minute] = fullTime.split(':'); // Sekunden ignorieren
-    const time = `${hour}:${minute}`;
+        .map((spiel) => {
+          const [day, month, yearAndTime] = spiel.datum.split('.');
+          const [year, fullTime] = yearAndTime.split(' ');
+          const [hour, minute] = fullTime.split(':'); // Sekunden ignorieren
+          const time = `${hour}:${minute}`;
 
-    return {
-      type: "Spiel",
-      team: ligaToTeam[spiel.liga] || "Unbekannt",
-      date: `${year}-${month}-${day}`, // YYYY-MM-DD
-      time: time, // HH:MM
-      location: spiel.spielort,
-      description: spiel.liga,
-      home: spiel.heim,
-      away: spiel.gast,
-      result: spiel.resultat || null,
-    };
-  })
-  .filter(
-    (spiel) => teams.includes(spiel.home) || teams.includes(spiel.away)
-  );
+          return {
+            type: "Spiel",
+            team: ligaToTeam[spiel.liga] || "Unbekannt",
+            date: `${year}-${month}-${day}`, // YYYY-MM-DD
+            time: time, // HH:MM
+            location: spiel.spielort,
+            description: spiel.liga,
+            home: spiel.heim,
+            away: spiel.gast,
+            result: spiel.resultat || null,
+          };
+        })
+        .filter(
+          (spiel) => teams.includes(spiel.home) || teams.includes(spiel.away)
+        );
 
       // 🔥 Optional: nach Datum sortieren
       spiele.sort(
@@ -108,6 +115,9 @@ const ligaToTeam = {
       console.error(`❌ Fehler bei ${liga.name}:`, err);
     }
   }
+
+  // ⚡ Hier die Ausführungszeit speichern
+  saveExecutionTime();
 
   console.log("🎉 Alle Ligen verarbeitet!");
 })();
