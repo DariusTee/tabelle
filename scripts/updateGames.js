@@ -1,44 +1,65 @@
-import fs from 'fs';
-import path from 'path';
-import xml2js from 'xml2js';
+import fs from "fs";
+import path from "path";
+import { parseStringPromise } from "xml2js";
 
-// ⚡ Hier alle Ligen eintragen
+// ⚡ Ligen hier eintragen
 const ligas = [
-  { name: '1. Bundesliga Herren Spielplan', url: 'https://service.liga.rollhockey.de/xml/spielplan.aspx?id=407&typ=liga&list=all' },
-  { name: 'Bundesliga Damen Spielplan', url: 'https://service.liga.rollhockey.de/xml/spielplan.aspx?id=411&typ=liga&list=all' },
-  // weitere Ligen hier hinzufügen
+  {
+    name: "1. Bundesliga Herren",
+    url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=407&typ=liga&list=all",
+  },
 ];
 
 (async () => {
-  const parser = new xml2js.Parser({ explicitArray: false });
-
   for (const liga of ligas) {
     try {
       console.log(`Lade XML für: ${liga.name}`);
+
       const response = await fetch(liga.url);
       const xml = await response.text();
 
-      const result = await parser.parseStringPromise(xml);
+      const result = await parseStringPromise(xml, {
+        explicitArray: false,
+        trim: true,
+      });
 
-      // XML-Spiele extrahieren – je nach Struktur
-      // Annahme: result.Spielplan.Spiel enthält alle Spiele
-      const spiele = (result.Spielplan?.Spiel || []).map(spiel => ({
-        id: spiel.$?.ID || null,
-        datum: spiel.Datum,
-        ort: spiel.Ort,
-        heimteam: spiel.Heim,
-        ergebnis: spiel.Ergebnis,
-        auswaertsteam: spiel.Gast,
+      const spieleRaw = result?.ihs?.Spiel;
+
+      if (!spieleRaw) {
+        console.log(`❌ Keine Spiele gefunden für ${liga.name}`);
+        continue;
+      }
+
+      const spieleArray = Array.isArray(spieleRaw)
+        ? spieleRaw
+        : [spieleRaw];
+
+      const spiele = spieleArray.map((spiel) => ({
+        id: spiel.spielid,
+        nummer: spiel.spielnr,
+        datum: spiel.datum,
+        liga: spiel.liga,
+        heim: spiel.heim,
+        gast: spiel.gast,
+        ergebnis: spiel.resultat || null,
+        ort: spiel.spielort,
+        gespielt: spiel.gespielt === "1",
       }));
 
-      const fileName = liga.name.replace(/\s+/g, '_') + '.json';
-      const dataPath = path.join(process.cwd(), 'public/data', fileName);
-      fs.mkdirSync(path.dirname(dataPath), { recursive: true });
-      fs.writeFileSync(dataPath, JSON.stringify(spiele, null, 2), 'utf-8');
+      // 🔥 Optional: nach Datum sortieren
+      spiele.sort((a, b) => new Date(a.datum) - new Date(b.datum));
 
-      console.log(`✅ ${liga.name} gespeichert (${spiele.length} Spiele)`);
+      const fileName = liga.name.replace(/\s+/g, "_") + ".json";
+      const filePath = path.join(process.cwd(), "public/data", fileName);
+
+      fs.mkdirSync(path.dirname(filePath), { recursive: true });
+      fs.writeFileSync(filePath, JSON.stringify(spiele, null, 2), "utf-8");
+
+      console.log(`✅ ${liga.name}: ${spiele.length} Spiele gespeichert`);
     } catch (err) {
-      console.error(`❌ Fehler beim Laden von ${liga.name}:`, err);
+      console.error(`❌ Fehler bei ${liga.name}:`, err);
     }
   }
+
+  console.log("🎉 Alle Ligen verarbeitet!");
 })();
