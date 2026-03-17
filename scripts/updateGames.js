@@ -3,102 +3,85 @@ import fs from "fs";
 import path from "path";
 
 const ligas = [
-  { name: "1_bundesliga_herren", url: "https://spielplan.rollhockey.de/lm/saison/29/liga/407" },
-  { name: "regionalliga_west", url: "https://spielplan.rollhockey.de/lm/saison/29/liga/421" },
-  { name: "bundesliga_damen", url: "https://spielplan.rollhockey.de/lm/saison/29/liga/411" },
-  { name: "nrw_c_jugend", url: "https://spielplan.rollhockey.de/lm/saison/29/liga/416" },
-  { name: "nrw_d_jugend", url: "https://spielplan.rollhockey.de/lm/saison/29/liga/417" },
-  { name: "nrw_rookies", url: "https://spielplan.rollhockey.de/lm/saison/29/liga/418" }
+  { name: "1_bundesliga_herren", url: "https://spielplan.rollhockey.de/lm/saison/29/liga/407" }
 ];
 
 (async () => {
-  try {
 
-    const browser = await puppeteer.launch({
-      headless: true,
-      args: [
-        "--no-sandbox",
-        "--disable-setuid-sandbox",
-        "--disable-dev-shm-usage"
-      ]
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: ["--no-sandbox", "--disable-setuid-sandbox"]
+  });
+
+  const basePath = path.join(process.cwd(), "public/data");
+  fs.mkdirSync(basePath, { recursive: true });
+
+  for (const liga of ligas) {
+
+    const page = await browser.newPage();
+
+    console.log("Lade:", liga.url);
+
+    await page.goto(liga.url, {
+      waitUntil: "networkidle2",
+      timeout: 120000
     });
 
-    const basePath = path.join(process.cwd(), "public/data");
-    fs.mkdirSync(basePath, { recursive: true });
+    // warten bis mehrere Spiele geladen sind
+    await page.waitForFunction(() => {
+      return document.querySelectorAll("lm-schedule-game-entry-row").length > 5;
+    });
 
-    for (const liga of ligas) {
+    const spiele = await page.evaluate(() => {
 
-      const page = await browser.newPage();
+      const rows = document.querySelectorAll("lm-schedule-game-entry-row");
 
-      console.log(`Lade Spielplan: ${liga.name}`);
+      const games = [];
 
-      await page.goto(liga.url, {
-        waitUntil: "networkidle2",
-        timeout: 120000
-      });
+      rows.forEach(row => {
 
-      await page.waitForSelector("lm-schedule-game-entry-row", {
-        timeout: 60000
-      });
+        const grid = row.querySelector(".grid");
+        if (!grid) return;
 
-      const spiele = await page.evaluate(() => {
+        const cols = grid.querySelectorAll(":scope > div");
 
-        const rows = document.querySelectorAll("lm-schedule-game-entry-row");
+        if (cols.length < 5) return;
 
-        const games = [];
+        const date = cols[0].innerText.trim();
+        const location = cols[1].innerText.trim();
+        const homeTeam = cols[2].innerText.trim();
+        const result = cols[3].innerText.trim();
+        const awayTeam = cols[4].innerText.trim();
 
-        rows.forEach(row => {
+        if (!homeTeam || !awayTeam) return;
 
-          const grid = row.querySelector(".grid");
-          if (!grid) return;
-
-          const cols = Array.from(grid.querySelectorAll(":scope > div"));
-
-          if (cols.length < 5) return;
-
-          const date = cols[0].innerText.trim();
-          const location = cols[1].innerText.trim();
-          const homeTeam = cols[2].innerText.trim();
-          const result = cols[3].innerText.trim();
-          const awayTeam = cols[4].innerText.trim();
-
-          if (!homeTeam || !awayTeam) return;
-
-          games.push({
-            date,
-            location,
-            homeTeam,
-            awayTeam,
-            result
-          });
-
+        games.push({
+          date,
+          location,
+          homeTeam,
+          awayTeam,
+          result
         });
 
-        return games;
-
       });
 
-      const filePath = path.join(basePath, `${liga.name}_spiele.json`);
+      return games;
 
-      fs.writeFileSync(
-        filePath,
-        JSON.stringify(spiele, null, 2),
-        "utf-8"
-      );
+    });
 
-      console.log(`✅ ${spiele.length} Spiele gespeichert für ${liga.name}`);
+    const filePath = path.join(basePath, `${liga.name}_spiele.json`);
 
-      await page.close();
-    }
+    fs.writeFileSync(
+      filePath,
+      JSON.stringify(spiele, null, 2),
+      "utf-8"
+    );
 
-    await browser.close();
+    console.log(`Gespeichert: ${spiele.length} Spiele`);
 
-    console.log("✅ Alle Spielpläne erfolgreich aktualisiert");
-
-  } catch (err) {
-
-    console.error("❌ Fehler beim Laden der Spielpläne:", err);
-    process.exit(1);
-
+    await page.close();
   }
+
+  await browser.close();
+
 })();
