@@ -1,0 +1,178 @@
+[
+  {
+    "type": "Spiel",
+    "team": "2. Herren",
+    "date": "2025-09-28",
+    "time": "16:00",
+    "location": "Walsum",
+    "description": "Regionalliga West",
+    "home": "RESG Walsum II",
+    "away": "RHC Recklinghausen II",
+    "result": "3:5"
+  },
+  {
+    "type": "Spiel",
+    "team": "2. Herren",
+    "date": "2025-10-19",
+    "time": "11:00",
+    "location": "Recklinghausen",
+    "description": "Regionalliga West",
+    "home": "RHC Recklinghausen II",
+    "away": "SK Germania Herringen II",
+    "result": "4:3"
+  },
+  {
+    "type": "Spiel",
+    "team": "2. Herren",
+    "date": "2025-10-26",
+    "time": "14:00",
+    "location": "Krefeld",
+    "description": "Regionalliga West",
+    "home": "HSV Krefeld II",
+    "away": "RHC Recklinghausen II",
+    "result": "3:2"
+  },
+  {
+    "type": "Spiel",
+    "team": "2. Herren",
+    "date": "2025-11-16",
+    "time": "16:00",
+    "location": "Recklinghausen",
+    "description": "Regionalliga West",
+    "home": "RHC Recklinghausen II",
+    "away": "RSC Cronenberg II",
+    "result": "4:4"
+  },
+  {
+    "type": "Spiel",
+    "team": "2. Herren",
+    "date": "2025-11-23",
+    "time": "18:30",
+    "location": "Wuppertal",
+    "description": "Regionalliga West",
+    "home": "SC Moskitos Wuppertal e.V.",
+    "away": "RHC Recklinghausen II",
+    "result": "5:5"
+  },
+  {
+    "type": "Spiel",
+    "team": "2. Herren",
+    "date": "2025-12-07",
+    "time": "16:00",
+    "location": "Recklinghausen",
+    "description": "Regionalliga West",
+    "home": "RHC Recklinghausen II",
+    "away": "HSV Krefeld I",
+    "result": "2:8"
+  },
+  {
+    "type": "Spiel",
+    "team": "2. Herren",
+    "date": "2025-12-14",
+    "time": "16:00",
+    "location": "Düsseldorf",
+    "description": "Regionalliga West",
+    "home": "TuS-Düsseldorf Nord II",
+    "away": "RHC Recklinghausen II",
+    "result": "7:2"
+  },
+  {
+    "type": "Spiel",
+    "team": "2. Herren",
+    "date": "2025-12-21",
+    "time": "16:00",
+    "location": "(abgesagt)",
+    "description": "Regionalliga West",
+    "home": "IGR Remscheid II",
+    "away": "RHC Recklinghausen II",
+    "result": "10:0"
+  },
+  {
+    "type": "Spiel",
+    "team": "2. Herren",
+    "date": "2026-01-18",
+    "time": "16:00",
+    "location": "Recklinghausen",
+    "description": "Regionalliga West",
+    "home": "RHC Recklinghausen II",
+    "away": "HSV Krefeld II",
+    "result": "9:4"
+  },
+  {
+    "type": "Spiel",
+    "team": "2. Herren",
+    "date": "2026-01-24",
+    "time": "20:30",
+    "location": "Herringen",
+    "description": "Regionalliga West",
+    "home": "SK Germania Herringen II",
+    "away": "RHC Recklinghausen II",
+    "result": "6:4"
+  },
+  {
+    "type": "Spiel",
+    "team": "2. Herren",
+    "date": "2026-02-15",
+    "time": "12:00",
+    "location": "Recklinghausen",
+    "description": "Regionalliga West",
+    "home": "RHC Recklinghausen II",
+    "away": "RESG Walsum II",
+    "result": "4:2"
+  },
+  {
+    "type": "Spiel",
+    "team": "2. Herren",
+    "date": "2026-03-22",
+    "time": "16:00",
+    "location": "Cronenberg",
+    "description": "Regionalliga West",
+    "home": "RSC Cronenberg II",
+    "away": "RHC Recklinghausen II",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "2. Herren",
+    "date": "2026-04-26",
+    "time": "11:00",
+    "location": "Recklinghausen",
+    "description": "Regionalliga West",
+    "home": "RHC Recklinghausen II",
+    "away": "SC Moskitos Wuppertal e.V.",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "2. Herren",
+    "date": "2026-05-03",
+    "time": "11:00",
+    "location": "Krefeld",
+    "description": "Regionalliga West",
+    "home": "HSV Krefeld I",
+    "away": "RHC Recklinghausen II",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "2. Herren",
+    "date": "2026-05-10",
+    "time": "11:00",
+    "location": "Recklinghausen",
+    "description": "Regionalliga West",
+    "home": "RHC Recklinghausen II",
+    "away": "TuS-Düsseldorf Nord II",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "2. Herren",
+    "date": "2026-05-23",
+    "time": "16:00",
+    "location": "Recklinghausen",
+    "description": "Regionalliga West",
+    "home": "RHC Recklinghausen II",
+    "away": "IGR Remscheid II",
+    "result": null
+  }
+]

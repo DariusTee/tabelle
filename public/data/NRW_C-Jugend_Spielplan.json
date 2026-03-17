@@ -1,0 +1,200 @@
+[
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2025-10-05",
+    "time": "10:00",
+    "location": "Cronenberg",
+    "description": "NRW C-Jugend",
+    "home": "RSC Cronenberg",
+    "away": "RHC Recklinghausen",
+    "result": "2:1"
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2025-10-05",
+    "time": "12:00",
+    "location": "Cronenberg",
+    "description": "NRW C-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "SK Germania Herringen",
+    "result": "2:1"
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2025-10-05",
+    "time": "14:00",
+    "location": "Cronenberg",
+    "description": "NRW C-Jugend",
+    "home": "HSV Krefeld",
+    "away": "RHC Recklinghausen",
+    "result": "5:3"
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2025-11-22",
+    "time": "11:50",
+    "location": "Düsseldorf",
+    "description": "NRW C-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "RSC Gera",
+    "result": "1:2"
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2025-11-22",
+    "time": "12:40",
+    "location": "Düsseldorf",
+    "description": "NRW C-Jugend",
+    "home": "TuS-Düsseldorf Nord",
+    "away": "RHC Recklinghausen",
+    "result": "6:0"
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2026-02-22",
+    "time": "09:50",
+    "location": "Marl-Hüls",
+    "description": "NRW C-Jugend",
+    "home": "SG Hüls-Herten",
+    "away": "RHC Recklinghausen",
+    "result": "4:3"
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2026-02-22",
+    "time": "10:50",
+    "location": "Marl-Hüls",
+    "description": "NRW C-Jugend",
+    "home": "RSG Bandidos",
+    "away": "RHC Recklinghausen",
+    "result": "2:2"
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2026-03-21",
+    "time": "00:00",
+    "location": "abgesagt(H)",
+    "description": "NRW C-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "IGR Remscheid II",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2026-03-21",
+    "time": "00:00",
+    "location": "abgesagt (H)",
+    "description": "NRW C-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "IGR Remscheid I",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2026-03-22",
+    "time": "10:00",
+    "location": "Recklinghausen",
+    "description": "NRW C-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "RSC Cronenberg",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2026-03-22",
+    "time": "12:40",
+    "location": "Recklinghausen",
+    "description": "NRW C-Jugend",
+    "home": "SK Germania Herringen",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2026-03-22",
+    "time": "13:40",
+    "location": "Recklinghausen",
+    "description": "NRW C-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "HSV Krefeld",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2026-04-19",
+    "time": "10:50",
+    "location": "Remscheid",
+    "description": "NRW C-Jugend",
+    "home": "IGR Remscheid II",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2026-04-19",
+    "time": "11:50",
+    "location": "Remscheid",
+    "description": "NRW C-Jugend",
+    "home": "IGR Remscheid I",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2026-05-03",
+    "time": "10:50",
+    "location": "Iserlohn",
+    "description": "NRW C-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "SG Hüls-Herten",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2026-05-03",
+    "time": "12:40",
+    "location": "Iserlohn",
+    "description": "NRW C-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "RSG Bandidos",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2026-05-14",
+    "time": "10:50",
+    "location": "Düsseldorf",
+    "description": "NRW C-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "RSC Gera",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2026-05-14",
+    "time": "12:40",
+    "location": "Düsseldorf",
+    "description": "NRW C-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "TuS-Düsseldorf Nord",
+    "result": null
+  }
+]

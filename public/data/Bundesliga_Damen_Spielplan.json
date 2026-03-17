@@ -1,1 +1,134 @@
-[]
+[
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2025-10-11",
+    "time": "13:00",
+    "location": "Gera Pandorfhalle",
+    "description": "1. Bundesliga Damen",
+    "home": "SG Gera-Wuppertal Girls United",
+    "away": "SG Calenberg/Recklinghausen",
+    "result": "1:4"
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2025-10-18",
+    "time": "15:30",
+    "location": "Recklinghausen",
+    "description": "1. Bundesliga Damen",
+    "home": "SG Calenberg/Recklinghausen",
+    "away": "SG Hüls/Schwerte",
+    "result": "8:1"
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2025-11-08",
+    "time": "14:00",
+    "location": "Lichtstad",
+    "description": "1. Bundesliga Damen",
+    "home": "Team Holland",
+    "away": "SG Calenberg/Recklinghausen",
+    "result": "2:7"
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2025-11-16",
+    "time": "14:00",
+    "location": "Recklinghausen",
+    "description": "1. Bundesliga Damen",
+    "home": "SG Calenberg/Recklinghausen",
+    "away": "RSC Cronenberg",
+    "result": "3:2"
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2025-11-22",
+    "time": "16:00",
+    "location": "Düsseldorf",
+    "description": "1. Bundesliga Damen",
+    "home": "TuS-Düsseldorf Nord",
+    "away": "SG Calenberg/Recklinghausen",
+    "result": "3:1"
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2025-12-20",
+    "time": "18:00",
+    "location": "Calenberg",
+    "description": "1. Bundesliga Damen",
+    "home": "SG Calenberg/Recklinghausen",
+    "away": "IGR Remscheid",
+    "result": "11:14 n.V."
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-01-17",
+    "time": "15:30",
+    "location": "Recklinghausen",
+    "description": "1. Bundesliga Damen",
+    "home": "SG Calenberg/Recklinghausen",
+    "away": "TuS-Düsseldorf Nord",
+    "result": "1:4"
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-01-24",
+    "time": "19:00",
+    "location": "Cronenberg",
+    "description": "1. Bundesliga Damen",
+    "home": "RSC Cronenberg",
+    "away": "SG Calenberg/Recklinghausen",
+    "result": "6:2"
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-01-31",
+    "time": "18:00",
+    "location": "Calenberg",
+    "description": "1. Bundesliga Damen",
+    "home": "SG Calenberg/Recklinghausen",
+    "away": "SG Gera-Wuppertal Girls United",
+    "result": "10:3"
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-02-22",
+    "time": "14:00",
+    "location": "Hüls",
+    "description": "1. Bundesliga Damen",
+    "home": "SG Hüls/Schwerte",
+    "away": "SG Calenberg/Recklinghausen",
+    "result": "4:5 n.P."
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-02-28",
+    "time": "18:00",
+    "location": "Calenberg",
+    "description": "1. Bundesliga Damen",
+    "home": "SG Calenberg/Recklinghausen",
+    "away": "Team Holland",
+    "result": "9:2"
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-03-14",
+    "time": "15:00",
+    "location": "Remscheid",
+    "description": "1. Bundesliga Damen",
+    "home": "IGR Remscheid",
+    "away": "SG Calenberg/Recklinghausen",
+    "result": "4:1"
+  }
+]

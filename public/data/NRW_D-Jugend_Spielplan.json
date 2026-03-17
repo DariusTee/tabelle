@@ -1,0 +1,200 @@
+[
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2025-09-21",
+    "time": "13:45",
+    "location": "Cronenberg",
+    "description": "NRW D-Jugend",
+    "home": "TuS-Düsseldorf Nord",
+    "away": "RHC Recklinghausen",
+    "result": "5:2"
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2025-09-21",
+    "time": "15:30",
+    "location": "Cronenberg",
+    "description": "NRW D-Jugend",
+    "home": "RSC Cronenberg",
+    "away": "RHC Recklinghausen",
+    "result": "11:2"
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2025-12-14",
+    "time": "10:45",
+    "location": "Düsseldorf",
+    "description": "NRW D-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "RSC Cronenberg",
+    "result": "2:12"
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2025-12-14",
+    "time": "12:30",
+    "location": "Düsseldorf",
+    "description": "NRW D-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "TuS-Düsseldorf Nord",
+    "result": "3:10"
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2026-01-18",
+    "time": "10:00",
+    "location": "Recklinghausen",
+    "description": "NRW D-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "SK Germania Herringen",
+    "result": "2:5"
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2026-01-18",
+    "time": "13:45",
+    "location": "Recklinghausen",
+    "description": "NRW D-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "RESG Walsum",
+    "result": "8:3"
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2026-02-01",
+    "time": "10:00",
+    "location": "Recklinghausen",
+    "description": "NRW D-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "VfL Hüls",
+    "result": "8:1"
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2026-02-01",
+    "time": "11:00",
+    "location": "Recklinghausen",
+    "description": "NRW D-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "IGR Blue Panthers",
+    "result": "1:11"
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2026-02-01",
+    "time": "13:30",
+    "location": "Recklinghausen",
+    "description": "NRW D-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "HSV Krefeld",
+    "result": "10:0"
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2026-03-01",
+    "time": "10:45",
+    "location": "Krefeld-Hüls",
+    "description": "NRW D-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "IGR White Tigers",
+    "result": "2:10"
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2026-03-01",
+    "time": "12:45",
+    "location": "Krefeld-Hüls",
+    "description": "NRW D-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "IGR Pink Lions",
+    "result": "10:6"
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2026-04-26",
+    "time": "10:00",
+    "location": "Herringen",
+    "description": "NRW D-Jugend",
+    "home": "SK Germania Herringen",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2026-04-26",
+    "time": "11:45",
+    "location": "Herringen",
+    "description": "NRW D-Jugend",
+    "home": "RESG Walsum",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2026-05-01",
+    "time": "13:45",
+    "location": "Remscheid",
+    "description": "NRW D-Jugend",
+    "home": "IGR White Tigers",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2026-05-01",
+    "time": "15:30",
+    "location": "Remscheid",
+    "description": "NRW D-Jugend",
+    "home": "IGR Pink Lions",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2026-05-10",
+    "time": "10:00",
+    "location": "Iserlohn",
+    "description": "NRW D-Jugend",
+    "home": "VfL Hüls",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2026-05-10",
+    "time": "11:45",
+    "location": "Iserlohn",
+    "description": "NRW D-Jugend",
+    "home": "IGR Blue Panthers",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2026-05-10",
+    "time": "13:30",
+    "location": "Iserlohn",
+    "description": "NRW D-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "HSV Krefeld",
+    "result": null
+  }
+]

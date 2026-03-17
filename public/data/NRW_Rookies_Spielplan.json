@@ -1,0 +1,156 @@
+[
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-03-14",
+    "time": "09:45",
+    "location": "Düsseldorf",
+    "description": "Rookies Landesmeisterschaft",
+    "home": "RHC Recklinghausen",
+    "away": "IGR Remscheid II",
+    "result": "7:6"
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-03-14",
+    "time": "10:45",
+    "location": "Düsseldorf",
+    "description": "Rookies Landesmeisterschaft",
+    "home": "RHC Recklinghausen",
+    "away": "IGR Remscheid I",
+    "result": "5:12"
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-03-14",
+    "time": "13:15",
+    "location": "Düsseldorf",
+    "description": "Rookies Landesmeisterschaft",
+    "home": "TuS-Düsseldorf Nord",
+    "away": "RHC Recklinghausen",
+    "result": "4:1"
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-03-22",
+    "time": "10:00",
+    "location": "Herringen",
+    "description": "Rookies Landesmeisterschaft",
+    "home": "SK Germania Herringen",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-03-22",
+    "time": "12:30",
+    "location": "Herringen",
+    "description": "Rookies Landesmeisterschaft",
+    "home": "Hülser SV Krefeld",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-03-22",
+    "time": "13:30",
+    "location": "Herringen",
+    "description": "Rookies Landesmeisterschaft",
+    "home": "RHC Recklinghausen",
+    "away": "TuS-Düsseldorf Nord",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-04-19",
+    "time": "10:00",
+    "location": "Cronenberg",
+    "description": "Rookies Landesmeisterschaft",
+    "home": "RSC Cronenberg I",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-04-19",
+    "time": "11:45",
+    "location": "Cronenberg",
+    "description": "Rookies Landesmeisterschaft",
+    "home": "RSC Cronenberg II",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-05-31",
+    "time": "10:45",
+    "location": "Herringen",
+    "description": "Rookies Landesmeisterschaft",
+    "home": "IGR Remscheid I",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-05-31",
+    "time": "12:15",
+    "location": "Herringen",
+    "description": "Rookies Landesmeisterschaft",
+    "home": "IGR Remscheid II",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-05-31",
+    "time": "13:45",
+    "location": "Herringen",
+    "description": "Rookies Landesmeisterschaft",
+    "home": "RHC Recklinghausen",
+    "away": "RSC Cronenberg II",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-07-11",
+    "time": "10:00",
+    "location": "Recklinghausen",
+    "description": "Rookies Landesmeisterschaft",
+    "home": "RHC Recklinghausen",
+    "away": "RSC Cronenberg I",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-07-11",
+    "time": "12:15",
+    "location": "Recklinghausen",
+    "description": "Rookies Landesmeisterschaft",
+    "home": "RHC Recklinghausen",
+    "away": "SK Germania Herringen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-07-11",
+    "time": "14:30",
+    "location": "Recklinghausen",
+    "description": "Rookies Landesmeisterschaft",
+    "home": "RHC Recklinghausen",
+    "away": "Hülser SV Krefeld",
+    "result": null
+  }
+]
