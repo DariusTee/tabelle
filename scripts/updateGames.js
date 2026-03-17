@@ -10,7 +10,6 @@ async function scrapeSpieltage() {
   const page = await browser.newPage();
   await page.goto(url, { waitUntil: 'networkidle2' });
 
-  // Warten bis alle Spiele geladen sind
   await page.waitForSelector('lm-schedule-game-entry-row');
 
   const spieltage = await page.evaluate(() => {
@@ -20,19 +19,24 @@ async function scrapeSpieltage() {
     rows.forEach(row => {
       const shadow = row.shadowRoot || row;
 
-      // Alle Texte sammeln, leere Strings, Leerzeichen und unerwünschte Symbole ignorieren
-      const texts = Array.from(shadow.querySelectorAll('*'))
-        .map(el => el.textContent.trim())
-        .filter(t => t && t !== '' && t !== 'circle' && t !== 'open_in_new');
+      // Alle Kind-Elemente durchlaufen, relevante Texte sammeln
+      const children = Array.from(shadow.children || []);
+      const texts = [];
+      children.forEach(el => {
+        const t = el.textContent.trim();
+        if (t && t !== '' && t !== 'circle' && t !== 'open_in_new') {
+          texts.push(t);
+        }
+      });
 
-      // Nur die ersten 5 Texte pro Spiel verwenden
-      if (texts.length >= 5) {
+      // Alle 5er-Gruppen als Spieltage speichern
+      for (let i = 0; i <= texts.length - 5; i += 5) {
         spiele.push({
-          datum: texts[0],
-          ort: texts[1],
-          heimteam: texts[2],
-          ergebnis: texts[3],
-          auswaertsteam: texts[4]
+          datum: texts[i],
+          ort: texts[i + 1],
+          heimteam: texts[i + 2],
+          ergebnis: texts[i + 3],
+          auswaertsteam: texts[i + 4]
         });
       }
     });
