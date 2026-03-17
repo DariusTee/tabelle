@@ -1,56 +1,55 @@
-import puppeteer from "puppeteer";
-import fs from "fs";
+import puppeteer from 'puppeteer';
+import fs from 'fs';
+import path from 'path';
 
-const url = "https://spielplan.rollhockey.de/lm/saison/29/liga/407";
+// ⚡ Hier alle Ligen eintragen
+const ligas = [
+  { name: '1. Bundesliga Herren', url: 'https://spielplan.rollhockey.de/lm/saison/29/liga/407' },
+];
 
-async function scrapeSpieltage() {
-  const browser = await puppeteer.launch({
-    args: ['--no-sandbox', '--disable-setuid-sandbox']
-  });
-  const page = await browser.newPage();
-  await page.goto(url, { waitUntil: 'networkidle2' });
-
-  await page.waitForSelector('lm-schedule-game-entry-row');
-
-  const spieltage = await page.evaluate(() => {
-    const rows = Array.from(document.querySelectorAll('lm-schedule-game-entry-row'));
-    const spiele = [];
-
-    rows.forEach(row => {
-      const shadow = row.shadowRoot || row;
-
-      // Alle Kind-Elemente durchlaufen, relevante Texte sammeln
-      const children = Array.from(shadow.children || []);
-      const texts = [];
-      children.forEach(el => {
-        const t = el.textContent.trim();
-        if (t && t !== '' && t !== 'circle' && t !== 'open_in_new') {
-          texts.push(t);
-        }
-      });
-
-      // Alle 5er-Gruppen als Spieltage speichern
-      for (let i = 0; i <= texts.length - 5; i += 5) {
-        spiele.push({
-          datum: texts[i],
-          ort: texts[i + 1],
-          heimteam: texts[i + 2],
-          ergebnis: texts[i + 3],
-          auswaertsteam: texts[i + 4]
-        });
-      }
+(async () => {
+  try {
+    const browser = await puppeteer.launch({
+      headless: true,
+      args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
     });
 
-    return spiele;
-  });
+    await Promise.all(
+      ligas.map(async (liga) => {
+        const page = await browser.newPage();
+        console.log(`Lade Tabelle: ${liga.name}`);
 
-  await browser.close();
+        await page.goto(liga.url, { waitUntil: 'networkidle2' });
+        await page.waitForSelector('lm-schedule-stats-entry-row', { timeout: 60000 });
 
-  fs.writeFileSync("spieltage.json", JSON.stringify(spieltage, null, 2), "utf-8");
-  console.log(`Erfolgreich ${spieltage.length} Spieltage gespeichert.`);
-}
+        const table = await page.$$eval('lm-schedule-stats-entry-row', (rows) =>
+          rows.map((row) => {
+            const text = row.innerText.trim();
+            const date = text.match(/(\d+)\s*$/);
+            const location = text.match(/(\d+)\s*:\s*(\d+)/);
+            let cleaned = text.replace(/\d+\s*$/, '').replace(/(\d+\s*:\s*\d+)/, '').trim();
+            const home = cleaned.split(/\s+/);
+            const result = cleaned.split(/\s+/);
+            const away = cleaned.split(/\s+/);
+            return { date,location,home,result,away };
+          })
+        );
 
-scrapeSpieltage().catch(err => {
-  console.error("Fehler beim Scrapen:", err);
-  process.exit(1);
-});
+        const fileName = liga.name.replace(/\s+/g, '_') + '.json';
+        const dataPath = path.join(process.cwd(), 'public/data', fileName);
+        fs.mkdirSync(path.dirname(dataPath), { recursive: true });
+        fs.writeFileSync(dataPath, JSON.stringify(table, null, 2), 'utf-8');
+
+        console.log(`Tabelle gespeichert: ${fileName} (${table.length} Teams)`);
+
+        await page.close();
+      })
+    );
+
+    await browser.close();
+    console.log('✅ Alle Ligen erfolgreich aktualisiert!');
+  } catch (err) {
+    console.error('❌ Fehler beim Laden der Tabellen:', err);
+    process.exit(1);
+  }
+})();
