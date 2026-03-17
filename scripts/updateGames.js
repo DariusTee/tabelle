@@ -10,6 +10,15 @@ const ligas = [
   },
 ];
 
+const ligaToTeam = {
+  "1. Bundesliga Herren": "1. Herren",
+  "Bundesliga Damen": "Damen",
+  "Regionalliga West": "2. Herren",
+  "NRW C-Jugend": "C-Jugend",
+  "NRW D-Jugend": "D-Jugend",
+  "NRW Rookies": "Rookies"
+};
+
 (async () => {
   for (const liga of ligas) {
     try {
@@ -30,9 +39,7 @@ const ligas = [
         continue;
       }
 
-      const spieleArray = Array.isArray(spieleRaw)
-        ? spieleRaw
-        : [spieleRaw];
+      const spieleArray = Array.isArray(spieleRaw) ? spieleRaw : [spieleRaw];
 
       const teams = [
         "RHC Recklinghausen",
@@ -46,10 +53,9 @@ const ligas = [
           const [day, month, yearAndTime] = spiel.datum.split('.');
           const [year, time] = yearAndTime.split(' ');
 
-          const dateObj = new Date(`${year}-${month}-${day}T${time}`);
-
           return {
             type: "Spiel",
+            team: ligaToTeam[spiel.liga] || "Unbekannt",
             date: `${year}-${month}-${day}`, // YYYY-MM-DD
             time: time, // HH:MM:SS
             location: spiel.spielort,
@@ -60,12 +66,13 @@ const ligas = [
           };
         })
         .filter(
-          (spiel) =>
-            teams.includes(spiel.home) || teams.includes(spiel.away)
+          (spiel) => teams.includes(spiel.home) || teams.includes(spiel.away)
         );
 
       // 🔥 Optional: nach Datum sortieren
-      spiele.sort((a, b) => new Date(`${a.date}T${a.time}`) - new Date(`${b.date}T${b.time}`));
+      spiele.sort(
+        (a, b) => new Date(`${a.date}T${a.time}`) - new Date(`${b.date}T${b.time}`)
+      );
 
       const fileName = liga.name.replace(/\s+/g, "_") + ".json";
       const filePath = path.join(process.cwd(), "public/data", fileName);
