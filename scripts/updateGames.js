@@ -8,28 +8,29 @@ async function scrapeSpieltage() {
     args: ['--no-sandbox', '--disable-setuid-sandbox'],
   });
   const page = await browser.newPage();
-  await page.goto(url, { waitUntil: 'networkidle0' });
+  await page.goto(url, { waitUntil: 'networkidle2' });
+
+  // Warte, bis die Web Components vollständig geladen sind
+  await page.waitForSelector('lm-schedule-game-entry-row');
 
   const spieltage = await page.evaluate(() => {
-    const rows = Array.from(document.querySelectorAll('div.grid.grid-cols-6.lg\\:grid-cols-12.gap-y-4.items-center.text-center.bg-white.shadow-xl'));
+    const rows = Array.from(document.querySelectorAll('lm-schedule-game-entry-row'));
     return rows.map(row => {
-      const cells = Array.from(row.querySelectorAll('div')).map(div => div.textContent.trim());
-      if (cells.length >= 5) {
-        return {
-          datum: cells[0],
-          ort: cells[1],
-          heimteam: cells[2],
-          ergebnis: cells[3],
-          auswaertsteam: cells[4]
-        };
-      }
-      return null;
-    }).filter(item => item !== null);
+      // jedes row ist ein Custom Element; wir greifen auf shadow DOM zu, falls nötig
+      const shadow = row.shadowRoot || row; // fallback, falls kein shadow DOM
+      const datum = shadow.querySelector('div[data-type="date"]')?.textContent.trim() || '';
+      const ort = shadow.querySelector('div[data-type="place"]')?.textContent.trim() || '';
+      const heimteam = shadow.querySelector('div[data-type="home-team"]')?.textContent.trim() || '';
+      const ergebnis = shadow.querySelector('div[data-type="score"]')?.textContent.trim() || '';
+      const auswaertsteam = shadow.querySelector('div[data-type="away-team"]')?.textContent.trim() || '';
+
+      return { datum, ort, heimteam, ergebnis, auswaertsteam };
+    }).filter(item => item.datum); // filter leere Einträge
   });
 
   await browser.close();
 
-  fs.writeFileSync("public/data/spieltage.json", JSON.stringify(spieltage, null, 2), "utf-8");
+  fs.writeFileSync("spieltage.json", JSON.stringify(spieltage, null, 2), "utf-8");
   console.log(`Erfolgreich ${spieltage.length} Spieltage gespeichert.`);
 }
 
