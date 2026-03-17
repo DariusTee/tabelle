@@ -13,28 +13,26 @@ const url = 'https://spielplan.rollhockey.de/lm/saison/29/liga/407';
 
     const page = await browser.newPage();
     console.log(`Lade Spielplan von ${url} ...`);
+
     await page.goto(url, { waitUntil: 'networkidle2' });
 
-    await new Promise(resolve => setTimeout(resolve, 5000));
+    await page.waitForSelector('lm-schedule-game-entry-row');
 
     const spiele = await page.evaluate(() => {
-      const rows = Array.from(document.querySelectorAll('lm-schedule-game-entry-row'));
+      const rows = document.querySelectorAll('lm-schedule-game-entry-row');
 
-      return rows.map(row => {
-        const grid = row.querySelector('div.grid');
+      return Array.from(rows).map(row => {
+        const grid = row.querySelector('.grid');
         if (!grid) return null;
 
-        const cells = Array.from(grid.children).map(c => c.innerText.trim());
-
-        const date = cells[0] || '';
-        const location = cells[1] || '';
-        const homeTeam = cells[2] || '';
-        const result = cells[3] || '';
-        const awayTeam = cells[4] || '';
+        const date = grid.querySelector('div.col-span-2:nth-child(1)')?.innerText.trim() || '';
+        const location = grid.querySelector('div.col-span-2:nth-child(2)')?.innerText.trim() || '';
+        const homeTeam = grid.querySelector('div.col-span-2:nth-child(3)')?.innerText.trim() || '';
+        const result = grid.querySelector('div:nth-child(4)')?.innerText.trim() || '';
+        const awayTeam = grid.querySelector('div.col-span-2:nth-child(5)')?.innerText.trim() || '';
 
         return { date, location, homeTeam, awayTeam, result };
-      })
-      .filter(game => game && game.homeTeam !== '');
+      }).filter(g => g && g.homeTeam !== '');
     });
 
     const basePath = path.join(process.cwd(), 'public/data');
@@ -46,11 +44,11 @@ const url = 'https://spielplan.rollhockey.de/lm/saison/29/liga/407';
       'utf-8'
     );
 
-    console.log(`✅ Spieltage gespeichert: ${spiele.length} Einträge`);
-    await browser.close();
+    console.log(`✅ ${spiele.length} Spiele gespeichert`);
 
+    await browser.close();
   } catch (err) {
-    console.error('❌ Fehler beim Laden der Spieltage:', err);
+    console.error('❌ Fehler:', err);
     process.exit(1);
   }
 })();
