@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Scrape Spieltage
-        run: node updateGames.js
+        run: node scripts/updateGames.js
 
       - name: Spieltage JSON committen
         run: |
