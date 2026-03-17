@@ -1,48 +1,38 @@
-import puppeteer from 'puppeteer';
-import fs from 'fs';
-import path from 'path';
+// scrapeRollhockey.js
+import fetch from "node-fetch";
+import cheerio from "cheerio";
+import fs from "fs";
 
-(async () => {
-  const browser = await puppeteer.launch({
-    headless: true,
-    args: ['--no-sandbox', '--disable-setuid-sandbox']
-  });
-  const page = await browser.newPage();
+const url = "https://spielplan.rollhockey.de/lm/saison/29/liga/407";
 
-  const url = 'https://spielplan.rollhockey.de/lm/saison/29/liga/407';
-  console.log(`Lade Tabelle: ${url}`);
-  await page.goto(url, { waitUntil: 'networkidle2' });
+async function scrapeSpieltage() {
+  try {
+    const response = await fetch(url);
+    const html = await response.text();
+    const $ = cheerio.load(html);
 
-  // Warten, bis die Spielelemente erschienen sind
-  await page.waitForSelector('lm-schedule-game-entry-row', { timeout: 30000 });
+    const spieltage = [];
 
-  const games = await page.$$eval('lm-schedule-game-entry-row', rows => {
-    return rows.map(row => {
-      // alle direkten div Kinder
-      const divs = Array.from(row.querySelectorAll('div'));
+    $("div.grid.grid-cols-6.lg\\:grid-cols-12.gap-y-4.items-center.text-center.bg-white.shadow-xl").each((_, el) => {
+      const div = $(el);
+      const rowData = div.children("div").map((_, child) => $(child).text().trim()).get();
 
-      // Nur die ersten 5 Blöcke verwenden (Datum, Ort, Heim, Ergebnis, Gast)
-      const texts = divs.slice(0, 5).map(div =>
-        // sauberer Text, keine Icons oder Buttons
-        div.innerText
-          .replace(/\s+/g, ' ')
-          .trim()
-      );
-
-      return {
-        date: texts[0] || '',
-        location: texts[1] || '',
-        homeTeam: texts[2] || '',
-        result: texts[3] || '',
-        awayTeam: texts[4] || ''
-      };
+      if (rowData.length >= 5) {
+        spieltage.push({
+          datum: rowData[0],
+          ort: rowData[1],
+          heimteam: rowData[2],
+          ergebnis: rowData[3],
+          auswaertsteam: rowData[4]
+        });
+      }
     });
-  });
 
-  // Optional speichern
-  const filePath = path.join(process.cwd(), 'bundesliga_407_spiele.json');
-  fs.writeFileSync(filePath, JSON.stringify(games, null, 2), 'utf‑8');
+    fs.writeFileSync("spieltage.json", JSON.stringify(spieltage, null, 2), "utf-8");
+    console.log(`Erfolgreich ${spieltage.length} Spieltage gespeichert.`);
+  } catch (error) {
+    console.error("Fehler beim Scrapen:", error);
+  }
+}
 
-  console.log(`Spiele extrahiert: ${games.length}`);
-  await browser.close();
-})();
+scrapeSpieltage();
