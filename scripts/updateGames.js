@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+
 import xml2js from 'xml2js';
 import fs from 'fs';
 import path from 'path';
