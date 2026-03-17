@@ -2,6 +2,7 @@ import puppeteer from 'puppeteer';
 import fs from 'fs';
 import path from 'path';
 
+// ⚡ Hier alle Ligen eintragen
 const ligas = [
   { name: '1. Bundesliga Herren', url: 'https://spielplan.rollhockey.de/lm/saison/29/liga/407' },
   { name: 'Regionalliga West', url: 'https://spielplan.rollhockey.de/lm/saison/29/liga/421' },
@@ -12,46 +13,58 @@ const ligas = [
 ];
 
 (async () => {
-  const browser = await puppeteer.launch({
-    headless: true,
-    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
-  });
-
   try {
-    for (const liga of ligas) {
-      const page = await browser.newPage();
-      console.log(`Lade Spiele: ${liga.name}`);
-      await page.goto(liga.url, { waitUntil: 'networkidle2' });
-      await page.waitForSelector('lm-schedule-game-entry-row', { timeout: 60000 });
+    const browser = await puppeteer.launch({
+      headless: true,
+      args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
+    });
 
-      const games = await page.$$eval('lm-schedule-game-entry-row', rows =>
-        rows.map(row => {
-          const divs = Array.from(row.querySelectorAll('div'));
-          const cleanText = div => div ? div.innerText.trim().replace(/\s+/g, ' ') : '';
-
-          return {
-            date: cleanText(divs[0]),
-            location: cleanText(divs[1]),
-            homeTeam: cleanText(divs[2]),
-            result: cleanText(divs[3]),
-            awayTeam: cleanText(divs[4]),
-          };
-        })
-      );
-
-      const fileName = liga.name.replace(/\s+/g, '_') + '.json';
-      const dataPath = path.join(process.cwd(), 'public/data', fileName);
-      fs.mkdirSync(path.dirname(dataPath), { recursive: true });
-      fs.writeFileSync(dataPath, JSON.stringify(games, null, 2), 'utf-8');
-
-      console.log(`Gespeichert: ${fileName} (${games.length} Spiele)`);
-      await page.close();
+    // Hilfsfunktion: nur direkte Textknoten eines divs auslesen
+    function getDirectText(div) {
+      if (!div) return '';
+      return Array.from(div.childNodes)
+        .filter(node => node.nodeType === 3) // nur Textknoten
+        .map(node => node.textContent.trim())
+        .join(' ')
+        .replace(/\s+/g, ' ');
     }
 
+    await Promise.all(
+      ligas.map(async (liga) => {
+        const page = await browser.newPage();
+        console.log(`Lade Spiele: ${liga.name}`);
+
+        await page.goto(liga.url, { waitUntil: 'networkidle2' });
+        await page.waitForSelector('lm-schedule-game-entry-row', { timeout: 60000 });
+
+        const games = await page.$$eval('lm-schedule-game-entry-row', (rows) =>
+          rows.map((row) => {
+            const divs = Array.from(row.querySelectorAll('div'));
+            return {
+              date: divs[0] ? Array.from(divs[0].childNodes).filter(n => n.nodeType === 3).map(n => n.textContent.trim()).join(' ').replace(/\s+/g, ' ') : '',
+              location: divs[1] ? Array.from(divs[1].childNodes).filter(n => n.nodeType === 3).map(n => n.textContent.trim()).join(' ').replace(/\s+/g, ' ') : '',
+              homeTeam: divs[2] ? Array.from(divs[2].childNodes).filter(n => n.nodeType === 3).map(n => n.textContent.trim()).join(' ').replace(/\s+/g, ' ') : '',
+              result: divs[3] ? Array.from(divs[3].childNodes).filter(n => n.nodeType === 3).map(n => n.textContent.trim()).join(' ').replace(/\s+/g, ' ') : '',
+              awayTeam: divs[4] ? Array.from(divs[4].childNodes).filter(n => n.nodeType === 3).map(n => n.textContent.trim()).join(' ').replace(/\s+/g, ' ') : '',
+            };
+          })
+        );
+
+        const fileName = liga.name.replace(/\s+/g, '_') + '.json';
+        const dataPath = path.join(process.cwd(), 'public/data', fileName);
+        fs.mkdirSync(path.dirname(dataPath), { recursive: true });
+        fs.writeFileSync(dataPath, JSON.stringify(games, null, 2), 'utf-8');
+
+        console.log(`Spiele gespeichert: ${fileName} (${games.length} Spiele)`);
+
+        await page.close();
+      })
+    );
+
+    await browser.close();
     console.log('✅ Alle Ligen erfolgreich aktualisiert!');
   } catch (err) {
     console.error('❌ Fehler beim Laden der Spiele:', err);
-  } finally {
-    await browser.close();
+    process.exit(1);
   }
 })();
