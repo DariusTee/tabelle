@@ -40,12 +40,18 @@ const ligas = [
         const games = await page.$$eval('lm-schedule-game-entry-row', (rows) =>
           rows.map((row) => {
             const divs = Array.from(row.querySelectorAll('div'));
+
+            // Nur sichtbare Texte extrahieren, HTML/Icons ignorieren
+            const texts = divs
+              .map(d => d.innerText.trim())
+              .filter(t => t.length > 0 && t !== 'check_circle' && t !== 'circle' && t !== 'open_in_new');
+
             return {
-              date: divs[0] ? Array.from(divs[0].childNodes).filter(n => n.nodeType === 3).map(n => n.textContent.trim()).join(' ').replace(/\s+/g, ' ') : '',
-              location: divs[1] ? Array.from(divs[1].childNodes).filter(n => n.nodeType === 3).map(n => n.textContent.trim()).join(' ').replace(/\s+/g, ' ') : '',
-              homeTeam: divs[2] ? Array.from(divs[2].childNodes).filter(n => n.nodeType === 3).map(n => n.textContent.trim()).join(' ').replace(/\s+/g, ' ') : '',
-              result: divs[3] ? Array.from(divs[3].childNodes).filter(n => n.nodeType === 3).map(n => n.textContent.trim()).join(' ').replace(/\s+/g, ' ') : '',
-              awayTeam: divs[4] ? Array.from(divs[4].childNodes).filter(n => n.nodeType === 3).map(n => n.textContent.trim()).join(' ').replace(/\s+/g, ' ') : '',
+              date: texts[0] || '',
+              location: texts[1] || '',
+              homeTeam: texts[2] || '',
+              result: texts[3] || '',
+              awayTeam: texts[4] || '',
             };
           })
         );
