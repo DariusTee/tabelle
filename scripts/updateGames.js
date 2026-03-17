@@ -2,52 +2,47 @@ import puppeteer from 'puppeteer';
 import fs from 'fs';
 import path from 'path';
 
-const ligas = [
-  { name: '1. Bundesliga Herren', url: 'https://spielplan.rollhockey.de/lm/saison/29/liga/407' },
-  // weitere Ligen...
-];
-
 (async () => {
-  const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: ['--no-sandbox', '--disable-setuid-sandbox']
+  });
+  const page = await browser.newPage();
 
-  for (const liga of ligas) {
-    const page = await browser.newPage();
-    console.log(`Lade Spiele: ${liga.name}`);
-    await page.goto(liga.url, { waitUntil: 'networkidle2' });
+  const url = 'https://spielplan.rollhockey.de/lm/saison/29/liga/407';
+  console.log(`Lade Tabelle: ${url}`);
+  await page.goto(url, { waitUntil: 'networkidle2' });
 
-    await page.waitForSelector('lm-schedule-game-entry-row', { timeout: 30000 });
+  // Warten, bis die Spielelemente erschienen sind
+  await page.waitForSelector('lm-schedule-game-entry-row', { timeout: 30000 });
 
-    const games = await page.$$eval('lm-schedule-game-entry-row', rows => {
-      return Array.from(rows).map(row => {
-        const divs = row.querySelectorAll(':scope > div');
+  const games = await page.$$eval('lm-schedule-game-entry-row', rows => {
+    return rows.map(row => {
+      // alle direkten div Kinder
+      const divs = Array.from(row.querySelectorAll('div'));
 
-        // Hilfsfunktion: nur reinen Text der Zelle, ignoriert Icons/HTML
-        const getText = div => {
-          return Array.from(div.childNodes)
-            .filter(n => n.nodeType === Node.TEXT_NODE) // nur Textknoten
-            .map(n => n.textContent.trim())
-            .join(' ');
-        };
+      // Nur die ersten 5 Blöcke verwenden (Datum, Ort, Heim, Ergebnis, Gast)
+      const texts = divs.slice(0, 5).map(div =>
+        // sauberer Text, keine Icons oder Buttons
+        div.innerText
+          .replace(/\s+/g, ' ')
+          .trim()
+      );
 
-        return {
-          date: divs[0] ? getText(divs[0]) : '',
-          location: divs[1] ? getText(divs[1]) : '',
-          homeTeam: divs[2] ? getText(divs[2]) : '',
-          result: divs[3] ? getText(divs[3]) : '',
-          awayTeam: divs[4] ? getText(divs[4]) : '',
-        };
-      });
+      return {
+        date: texts[0] || '',
+        location: texts[1] || '',
+        homeTeam: texts[2] || '',
+        result: texts[3] || '',
+        awayTeam: texts[4] || ''
+      };
     });
+  });
 
-    const fileName = liga.name.replace(/\s+/g, '_') + '.json';
-    const dataPath = path.join(process.cwd(), 'public/data', fileName);
-    fs.mkdirSync(path.dirname(dataPath), { recursive: true });
-    fs.writeFileSync(dataPath, JSON.stringify(games, null, 2), 'utf-8');
+  // Optional speichern
+  const filePath = path.join(process.cwd(), 'bundesliga_407_spiele.json');
+  fs.writeFileSync(filePath, JSON.stringify(games, null, 2), 'utf‑8');
 
-    console.log(`Spiele gespeichert: ${fileName} (${games.length} Spiele)`);
-    await page.close();
-  }
-
+  console.log(`Spiele extrahiert: ${games.length}`);
   await browser.close();
-  console.log('✅ Alle Ligen erfolgreich aktualisiert!');
 })();
