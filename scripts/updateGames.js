@@ -33,7 +33,7 @@ const ligas = [
 
 const ligaToTeam = {
   "1. Bundesliga Herren": "1. Herren",
-  "Bundesliga Damen": "Damen",
+  "1. Bundesliga Damen": "Damen",
   "Regionalliga West": "2. Herren",
   "NRW C-Jugend": "C-Jugend",
   "NRW D-Jugend": "D-Jugend",
