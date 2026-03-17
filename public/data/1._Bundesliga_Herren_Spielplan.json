@@ -1,1 +1,134 @@
-[]
+[
+  {
+    "id": "959",
+    "nummer": "407003",
+    "datum": "20.09.2025 18:00:00",
+    "liga": "1. Bundesliga Herren",
+    "heim": "RHC Recklinghausen",
+    "gast": "SK Germania Herringen",
+    "ergebnis": "3:5",
+    "ort": "Recklinghausen",
+    "gespielt": true
+  },
+  {
+    "id": "962",
+    "nummer": "407006",
+    "datum": "03.10.2025 15:00:00",
+    "liga": "1. Bundesliga Herren",
+    "heim": "RHC Recklinghausen",
+    "gast": "SGR Darmstadt",
+    "ergebnis": "6:3",
+    "ort": "Recklinghausen",
+    "gespielt": true
+  },
+  {
+    "id": "968",
+    "nummer": "407012",
+    "datum": "18.10.2025 18:00:00",
+    "liga": "1. Bundesliga Herren",
+    "heim": "RHC Recklinghausen",
+    "gast": "RESG Walsum",
+    "ergebnis": "3:8",
+    "ort": "Recklinghausen",
+    "gespielt": true
+  },
+  {
+    "id": "973",
+    "nummer": "407017",
+    "datum": "15.11.2025 17:00:00",
+    "liga": "1. Bundesliga Herren",
+    "heim": "IGR Remscheid",
+    "gast": "RHC Recklinghausen",
+    "ergebnis": "3:2",
+    "ort": "Remscheid",
+    "gespielt": true
+  },
+  {
+    "id": "974",
+    "nummer": "407018",
+    "datum": "22.11.2025 15:30:00",
+    "liga": "1. Bundesliga Herren",
+    "heim": "RSC Cronenberg",
+    "gast": "RHC Recklinghausen",
+    "ergebnis": "12:2",
+    "ort": "Cronenberg",
+    "gespielt": true
+  },
+  {
+    "id": "975",
+    "nummer": "407019",
+    "datum": "06.12.2025 15:00:00",
+    "liga": "1. Bundesliga Herren",
+    "heim": "RHC Recklinghausen",
+    "gast": "TuS-Düsseldorf Nord",
+    "ergebnis": "2:3 n.P.",
+    "ort": "Recklinghausen",
+    "gespielt": true
+  },
+  {
+    "id": "979",
+    "nummer": "407023",
+    "datum": "17.01.2026 18:00:00",
+    "liga": "1. Bundesliga Herren",
+    "heim": "RHC Recklinghausen",
+    "gast": "RSC Cronenberg",
+    "ergebnis": "3:9",
+    "ort": "Recklinghausen",
+    "gespielt": true
+  },
+  {
+    "id": "981",
+    "nummer": "407025",
+    "datum": "24.01.2026 18:00:00",
+    "liga": "1. Bundesliga Herren",
+    "heim": "SK Germania Herringen",
+    "gast": "RHC Recklinghausen",
+    "ergebnis": "8:1",
+    "ort": "Herringen",
+    "gespielt": true
+  },
+  {
+    "id": "989",
+    "nummer": "407033",
+    "datum": "21.02.2026 18:00:00",
+    "liga": "1. Bundesliga Herren",
+    "heim": "RESG Walsum",
+    "gast": "RHC Recklinghausen",
+    "ergebnis": "5:2",
+    "ort": "Walsum",
+    "gespielt": true
+  },
+  {
+    "id": "984",
+    "nummer": "407028",
+    "datum": "22.02.2026 14:30:00",
+    "liga": "1. Bundesliga Herren",
+    "heim": "SGR Darmstadt",
+    "gast": "RHC Recklinghausen",
+    "ergebnis": "2:1",
+    "ort": "Darmstadt",
+    "gespielt": true
+  },
+  {
+    "id": "995",
+    "nummer": "407039",
+    "datum": "21.03.2026 18:00:00",
+    "liga": "1. Bundesliga Herren",
+    "heim": "RHC Recklinghausen",
+    "gast": "IGR Remscheid",
+    "ergebnis": null,
+    "ort": "Recklinghausen",
+    "gespielt": false
+  },
+  {
+    "id": "998",
+    "nummer": "407042",
+    "datum": "28.03.2026 18:00:00",
+    "liga": "1. Bundesliga Herren",
+    "heim": "TuS-Düsseldorf Nord",
+    "gast": "RHC Recklinghausen",
+    "ergebnis": null,
+    "ort": "Düsseldorf",
+    "gespielt": false
+  }
+]
