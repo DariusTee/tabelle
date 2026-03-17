@@ -2,8 +2,7 @@ import fs from "fs";
 import path from "path";
 
 const ligas = [
-  { name: "1_bundesliga_herren", id: 407 },
-  { name: "bundesliga_damen", id: 411 }
+  { name: "1_bundesliga_herren", id: 407 }
 ];
 
 const saison = 29;
@@ -14,8 +13,20 @@ async function loadLiga(liga) {
 
   console.log("Lade:", url);
 
-  const res = await fetch(url);
-  const data = await res.json();
+  const res = await fetch(url, {
+    headers: {
+      "Accept": "application/json",
+      "User-Agent": "Mozilla/5.0"
+    }
+  });
+
+  const text = await res.text();
+
+  if (!text.startsWith("{") && !text.startsWith("[")) {
+    throw new Error("API liefert kein JSON:\n" + text.slice(0,200));
+  }
+
+  const data = JSON.parse(text);
 
   const games = data.map(g => ({
     date: g.date,
