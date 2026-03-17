@@ -1,72 +1,296 @@
 [
   {
-    "platz": "1",
-    "team": "SK Germania Herringen",
-    "spiele": "11",
-    "siege": "10",
-    "unentschieden": "0",
-    "niederlagen": "1",
-    "tore": "68 : 23",
-    "punkte": "30"
+    "date": "",
+    "location": "",
+    "homeTeam": "Remscheid",
+    "result": "IGR Remscheid",
+    "awayTeam": "1:3 n.V."
   },
   {
-    "platz": "2",
-    "team": "RESG Walsum",
-    "spiele": "11",
-    "siege": "7",
-    "unentschieden": "3",
-    "niederlagen": "1",
-    "tore": "58 : 30",
-    "punkte": "27"
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
   },
   {
-    "platz": "3",
-    "team": "RSC Cronenberg",
-    "spiele": "11",
-    "siege": "6",
-    "unentschieden": "2",
-    "niederlagen": "3",
-    "tore": "54 : 33",
-    "punkte": "20"
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
   },
   {
-    "platz": "4",
-    "team": "IGR Remscheid",
-    "spiele": "11",
-    "siege": "5",
-    "unentschieden": "2",
-    "niederlagen": "4",
-    "tore": "30 : 28",
-    "punkte": "18"
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
   },
   {
-    "platz": "5",
-    "team": "TuS-Düsseldorf Nord",
-    "spiele": "10",
-    "siege": "2",
-    "unentschieden": "2",
-    "niederlagen": "6",
-    "tore": "27 : 31",
-    "punkte": "9"
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
   },
   {
-    "platz": "6",
-    "team": "RHC Recklinghausen",
-    "spiele": "10",
-    "siege": "1",
-    "unentschieden": "1",
-    "niederlagen": "8",
-    "tore": "25 : 58",
-    "punkte": "4"
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
   },
   {
-    "platz": "7",
-    "team": "SGR Darmstadt",
-    "spiele": "10",
-    "siege": "1",
-    "unentschieden": "0",
-    "niederlagen": "9",
-    "tore": "13 : 72",
-    "punkte": "3"
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
+  },
+  {
+    "date": "",
+    "location": "",
+    "homeTeam": "",
+    "result": "",
+    "awayTeam": ""
   }
 ]
