@@ -1,0 +1,33 @@
+name: Rollhockey Scrape Daily
+
+on:
+  schedule:
+    - cron: '0 3 * * *' # Jeden Tag um 3:00 Uhr UTC
+  workflow_dispatch: # erlaubt auch manuelles Starten
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo auschecken
+        uses: actions/checkout@v3
+
+      - name: Node.js installieren
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Abhängigkeiten installieren
+        run: npm ci
+
+      - name: Scrape Spieltage
+        run: node updateGames.js
+
+      - name: Spieltage JSON committen
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/*.json
+          git commit -m "Update Spieltage $(date +'%Y-%m-%d')" || echo "Keine Änderungen"
+          git push
