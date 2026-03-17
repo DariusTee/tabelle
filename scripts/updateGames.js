@@ -8,6 +8,27 @@ const ligas = [
     name: "1. Bundesliga Herren Spielplan",
     url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=407&typ=liga&list=all",
   },
+  {
+    name: "Bundesliga Damen Spielplan",
+    url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=411&typ=liga&list=all",
+  },
+  {
+    name: "Regionalliga West Spielplan",
+    url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=421&typ=liga&list=all",
+  },
+  {
+    name: "NRW C-Jugend Spielplan",
+    url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=416&typ=liga&list=all",
+  },
+  {
+    name: "NRW D-Jugend Spielplan",
+    url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=417&typ=liga&list=all",
+  },
+  {
+    name: "NRW Rookies Spielplan",
+    url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=418&typ=liga&list=all",
+  },
+ 
 ];
 
 const ligaToTeam = {
