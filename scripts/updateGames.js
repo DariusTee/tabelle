@@ -37,24 +37,25 @@ const ligas = [
         await page.goto(liga.url, { waitUntil: 'networkidle2' });
         await page.waitForSelector('lm-schedule-game-entry-row', { timeout: 60000 });
 
-        const games = await page.$$eval('lm-schedule-game-entry-row', (rows) =>
-          rows.map((row) => {
-            const divs = Array.from(row.querySelectorAll('div'));
+const games = await page.$$eval('lm-schedule-game-entry-row', (rows) =>
+  rows.map((row) => {
+    // Alle divs der Zeile
+    const divs = Array.from(row.querySelectorAll('div'));
 
-            // Nur sichtbare Texte extrahieren, HTML/Icons ignorieren
-            const texts = divs
-              .map(d => d.innerText.trim())
-              .filter(t => t.length > 0 && t !== 'check_circle' && t !== 'circle' && t !== 'open_in_new');
+    // Nur sichtbare Texte extrahieren und Icons/Buttons ignorieren
+    const texts = divs
+      .map(d => d.innerText.trim())
+      .filter(t => t && !['check_circle', 'circle', 'open_in_new'].includes(t));
 
-            return {
-              date: texts[0] || '',
-              location: texts[1] || '',
-              homeTeam: texts[2] || '',
-              result: texts[3] || '',
-              awayTeam: texts[4] || '',
-            };
-          })
-        );
+    return {
+      date: texts[0] || '',
+      location: texts[1] || '',
+      homeTeam: texts[2] || '',
+      result: texts[3] || '',
+      awayTeam: texts[4] || '',
+    };
+  })
+);
 
         const fileName = liga.name.replace(/\s+/g, '_') + '.json';
         const dataPath = path.join(process.cwd(), 'public/data', fileName);
