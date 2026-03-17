@@ -29,7 +29,7 @@ async function scrapeSpieltage() {
 
   await browser.close();
 
-  fs.writeFileSync("spieltage.json", JSON.stringify(spieltage, null, 2), "utf-8");
+  fs.writeFileSync("public/data/spieltage.json", JSON.stringify(spieltage, null, 2), "utf-8");
   console.log(`Erfolgreich ${spieltage.length} Spieltage gespeichert.`);
 }
 
