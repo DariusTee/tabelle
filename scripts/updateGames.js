@@ -35,31 +35,37 @@ const ligas = [
         : [spieleRaw];
 
       const teams = [
-          "RHC Recklinghausen",
-          "RHC Recklinghausen II",
-          "SG Calenberg/Recklinghausen",
+        "RHC Recklinghausen",
+        "RHC Recklinghausen II",
+        "SG Calenberg/Recklinghausen",
       ];
 
-const spiele = spieleArray
-  .map((spiel) => ({
-    id: spiel.spielid,
-    nummer: spiel.spielnr,
-    datum: spiel.datum,
-    liga: spiel.liga,
-    heim: spiel.heim,
-    gast: spiel.gast,
-    ergebnis: spiel.resultat || null,
-    ort: spiel.spielort,
-    gespielt: spiel.gespielt === "1",
-  }))
-  .filter(
-    (spiel) =>
-      teams.includes(spiel.heim) ||
-      teams.includes(spiel.gast)
-  );
+      const spiele = spieleArray
+        .map((spiel) => {
+          // Datum in amerikanisches Format
+          const [day, month, yearAndTime] = spiel.datum.split('.');
+          const [year, time] = yearAndTime.split(' ');
+
+          const dateObj = new Date(`${year}-${month}-${day}T${time}`);
+
+          return {
+            type: "Spiel",
+            date: `${year}-${month}-${day}`, // YYYY-MM-DD
+            time: time, // HH:MM:SS
+            location: spiel.spielort,
+            description: spiel.liga,
+            home: spiel.heim,
+            away: spiel.gast,
+            result: spiel.resultat || null,
+          };
+        })
+        .filter(
+          (spiel) =>
+            teams.includes(spiel.home) || teams.includes(spiel.away)
+        );
 
       // 🔥 Optional: nach Datum sortieren
-      spiele.sort((a, b) => new Date(a.datum) - new Date(b.datum));
+      spiele.sort((a, b) => new Date(`${a.date}T${a.time}`) - new Date(`${b.date}T${b.time}`));
 
       const fileName = liga.name.replace(/\s+/g, "_") + ".json";
       const filePath = path.join(process.cwd(), "public/data", fileName);
