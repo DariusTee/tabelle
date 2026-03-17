@@ -4,7 +4,7 @@ import path from 'path';
 
 // ⚡ Hier alle Ligen eintragen
 const ligas = [
-  { name: '1. Bundesliga Herren', url: 'https://spielplan.rollhockey.de/lm/saison/29/liga/407/' },
+  { name: '1. Bundesliga Herren', url: 'https://spielplan.rollhockey.de/lm/saison/29/liga/407' },
 ];
 
 (async () => {
@@ -22,31 +22,48 @@ const ligas = [
         await page.goto(liga.url, { waitUntil: 'networkidle2' });
         await page.waitForSelector('lm-schedule-game-entry-row', { timeout: 60000 });
 
-        const table = await page.$$eval('lm-schedule-game-entry-row', (rows) =>
-          rows.map((row) => {
-            const text = row.innerText.trim();
-            const punkteMatch = text.match(/(\d+)\s*$/);
-            const punkte = punkteMatch ? punkteMatch[1] : '';
-            const toreMatch = text.match(/(\d+)\s*:\s*(\d+)/);
-            const tore = toreMatch ? `${toreMatch[1]} : ${toreMatch[2]}` : '';
-            let cleaned = text.replace(/\d+\s*$/, '').replace(/(\d+\s*:\s*\d+)/, '').trim();
-            const parts = cleaned.split(/\s+/);
-            const platz = parts.shift();
-            const niederlagen = parts.pop();
-            const unentschieden = parts.pop();
-            const siege = parts.pop();
-            const spiele = parts.pop();
-            const team = parts.join(' ');
-            return { platz, team, spiele, siege, unentschieden, niederlagen, tore, punkte };
-          })
-        );
+        const table = await page.$$eval('lm-schedule-game-entry-row', (rows) => {
+          const spiele = [];
+
+          rows.forEach((row) => {
+            const shadow = row.shadowRoot || row;
+            const children = Array.from(shadow.children || []);
+
+            // Alle gültigen Texte sammeln, Überschriften/Icons ignorieren
+            const texts = [];
+            children.forEach((el) => {
+              const t = el.textContent.trim();
+              if (
+                t &&
+                t !== 'circle' &&
+                t !== 'open_in_new' &&
+                !['Datum','Spielort','Heim','Resultat','Gast','n.V.','n.P.'].includes(t)
+              ) {
+                texts.push(t);
+              }
+            });
+
+            // Jede 5er-Gruppe → ein Spieltag
+            for (let i = 0; i <= texts.length - 5; i += 5) {
+              spiele.push({
+                datum: texts[i],
+                ort: texts[i + 1],
+                heimteam: texts[i + 2],
+                ergebnis: texts[i + 3],
+                auswaertsteam: texts[i + 4],
+              });
+            }
+          });
+
+          return spiele;
+        });
 
         const fileName = liga.name.replace(/\s+/g, '_') + '.json';
         const dataPath = path.join(process.cwd(), 'public/data', fileName);
         fs.mkdirSync(path.dirname(dataPath), { recursive: true });
         fs.writeFileSync(dataPath, JSON.stringify(table, null, 2), 'utf-8');
 
-        console.log(`Tabelle gespeichert: ${fileName} (${table.length} Teams)`);
+        console.log(`Tabelle gespeichert: ${fileName} (${table.length} Spieltage)`);
 
         await page.close();
       })
