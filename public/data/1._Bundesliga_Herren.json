@@ -21,6 +21,16 @@
   },
   {
     "platz": "3",
+    "team": "IGR Remscheid",
+    "spiele": "12",
+    "siege": "6",
+    "unentschieden": "2",
+    "niederlagen": "4",
+    "tore": "34 : 29",
+    "punkte": "21"
+  },
+  {
+    "platz": "4",
     "team": "RSC Cronenberg",
     "spiele": "11",
     "siege": "6",
@@ -30,43 +40,33 @@
     "punkte": "20"
   },
   {
-    "platz": "4",
-    "team": "IGR Remscheid",
-    "spiele": "11",
-    "siege": "5",
-    "unentschieden": "2",
-    "niederlagen": "4",
-    "tore": "30 : 28",
-    "punkte": "18"
-  },
-  {
     "platz": "5",
     "team": "TuS-Düsseldorf Nord",
-    "spiele": "10",
+    "spiele": "11",
     "siege": "2",
     "unentschieden": "2",
-    "niederlagen": "6",
-    "tore": "27 : 31",
+    "niederlagen": "7",
+    "tore": "28 : 34",
     "punkte": "9"
   },
   {
     "platz": "6",
-    "team": "RHC Recklinghausen",
-    "spiele": "10",
-    "siege": "1",
-    "unentschieden": "1",
-    "niederlagen": "8",
-    "tore": "25 : 58",
-    "punkte": "4"
+    "team": "SGR Darmstadt",
+    "spiele": "11",
+    "siege": "2",
+    "unentschieden": "0",
+    "niederlagen": "9",
+    "tore": "16 : 73",
+    "punkte": "6"
   },
   {
     "platz": "7",
-    "team": "SGR Darmstadt",
-    "spiele": "10",
+    "team": "RHC Recklinghausen",
+    "spiele": "11",
     "siege": "1",
-    "unentschieden": "0",
+    "unentschieden": "1",
     "niederlagen": "9",
-    "tore": "13 : 72",
-    "punkte": "3"
+    "tore": "26 : 62",
+    "punkte": "4"
   }
 ]
