@@ -1,22 +1,22 @@
 [
   {
     "platz": "1",
+    "team": "IGR Remscheid",
+    "spiele": "11",
+    "siege": "8",
+    "unentschieden": "2",
+    "niederlagen": "1",
+    "tore": "84 : 31",
+    "punkte": "28"
+  },
+  {
+    "platz": "2",
     "team": "RSC Cronenberg",
     "spiele": "10",
     "siege": "8",
     "unentschieden": "1",
     "niederlagen": "1",
     "tore": "74 : 18",
-    "punkte": "25"
-  },
-  {
-    "platz": "2",
-    "team": "IGR Remscheid",
-    "spiele": "10",
-    "siege": "7",
-    "unentschieden": "2",
-    "niederlagen": "1",
-    "tore": "80 : 31",
     "punkte": "25"
   },
   {
@@ -52,11 +52,11 @@
   {
     "platz": "6",
     "team": "Team Holland",
-    "spiele": "10",
+    "spiele": "11",
     "siege": "2",
     "unentschieden": "0",
-    "niederlagen": "8",
-    "tore": "32 : 62",
+    "niederlagen": "9",
+    "tore": "32 : 66",
     "punkte": "6"
   },
   {
