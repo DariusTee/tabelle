@@ -21,6 +21,16 @@
   },
   {
     "platz": "3",
+    "team": "TuS-Düsseldorf Nord II",
+    "spiele": "11",
+    "siege": "6",
+    "unentschieden": "2",
+    "niederlagen": "3",
+    "tore": "57 : 47",
+    "punkte": "20"
+  },
+  {
+    "platz": "4",
     "team": "SK Germania Herringen II",
     "spiele": "11",
     "siege": "6",
@@ -28,16 +38,6 @@
     "niederlagen": "5",
     "tore": "51 : 56",
     "punkte": "18"
-  },
-  {
-    "platz": "4",
-    "team": "TuS-Düsseldorf Nord II",
-    "spiele": "10",
-    "siege": "5",
-    "unentschieden": "2",
-    "niederlagen": "3",
-    "tore": "48 : 44",
-    "punkte": "17"
   },
   {
     "platz": "5",
@@ -82,11 +82,11 @@
   {
     "platz": "9",
     "team": "SC Moskitos Wuppertal e.V.",
-    "spiele": "10",
+    "spiele": "11",
     "siege": "1",
     "unentschieden": "1",
-    "niederlagen": "8",
-    "tore": "30 : 91",
+    "niederlagen": "9",
+    "tore": "33 : 100",
     "punkte": "4"
   }
 ]
