@@ -2,7 +2,6 @@ name: Update Spielplan
 
 on:
   schedule:
-    # Läuft jeden Tag um 02:00 Uhr UTC
     - cron: '0 2 * * *'
   workflow_dispatch:
 
@@ -13,6 +12,8 @@ jobs:
     steps:
       - name: Repository auschecken
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Node.js 20 einrichten
         uses: actions/setup-node@v3
@@ -22,20 +23,24 @@ jobs:
       - name: Abhängigkeiten installieren
         run: npm install xml2js
 
-      - name: Spielplan aktualisieren
-        run: node scripts/updateGames.js
-
       - name: Git konfigurieren
         run: |
           git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Aktuellen Stand von main holen
+        run: |
+          git fetch origin main
+          git checkout main
+          git pull --rebase origin main
+
+      - name: Spielplan aktualisieren
+        run: node scripts/updateGames.js
 
       - name: Änderungen committen
         run: |
           git add public/data/*.json
-          git commit -m "Update Spieltage $(date +'%Y-%m-%d')" || echo "Keine Änderungen"
-          git fetch origin
-          git pull --rebase origin main
+          git diff --cached --quiet && echo "Keine Änderungen" || git commit -m "Update Spieltage $(date +'%Y-%m-%d')"
 
       - name: Änderungen pushen
         run: git push origin main
