@@ -5,9 +5,15 @@ on:
     - cron: '0 2 * * *'
   workflow_dispatch:
 
+concurrency:
+  group: update-spielplan-main
+  cancel-in-progress: false
+
 jobs:
   update-games:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Repository auschecken
@@ -25,10 +31,10 @@ jobs:
 
       - name: Git konfigurieren
         run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Aktuellen Stand von main holen
+      - name: Aktuellen Stand holen
         run: |
           git fetch origin main
           git checkout main
@@ -42,8 +48,10 @@ jobs:
           git add public/data/*.json
           git diff --cached --quiet && echo "Keine Änderungen" || git commit -m "Update Spieltage $(date +'%Y-%m-%d')"
 
-      - name: Änderungen pushen
+      - name: Vor Push erneut synchronisieren
         run: |
           git fetch origin main
           git pull --rebase origin main
-          git push origin main
+
+      - name: Änderungen pushen
+        run: git push origin main
