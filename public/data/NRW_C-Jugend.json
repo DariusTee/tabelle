@@ -21,6 +21,16 @@
   },
   {
     "platz": "3",
+    "team": "SK Germania Herringen",
+    "spiele": "13",
+    "siege": "8",
+    "unentschieden": "1",
+    "niederlagen": "4",
+    "tore": "37 : 27",
+    "punkte": "25"
+  },
+  {
+    "platz": "4",
     "team": "RSC Gera",
     "spiele": "12",
     "siege": "8",
@@ -30,7 +40,7 @@
     "punkte": "24"
   },
   {
-    "platz": "4",
+    "platz": "5",
     "team": "RSC Cronenberg",
     "spiele": "13",
     "siege": "8",
@@ -40,24 +50,14 @@
     "punkte": "24"
   },
   {
-    "platz": "5",
-    "team": "SK Germania Herringen",
-    "spiele": "12",
-    "siege": "7",
-    "unentschieden": "1",
-    "niederlagen": "4",
-    "tore": "33 : 26",
-    "punkte": "22"
-  },
-  {
     "platz": "6",
     "team": "HSV Krefeld",
-    "spiele": "11",
-    "siege": "5",
+    "spiele": "12",
+    "siege": "6",
     "unentschieden": "1",
     "niederlagen": "5",
-    "tore": "26 : 36",
-    "punkte": "16"
+    "tore": "28 : 37",
+    "punkte": "19"
   },
   {
     "platz": "7",
@@ -72,31 +72,31 @@
   {
     "platz": "8",
     "team": "IGR Remscheid II",
-    "spiele": "11",
+    "spiele": "12",
     "siege": "2",
-    "unentschieden": "0",
+    "unentschieden": "1",
     "niederlagen": "9",
-    "tore": "28 : 54",
-    "punkte": "6"
+    "tore": "29 : 55",
+    "punkte": "7"
   },
   {
     "platz": "9",
-    "team": "RHC Recklinghausen",
-    "spiele": "8",
+    "team": "RSG Bandidos",
+    "spiele": "13",
     "siege": "1",
-    "unentschieden": "1",
-    "niederlagen": "6",
-    "tore": "12 : 28",
-    "punkte": "4"
+    "unentschieden": "2",
+    "niederlagen": "10",
+    "tore": "16 : 77",
+    "punkte": "5"
   },
   {
     "platz": "10",
-    "team": "RSG Bandidos",
-    "spiele": "12",
+    "team": "RHC Recklinghausen",
+    "spiele": "10",
     "siege": "1",
     "unentschieden": "1",
-    "niederlagen": "10",
-    "tore": "15 : 76",
+    "niederlagen": "8",
+    "tore": "14 : 34",
     "punkte": "4"
   }
 ]
