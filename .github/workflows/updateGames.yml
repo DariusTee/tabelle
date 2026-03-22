@@ -37,8 +37,8 @@ jobs:
           git checkout main
           git pull --rebase origin main
 
-      - name: Abhängigkeiten installieren
-        run: npm install
+      - name: xml2js temporär installieren
+        run: npm install --no-save --no-package-lock xml2js
 
       - name: Spielplan aktualisieren
         run: node scripts/updateGames.js
