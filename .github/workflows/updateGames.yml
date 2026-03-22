@@ -34,6 +34,8 @@ jobs:
         run: |
           git add public/data/*.json
           git commit -m "Update Spieltage $(date +'%Y-%m-%d')" || echo "Keine Änderungen"
+          git fetch origin
+          git pull --rebase origin main
 
       - name: Änderungen pushen
-        run: git push
+        run: git push origin main
