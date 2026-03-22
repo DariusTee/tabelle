@@ -43,4 +43,7 @@ jobs:
           git diff --cached --quiet && echo "Keine Änderungen" || git commit -m "Update Spieltage $(date +'%Y-%m-%d')"
 
       - name: Änderungen pushen
-        run: git push origin main
+        run: |
+          git fetch origin main
+          git pull --rebase origin main
+          git push origin main
