@@ -26,9 +26,6 @@ jobs:
         with:
           node-version: 20
 
-      - name: Abhängigkeiten installieren
-        run: npm install xml2js
-
       - name: Git konfigurieren
         run: |
           git config user.name "github-actions[bot]"
@@ -39,6 +36,9 @@ jobs:
           git fetch origin main
           git checkout main
           git pull --rebase origin main
+
+      - name: Abhängigkeiten installieren
+        run: npm ci
 
       - name: Spielplan aktualisieren
         run: node scripts/updateGames.js
