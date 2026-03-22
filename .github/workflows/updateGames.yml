@@ -38,7 +38,7 @@ jobs:
           git pull --rebase origin main
 
       - name: Abhängigkeiten installieren
-        run: npm ci
+        run: npm install
 
       - name: Spielplan aktualisieren
         run: node scripts/updateGames.js
