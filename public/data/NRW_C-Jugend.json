@@ -2,12 +2,12 @@
   {
     "platz": "1",
     "team": "IGR Remscheid I",
-    "spiele": "10",
-    "siege": "10",
+    "spiele": "11",
+    "siege": "11",
     "unentschieden": "0",
     "niederlagen": "0",
-    "tore": "81 : 4",
-    "punkte": "30"
+    "tore": "90 : 4",
+    "punkte": "33"
   },
   {
     "platz": "2",
@@ -32,71 +32,71 @@
   {
     "platz": "4",
     "team": "SK Germania Herringen",
-    "spiele": "11",
-    "siege": "6",
+    "spiele": "12",
+    "siege": "7",
     "unentschieden": "1",
     "niederlagen": "4",
-    "tore": "30 : 26",
-    "punkte": "19"
+    "tore": "33 : 26",
+    "punkte": "22"
   },
   {
     "platz": "5",
     "team": "RSC Cronenberg",
-    "spiele": "11",
-    "siege": "6",
+    "spiele": "12",
+    "siege": "7",
     "unentschieden": "0",
     "niederlagen": "5",
-    "tore": "27 : 26",
-    "punkte": "18"
+    "tore": "33 : 26",
+    "punkte": "21"
   },
   {
     "platz": "6",
     "team": "HSV Krefeld",
-    "spiele": "9",
+    "spiele": "10",
     "siege": "5",
     "unentschieden": "1",
-    "niederlagen": "3",
-    "tore": "25 : 28",
+    "niederlagen": "4",
+    "tore": "25 : 31",
     "punkte": "16"
   },
   {
     "platz": "7",
-    "team": "IGR Remscheid II",
-    "spiele": "10",
-    "siege": "2",
+    "team": "SG Hüls-Herten",
+    "spiele": "12",
+    "siege": "3",
     "unentschieden": "0",
-    "niederlagen": "8",
-    "tore": "26 : 50",
-    "punkte": "6"
+    "niederlagen": "9",
+    "tore": "30 : 79",
+    "punkte": "9"
   },
   {
     "platz": "8",
-    "team": "SG Hüls-Herten",
+    "team": "IGR Remscheid II",
     "spiele": "11",
     "siege": "2",
     "unentschieden": "0",
     "niederlagen": "9",
-    "tore": "26 : 77",
+    "tore": "28 : 54",
     "punkte": "6"
   },
   {
     "platz": "9",
     "team": "RHC Recklinghausen",
-    "spiele": "7",
+    "spiele": "8",
     "siege": "1",
     "unentschieden": "1",
-    "niederlagen": "5",
-    "tore": "12 : 22",
+    "niederlagen": "6",
+    "tore": "12 : 28",
     "punkte": "4"
   },
   {
     "platz": "10",
     "team": "RSG Bandidos",
-    "spiele": "11",
+    "spiele": "12",
     "siege": "1",
     "unentschieden": "1",
-    "niederlagen": "9",
-    "tore": "15 : 67",
+    "niederlagen": "10",
+    "tore": "15 : 76",
     "punkte": "4"
   }
 ]

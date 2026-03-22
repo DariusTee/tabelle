@@ -2,12 +2,12 @@
   {
     "platz": "1",
     "team": "IGR Remscheid I",
-    "spiele": "3",
-    "siege": "3",
+    "spiele": "4",
+    "siege": "4",
     "unentschieden": "0",
     "niederlagen": "0",
-    "tore": "27 : 6",
-    "punkte": "9"
+    "tore": "34 : 7",
+    "punkte": "12"
   },
   {
     "platz": "2",
@@ -21,16 +21,6 @@
   },
   {
     "platz": "3",
-    "team": "RSC Cronenberg II",
-    "spiele": "3",
-    "siege": "2",
-    "unentschieden": "0",
-    "niederlagen": "1",
-    "tore": "20 : 10",
-    "punkte": "6"
-  },
-  {
-    "platz": "4",
     "team": "TuS-Düsseldorf Nord",
     "spiele": "3",
     "siege": "2",
@@ -40,17 +30,17 @@
     "punkte": "6"
   },
   {
-    "platz": "5",
-    "team": "RSC Cronenberg I",
-    "spiele": "3",
-    "siege": "1",
+    "platz": "4",
+    "team": "RSC Cronenberg II",
+    "spiele": "4",
+    "siege": "2",
     "unentschieden": "0",
     "niederlagen": "2",
-    "tore": "13 : 10",
-    "punkte": "3"
+    "tore": "21 : 17",
+    "punkte": "6"
   },
   {
-    "platz": "6",
+    "platz": "5",
     "team": "RHC Recklinghausen",
     "spiele": "3",
     "siege": "1",
@@ -60,14 +50,24 @@
     "punkte": "3"
   },
   {
-    "platz": "7",
-    "team": "IGR Remscheid II",
-    "spiele": "3",
-    "siege": "0",
+    "platz": "6",
+    "team": "RSC Cronenberg I",
+    "spiele": "4",
+    "siege": "1",
     "unentschieden": "0",
     "niederlagen": "3",
-    "tore": "6 : 18",
-    "punkte": "0"
+    "tore": "13 : 17",
+    "punkte": "3"
+  },
+  {
+    "platz": "7",
+    "team": "IGR Remscheid II",
+    "spiele": "4",
+    "siege": "1",
+    "unentschieden": "0",
+    "niederlagen": "3",
+    "tore": "13 : 18",
+    "punkte": "3"
   },
   {
     "platz": "8",
