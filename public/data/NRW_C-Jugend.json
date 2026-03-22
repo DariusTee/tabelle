@@ -2,12 +2,12 @@
   {
     "platz": "1",
     "team": "IGR Remscheid I",
-    "spiele": "11",
-    "siege": "11",
+    "spiele": "12",
+    "siege": "12",
     "unentschieden": "0",
     "niederlagen": "0",
-    "tore": "90 : 4",
-    "punkte": "33"
+    "tore": "97 : 5",
+    "punkte": "36"
   },
   {
     "platz": "2",
@@ -31,6 +31,16 @@
   },
   {
     "platz": "4",
+    "team": "RSC Cronenberg",
+    "spiele": "13",
+    "siege": "8",
+    "unentschieden": "0",
+    "niederlagen": "5",
+    "tore": "38 : 27",
+    "punkte": "24"
+  },
+  {
+    "platz": "5",
     "team": "SK Germania Herringen",
     "spiele": "12",
     "siege": "7",
@@ -40,33 +50,23 @@
     "punkte": "22"
   },
   {
-    "platz": "5",
-    "team": "RSC Cronenberg",
-    "spiele": "12",
-    "siege": "7",
-    "unentschieden": "0",
-    "niederlagen": "5",
-    "tore": "33 : 26",
-    "punkte": "21"
-  },
-  {
     "platz": "6",
     "team": "HSV Krefeld",
-    "spiele": "10",
+    "spiele": "11",
     "siege": "5",
     "unentschieden": "1",
-    "niederlagen": "4",
-    "tore": "25 : 31",
+    "niederlagen": "5",
+    "tore": "26 : 36",
     "punkte": "16"
   },
   {
     "platz": "7",
     "team": "SG Hüls-Herten",
-    "spiele": "12",
+    "spiele": "13",
     "siege": "3",
     "unentschieden": "0",
-    "niederlagen": "9",
-    "tore": "30 : 79",
+    "niederlagen": "10",
+    "tore": "31 : 86",
     "punkte": "9"
   },
   {
