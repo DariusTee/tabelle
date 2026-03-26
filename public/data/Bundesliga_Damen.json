@@ -41,6 +41,16 @@
   },
   {
     "platz": "5",
+    "team": "Team Holland",
+    "spiele": "12",
+    "siege": "3",
+    "unentschieden": "0",
+    "niederlagen": "9",
+    "tore": "34 : 67",
+    "punkte": "9"
+  },
+  {
+    "platz": "6",
     "team": "SG Gera-Wuppertal Girls United",
     "spiele": "12",
     "siege": "3",
@@ -50,23 +60,13 @@
     "punkte": "9"
   },
   {
-    "platz": "6",
-    "team": "Team Holland",
-    "spiele": "11",
-    "siege": "2",
-    "unentschieden": "0",
-    "niederlagen": "9",
-    "tore": "32 : 66",
-    "punkte": "6"
-  },
-  {
     "platz": "7",
     "team": "SG Hüls/Schwerte",
-    "spiele": "11",
+    "spiele": "12",
     "siege": "0",
     "unentschieden": "1",
-    "niederlagen": "10",
-    "tore": "13 : 100",
+    "niederlagen": "11",
+    "tore": "14 : 102",
     "punkte": "1"
   }
 ]
