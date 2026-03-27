@@ -1,6 +1,16 @@
 [
   {
     "platz": "1",
+    "team": "RSC Cronenberg",
+    "spiele": "12",
+    "siege": "10",
+    "unentschieden": "1",
+    "niederlagen": "1",
+    "tore": "87 : 20",
+    "punkte": "31"
+  },
+  {
+    "platz": "2",
     "team": "IGR Remscheid",
     "spiele": "12",
     "siege": "9",
@@ -10,23 +20,13 @@
     "punkte": "31"
   },
   {
-    "platz": "2",
-    "team": "RSC Cronenberg",
-    "spiele": "11",
-    "siege": "9",
-    "unentschieden": "1",
-    "niederlagen": "1",
-    "tore": "83 : 18",
-    "punkte": "28"
-  },
-  {
     "platz": "3",
     "team": "TuS-Düsseldorf Nord",
-    "spiele": "11",
+    "spiele": "12",
     "siege": "8",
     "unentschieden": "0",
-    "niederlagen": "3",
-    "tore": "50 : 29",
+    "niederlagen": "4",
+    "tore": "52 : 33",
     "punkte": "24"
   },
   {
