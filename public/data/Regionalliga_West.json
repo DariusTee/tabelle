@@ -52,15 +52,25 @@
   {
     "platz": "6",
     "team": "HSV Krefeld I",
-    "spiele": "10",
+    "spiele": "11",
     "siege": "4",
     "unentschieden": "1",
-    "niederlagen": "5",
-    "tore": "46 : 51",
+    "niederlagen": "6",
+    "tore": "48 : 58",
     "punkte": "13"
   },
   {
     "platz": "7",
+    "team": "RESG Walsum II",
+    "spiele": "11",
+    "siege": "3",
+    "unentschieden": "0",
+    "niederlagen": "8",
+    "tore": "40 : 54",
+    "punkte": "9"
+  },
+  {
+    "platz": "8",
     "team": "HSV Krefeld II",
     "spiele": "12",
     "siege": "3",
@@ -68,16 +78,6 @@
     "niederlagen": "9",
     "tore": "40 : 78",
     "punkte": "9"
-  },
-  {
-    "platz": "8",
-    "team": "RESG Walsum II",
-    "spiele": "10",
-    "siege": "2",
-    "unentschieden": "0",
-    "niederlagen": "8",
-    "tore": "33 : 52",
-    "punkte": "6"
   },
   {
     "platz": "9",
