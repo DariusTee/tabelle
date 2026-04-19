@@ -41,6 +41,16 @@
   },
   {
     "platz": "5",
+    "team": "IGR Remscheid II",
+    "spiele": "7",
+    "siege": "3",
+    "unentschieden": "0",
+    "niederlagen": "4",
+    "tore": "33 : 24",
+    "punkte": "9"
+  },
+  {
+    "platz": "6",
     "team": "RSC Cronenberg II",
     "spiele": "8",
     "siege": "2",
@@ -48,16 +58,6 @@
     "niederlagen": "5",
     "tore": "29 : 35",
     "punkte": "7"
-  },
-  {
-    "platz": "6",
-    "team": "IGR Remscheid II",
-    "spiele": "6",
-    "siege": "2",
-    "unentschieden": "0",
-    "niederlagen": "4",
-    "tore": "23 : 24",
-    "punkte": "6"
   },
   {
     "platz": "7",
@@ -72,11 +72,11 @@
   {
     "platz": "8",
     "team": "Hülser SV Krefeld",
-    "spiele": "3",
+    "spiele": "4",
     "siege": "0",
     "unentschieden": "0",
-    "niederlagen": "3",
-    "tore": "1 : 32",
+    "niederlagen": "4",
+    "tore": "1 : 42",
     "punkte": "0"
   }
 ]
