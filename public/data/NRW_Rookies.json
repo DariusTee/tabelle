@@ -2,12 +2,12 @@
   {
     "platz": "1",
     "team": "IGR Remscheid I",
-    "spiele": "7",
-    "siege": "7",
+    "spiele": "8",
+    "siege": "8",
     "unentschieden": "0",
     "niederlagen": "0",
-    "tore": "49 : 10",
-    "punkte": "21"
+    "tore": "56 : 10",
+    "punkte": "24"
   },
   {
     "platz": "2",
@@ -72,11 +72,11 @@
   {
     "platz": "8",
     "team": "Hülser SV Krefeld",
-    "spiele": "4",
+    "spiele": "5",
     "siege": "0",
     "unentschieden": "0",
-    "niederlagen": "4",
-    "tore": "1 : 42",
+    "niederlagen": "5",
+    "tore": "1 : 49",
     "punkte": "0"
   }
 ]
