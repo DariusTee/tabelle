@@ -2,22 +2,22 @@
   {
     "platz": "1",
     "team": "IGR Remscheid I",
-    "spiele": "6",
-    "siege": "6",
+    "spiele": "7",
+    "siege": "7",
     "unentschieden": "0",
     "niederlagen": "0",
-    "tore": "41 : 9",
-    "punkte": "18"
+    "tore": "49 : 10",
+    "punkte": "21"
   },
   {
     "platz": "2",
     "team": "TuS-Düsseldorf Nord",
-    "spiele": "6",
-    "siege": "4",
+    "spiele": "7",
+    "siege": "5",
     "unentschieden": "1",
     "niederlagen": "1",
-    "tore": "17 : 12",
-    "punkte": "13"
+    "tore": "21 : 12",
+    "punkte": "16"
   },
   {
     "platz": "3",
@@ -32,21 +32,21 @@
   {
     "platz": "4",
     "team": "SK Germania Herringen",
-    "spiele": "5",
+    "spiele": "6",
     "siege": "3",
     "unentschieden": "0",
-    "niederlagen": "2",
-    "tore": "27 : 12",
+    "niederlagen": "3",
+    "tore": "28 : 20",
     "punkte": "9"
   },
   {
     "platz": "5",
     "team": "RSC Cronenberg II",
-    "spiele": "7",
+    "spiele": "8",
     "siege": "2",
     "unentschieden": "1",
-    "niederlagen": "4",
-    "tore": "29 : 31",
+    "niederlagen": "5",
+    "tore": "29 : 35",
     "punkte": "7"
   },
   {
