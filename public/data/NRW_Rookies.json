@@ -12,22 +12,22 @@
   {
     "platz": "2",
     "team": "TuS-Düsseldorf Nord",
-    "spiele": "5",
-    "siege": "3",
+    "spiele": "6",
+    "siege": "4",
     "unentschieden": "1",
     "niederlagen": "1",
-    "tore": "14 : 12",
-    "punkte": "10"
+    "tore": "17 : 12",
+    "punkte": "13"
   },
   {
     "platz": "3",
     "team": "RHC Recklinghausen",
-    "spiele": "6",
-    "siege": "3",
+    "spiele": "7",
+    "siege": "4",
     "unentschieden": "1",
     "niederlagen": "2",
-    "tore": "20 : 27",
-    "punkte": "10"
+    "tore": "24 : 30",
+    "punkte": "13"
   },
   {
     "platz": "4",
@@ -42,11 +42,11 @@
   {
     "platz": "5",
     "team": "RSC Cronenberg II",
-    "spiele": "6",
+    "spiele": "7",
     "siege": "2",
     "unentschieden": "1",
-    "niederlagen": "3",
-    "tore": "26 : 27",
+    "niederlagen": "4",
+    "tore": "29 : 31",
     "punkte": "7"
   },
   {
@@ -62,11 +62,11 @@
   {
     "platz": "7",
     "team": "RSC Cronenberg I",
-    "spiele": "7",
+    "spiele": "8",
     "siege": "1",
     "unentschieden": "1",
-    "niederlagen": "5",
-    "tore": "16 : 25",
+    "niederlagen": "6",
+    "tore": "16 : 28",
     "punkte": "4"
   },
   {

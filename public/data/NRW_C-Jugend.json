@@ -2,32 +2,32 @@
   {
     "platz": "1",
     "team": "IGR Remscheid I",
-    "spiele": "13",
-    "siege": "13",
+    "spiele": "14",
+    "siege": "14",
     "unentschieden": "0",
     "niederlagen": "0",
-    "tore": "109 : 5",
-    "punkte": "39"
+    "tore": "120 : 5",
+    "punkte": "42"
   },
   {
     "platz": "2",
     "team": "TuS-Düsseldorf Nord",
-    "spiele": "13",
-    "siege": "10",
+    "spiele": "14",
+    "siege": "11",
     "unentschieden": "0",
     "niederlagen": "3",
-    "tore": "62 : 28",
-    "punkte": "30"
+    "tore": "69 : 30",
+    "punkte": "33"
   },
   {
     "platz": "3",
     "team": "RSC Gera",
-    "spiele": "13",
-    "siege": "9",
+    "spiele": "14",
+    "siege": "10",
     "unentschieden": "0",
     "niederlagen": "4",
-    "tore": "69 : 32",
-    "punkte": "27"
+    "tore": "78 : 34",
+    "punkte": "30"
   },
   {
     "platz": "4",
@@ -52,51 +52,51 @@
   {
     "platz": "6",
     "team": "HSV Krefeld",
-    "spiele": "13",
-    "siege": "6",
+    "spiele": "14",
+    "siege": "7",
     "unentschieden": "1",
     "niederlagen": "6",
-    "tore": "28 : 49",
-    "punkte": "19"
+    "tore": "37 : 50",
+    "punkte": "22"
   },
   {
     "platz": "7",
     "team": "IGR Remscheid II",
-    "spiele": "13",
+    "spiele": "14",
     "siege": "3",
     "unentschieden": "1",
-    "niederlagen": "9",
-    "tore": "36 : 59",
+    "niederlagen": "10",
+    "tore": "37 : 68",
     "punkte": "10"
   },
   {
     "platz": "8",
     "team": "SG Hüls-Herten",
-    "spiele": "14",
+    "spiele": "15",
     "siege": "3",
     "unentschieden": "0",
-    "niederlagen": "11",
-    "tore": "32 : 95",
+    "niederlagen": "12",
+    "tore": "34 : 102",
     "punkte": "9"
   },
   {
     "platz": "9",
     "team": "RSG Bandidos",
-    "spiele": "14",
+    "spiele": "15",
     "siege": "1",
     "unentschieden": "2",
-    "niederlagen": "11",
-    "tore": "17 : 83",
+    "niederlagen": "12",
+    "tore": "19 : 92",
     "punkte": "5"
   },
   {
     "platz": "10",
     "team": "RHC Recklinghausen",
-    "spiele": "11",
+    "spiele": "12",
     "siege": "1",
     "unentschieden": "1",
-    "niederlagen": "9",
-    "tore": "18 : 41",
+    "niederlagen": "10",
+    "tore": "18 : 52",
     "punkte": "4"
   }
 ]
