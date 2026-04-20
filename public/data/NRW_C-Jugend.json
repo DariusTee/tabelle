@@ -12,22 +12,22 @@
   {
     "platz": "2",
     "team": "TuS-Düsseldorf Nord",
-    "spiele": "14",
-    "siege": "11",
+    "spiele": "15",
+    "siege": "12",
     "unentschieden": "0",
     "niederlagen": "3",
-    "tore": "69 : 30",
-    "punkte": "33"
+    "tore": "79 : 30",
+    "punkte": "36"
   },
   {
     "platz": "3",
     "team": "RSC Gera",
-    "spiele": "14",
-    "siege": "10",
+    "spiele": "15",
+    "siege": "11",
     "unentschieden": "0",
     "niederlagen": "4",
-    "tore": "78 : 34",
-    "punkte": "30"
+    "tore": "88 : 34",
+    "punkte": "33"
   },
   {
     "platz": "4",
@@ -52,11 +52,11 @@
   {
     "platz": "6",
     "team": "HSV Krefeld",
-    "spiele": "14",
+    "spiele": "16",
     "siege": "7",
     "unentschieden": "1",
-    "niederlagen": "6",
-    "tore": "37 : 50",
+    "niederlagen": "8",
+    "tore": "37 : 70",
     "punkte": "22"
   },
   {
