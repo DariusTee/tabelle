@@ -41,6 +41,16 @@
   },
   {
     "platz": "5",
+    "team": "HSV Krefeld I",
+    "spiele": "12",
+    "siege": "5",
+    "unentschieden": "1",
+    "niederlagen": "6",
+    "tore": "57 : 61",
+    "punkte": "16"
+  },
+  {
+    "platz": "6",
     "team": "RHC Recklinghausen II",
     "spiele": "12",
     "siege": "4",
@@ -48,16 +58,6 @@
     "niederlagen": "6",
     "tore": "48 : 67",
     "punkte": "14"
-  },
-  {
-    "platz": "6",
-    "team": "HSV Krefeld I",
-    "spiele": "11",
-    "siege": "4",
-    "unentschieden": "1",
-    "niederlagen": "6",
-    "tore": "48 : 58",
-    "punkte": "13"
   },
   {
     "platz": "7",
@@ -82,11 +82,11 @@
   {
     "platz": "9",
     "team": "SC Moskitos Wuppertal e.V.",
-    "spiele": "11",
+    "spiele": "12",
     "siege": "1",
     "unentschieden": "1",
-    "niederlagen": "9",
-    "tore": "33 : 100",
+    "niederlagen": "10",
+    "tore": "36 : 109",
     "punkte": "4"
   }
 ]
