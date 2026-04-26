@@ -11,6 +11,16 @@
   },
   {
     "platz": "2",
+    "team": "IGR Blue Panthers",
+    "spiele": "12",
+    "siege": "10",
+    "unentschieden": "0",
+    "niederlagen": "2",
+    "tore": "83 : 16",
+    "punkte": "30"
+  },
+  {
+    "platz": "3",
     "team": "SK Germania Herringen",
     "spiele": "14",
     "siege": "10",
@@ -20,7 +30,7 @@
     "punkte": "30"
   },
   {
-    "platz": "3",
+    "platz": "4",
     "team": "TuS-Düsseldorf Nord",
     "spiele": "16",
     "siege": "10",
@@ -30,23 +40,13 @@
     "punkte": "30"
   },
   {
-    "platz": "4",
-    "team": "IGR Blue Panthers",
-    "spiele": "11",
-    "siege": "9",
-    "unentschieden": "0",
-    "niederlagen": "2",
-    "tore": "74 : 15",
-    "punkte": "27"
-  },
-  {
     "platz": "5",
     "team": "IGR White Tigers",
-    "spiele": "11",
+    "spiele": "12",
     "siege": "7",
     "unentschieden": "0",
-    "niederlagen": "4",
-    "tore": "64 : 43",
+    "niederlagen": "5",
+    "tore": "65 : 52",
     "punkte": "21"
   },
   {
@@ -61,6 +61,16 @@
   },
   {
     "platz": "7",
+    "team": "HSV Krefeld",
+    "spiele": "12",
+    "siege": "3",
+    "unentschieden": "0",
+    "niederlagen": "9",
+    "tore": "22 : 73",
+    "punkte": "9"
+  },
+  {
+    "platz": "8",
     "team": "IGR Pink Lions",
     "spiele": "12",
     "siege": "3",
@@ -68,16 +78,6 @@
     "niederlagen": "9",
     "tore": "32 : 91",
     "punkte": "9"
-  },
-  {
-    "platz": "8",
-    "team": "HSV Krefeld",
-    "spiele": "11",
-    "siege": "2",
-    "unentschieden": "0",
-    "niederlagen": "9",
-    "tore": "19 : 72",
-    "punkte": "6"
   },
   {
     "platz": "9",
@@ -92,11 +92,11 @@
   {
     "platz": "10",
     "team": "RESG Walsum",
-    "spiele": "13",
+    "spiele": "14",
     "siege": "1",
     "unentschieden": "0",
-    "niederlagen": "12",
-    "tore": "22 : 96",
+    "niederlagen": "13",
+    "tore": "23 : 99",
     "punkte": "3"
   }
 ]
