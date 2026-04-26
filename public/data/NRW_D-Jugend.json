@@ -11,6 +11,16 @@
   },
   {
     "platz": "2",
+    "team": "SK Germania Herringen",
+    "spiele": "14",
+    "siege": "10",
+    "unentschieden": "0",
+    "niederlagen": "4",
+    "tore": "79 : 47",
+    "punkte": "30"
+  },
+  {
+    "platz": "3",
     "team": "TuS-Düsseldorf Nord",
     "spiele": "16",
     "siege": "10",
@@ -20,23 +30,13 @@
     "punkte": "30"
   },
   {
-    "platz": "3",
+    "platz": "4",
     "team": "IGR Blue Panthers",
     "spiele": "11",
     "siege": "9",
     "unentschieden": "0",
     "niederlagen": "2",
     "tore": "74 : 15",
-    "punkte": "27"
-  },
-  {
-    "platz": "4",
-    "team": "SK Germania Herringen",
-    "spiele": "13",
-    "siege": "9",
-    "unentschieden": "0",
-    "niederlagen": "4",
-    "tore": "73 : 44",
     "punkte": "27"
   },
   {
@@ -52,22 +52,22 @@
   {
     "platz": "6",
     "team": "RHC Recklinghausen",
-    "spiele": "11",
+    "spiele": "12",
     "siege": "4",
     "unentschieden": "0",
-    "niederlagen": "7",
-    "tore": "50 : 74",
+    "niederlagen": "8",
+    "tore": "53 : 80",
     "punkte": "12"
   },
   {
     "platz": "7",
-    "team": "VfL Hüls",
-    "spiele": "11",
-    "siege": "2",
+    "team": "IGR Pink Lions",
+    "spiele": "12",
+    "siege": "3",
     "unentschieden": "0",
     "niederlagen": "9",
-    "tore": "35 : 76",
-    "punkte": "6"
+    "tore": "32 : 91",
+    "punkte": "9"
   },
   {
     "platz": "8",
@@ -81,12 +81,12 @@
   },
   {
     "platz": "9",
-    "team": "IGR Pink Lions",
-    "spiele": "11",
+    "team": "VfL Hüls",
+    "spiele": "12",
     "siege": "2",
     "unentschieden": "0",
-    "niederlagen": "9",
-    "tore": "28 : 90",
+    "niederlagen": "10",
+    "tore": "36 : 80",
     "punkte": "6"
   },
   {
