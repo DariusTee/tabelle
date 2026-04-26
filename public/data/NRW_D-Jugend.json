@@ -22,12 +22,12 @@
   {
     "platz": "3",
     "team": "SK Germania Herringen",
-    "spiele": "14",
-    "siege": "10",
+    "spiele": "15",
+    "siege": "11",
     "unentschieden": "0",
     "niederlagen": "4",
-    "tore": "79 : 47",
-    "punkte": "30"
+    "tore": "84 : 49",
+    "punkte": "33"
   },
   {
     "platz": "4",
@@ -42,12 +42,12 @@
   {
     "platz": "5",
     "team": "IGR White Tigers",
-    "spiele": "12",
-    "siege": "7",
+    "spiele": "13",
+    "siege": "8",
     "unentschieden": "0",
     "niederlagen": "5",
-    "tore": "65 : 52",
-    "punkte": "21"
+    "tore": "73 : 53",
+    "punkte": "24"
   },
   {
     "platz": "6",
@@ -62,11 +62,11 @@
   {
     "platz": "7",
     "team": "HSV Krefeld",
-    "spiele": "12",
+    "spiele": "13",
     "siege": "3",
     "unentschieden": "0",
-    "niederlagen": "9",
-    "tore": "22 : 73",
+    "niederlagen": "10",
+    "tore": "24 : 78",
     "punkte": "9"
   },
   {
@@ -82,11 +82,11 @@
   {
     "platz": "9",
     "team": "VfL Hüls",
-    "spiele": "12",
+    "spiele": "13",
     "siege": "2",
     "unentschieden": "0",
-    "niederlagen": "10",
-    "tore": "36 : 80",
+    "niederlagen": "11",
+    "tore": "37 : 88",
     "punkte": "6"
   },
   {
