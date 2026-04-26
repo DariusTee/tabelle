@@ -12,12 +12,12 @@
   {
     "platz": "2",
     "team": "IGR Blue Panthers",
-    "spiele": "12",
-    "siege": "10",
+    "spiele": "13",
+    "siege": "11",
     "unentschieden": "0",
     "niederlagen": "2",
-    "tore": "83 : 16",
-    "punkte": "30"
+    "tore": "87 : 16",
+    "punkte": "33"
   },
   {
     "platz": "3",
@@ -52,12 +52,12 @@
   {
     "platz": "6",
     "team": "RHC Recklinghausen",
-    "spiele": "12",
-    "siege": "4",
+    "spiele": "13",
+    "siege": "5",
     "unentschieden": "0",
     "niederlagen": "8",
-    "tore": "53 : 80",
-    "punkte": "12"
+    "tore": "62 : 82",
+    "punkte": "15"
   },
   {
     "platz": "7",
@@ -72,11 +72,11 @@
   {
     "platz": "8",
     "team": "IGR Pink Lions",
-    "spiele": "12",
+    "spiele": "13",
     "siege": "3",
     "unentschieden": "0",
-    "niederlagen": "9",
-    "tore": "32 : 91",
+    "niederlagen": "10",
+    "tore": "32 : 95",
     "punkte": "9"
   },
   {
@@ -92,11 +92,11 @@
   {
     "platz": "10",
     "team": "RESG Walsum",
-    "spiele": "14",
+    "spiele": "15",
     "siege": "1",
     "unentschieden": "0",
-    "niederlagen": "13",
-    "tore": "23 : 99",
+    "niederlagen": "14",
+    "tore": "25 : 108",
     "punkte": "3"
   }
 ]

@@ -12,22 +12,22 @@
   {
     "platz": "2",
     "team": "IGR Remscheid II",
-    "spiele": "11",
+    "spiele": "12",
     "siege": "9",
-    "unentschieden": "1",
+    "unentschieden": "2",
     "niederlagen": "1",
-    "tore": "107 : 47",
-    "punkte": "28"
+    "tore": "109 : 49",
+    "punkte": "29"
   },
   {
     "platz": "3",
     "team": "TuS-Düsseldorf Nord II",
-    "spiele": "12",
-    "siege": "7",
+    "spiele": "13",
+    "siege": "8",
     "unentschieden": "2",
     "niederlagen": "3",
-    "tore": "64 : 49",
-    "punkte": "23"
+    "tore": "73 : 52",
+    "punkte": "26"
   },
   {
     "platz": "4",
@@ -41,33 +41,33 @@
   },
   {
     "platz": "5",
-    "team": "HSV Krefeld I",
-    "spiele": "12",
+    "team": "RHC Recklinghausen II",
+    "spiele": "13",
     "siege": "5",
-    "unentschieden": "1",
+    "unentschieden": "2",
     "niederlagen": "6",
-    "tore": "57 : 61",
-    "punkte": "16"
+    "tore": "54 : 70",
+    "punkte": "17"
   },
   {
     "platz": "6",
-    "team": "RHC Recklinghausen II",
-    "spiele": "12",
-    "siege": "4",
-    "unentschieden": "2",
-    "niederlagen": "6",
-    "tore": "48 : 67",
-    "punkte": "14"
+    "team": "HSV Krefeld I",
+    "spiele": "13",
+    "siege": "5",
+    "unentschieden": "1",
+    "niederlagen": "7",
+    "tore": "60 : 70",
+    "punkte": "16"
   },
   {
     "platz": "7",
     "team": "RESG Walsum II",
-    "spiele": "11",
+    "spiele": "12",
     "siege": "3",
-    "unentschieden": "0",
+    "unentschieden": "1",
     "niederlagen": "8",
-    "tore": "40 : 54",
-    "punkte": "9"
+    "tore": "42 : 56",
+    "punkte": "10"
   },
   {
     "platz": "8",
@@ -82,11 +82,11 @@
   {
     "platz": "9",
     "team": "SC Moskitos Wuppertal e.V.",
-    "spiele": "12",
+    "spiele": "13",
     "siege": "1",
     "unentschieden": "1",
-    "niederlagen": "10",
-    "tore": "36 : 109",
+    "niederlagen": "11",
+    "tore": "39 : 115",
     "punkte": "4"
   }
 ]
