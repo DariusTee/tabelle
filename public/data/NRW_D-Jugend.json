@@ -52,31 +52,31 @@
   {
     "platz": "6",
     "team": "RHC Recklinghausen",
-    "spiele": "14",
-    "siege": "5",
+    "spiele": "15",
+    "siege": "6",
     "unentschieden": "0",
     "niederlagen": "9",
-    "tore": "64 : 93",
-    "punkte": "15"
+    "tore": "74 : 93",
+    "punkte": "18"
   },
   {
     "platz": "7",
     "team": "HSV Krefeld",
-    "spiele": "13",
-    "siege": "3",
+    "spiele": "14",
+    "siege": "4",
     "unentschieden": "0",
     "niederlagen": "10",
-    "tore": "24 : 78",
-    "punkte": "9"
+    "tore": "34 : 79",
+    "punkte": "12"
   },
   {
     "platz": "8",
     "team": "IGR Pink Lions",
-    "spiele": "14",
+    "spiele": "16",
     "siege": "3",
     "unentschieden": "0",
-    "niederlagen": "11",
-    "tore": "32 : 103",
+    "niederlagen": "13",
+    "tore": "33 : 123",
     "punkte": "9"
   },
   {
