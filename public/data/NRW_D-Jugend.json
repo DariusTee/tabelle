@@ -11,6 +11,16 @@
   },
   {
     "platz": "2",
+    "team": "IGR Blue Panthers",
+    "spiele": "15",
+    "siege": "13",
+    "unentschieden": "0",
+    "niederlagen": "2",
+    "tore": "105 : 17",
+    "punkte": "39"
+  },
+  {
+    "platz": "3",
     "team": "SK Germania Herringen",
     "spiele": "17",
     "siege": "12",
@@ -18,16 +28,6 @@
     "niederlagen": "4",
     "tore": "96 : 51",
     "punkte": "37"
-  },
-  {
-    "platz": "3",
-    "team": "IGR Blue Panthers",
-    "spiele": "14",
-    "siege": "12",
-    "unentschieden": "0",
-    "niederlagen": "2",
-    "tore": "96 : 16",
-    "punkte": "36"
   },
   {
     "platz": "4",
@@ -82,11 +82,11 @@
   {
     "platz": "9",
     "team": "RESG Walsum",
-    "spiele": "17",
+    "spiele": "18",
     "siege": "2",
     "unentschieden": "1",
-    "niederlagen": "14",
-    "tore": "37 : 110",
+    "niederlagen": "15",
+    "tore": "38 : 119",
     "punkte": "7"
   },
   {
