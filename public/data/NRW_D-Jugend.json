@@ -12,21 +12,21 @@
   {
     "platz": "2",
     "team": "IGR Blue Panthers",
-    "spiele": "15",
-    "siege": "13",
+    "spiele": "16",
+    "siege": "14",
     "unentschieden": "0",
     "niederlagen": "2",
-    "tore": "105 : 17",
-    "punkte": "39"
+    "tore": "114 : 18",
+    "punkte": "42"
   },
   {
     "platz": "3",
     "team": "SK Germania Herringen",
-    "spiele": "17",
+    "spiele": "18",
     "siege": "12",
     "unentschieden": "1",
-    "niederlagen": "4",
-    "tore": "96 : 51",
+    "niederlagen": "5",
+    "tore": "97 : 60",
     "punkte": "37"
   },
   {
@@ -42,12 +42,12 @@
   {
     "platz": "5",
     "team": "IGR White Tigers",
-    "spiele": "13",
-    "siege": "8",
+    "spiele": "14",
+    "siege": "9",
     "unentschieden": "0",
     "niederlagen": "5",
-    "tore": "73 : 53",
-    "punkte": "24"
+    "tore": "81 : 53",
+    "punkte": "27"
   },
   {
     "platz": "6",
@@ -72,11 +72,11 @@
   {
     "platz": "8",
     "team": "IGR Pink Lions",
-    "spiele": "13",
+    "spiele": "14",
     "siege": "3",
     "unentschieden": "0",
-    "niederlagen": "10",
-    "tore": "32 : 95",
+    "niederlagen": "11",
+    "tore": "32 : 103",
     "punkte": "9"
   },
   {
