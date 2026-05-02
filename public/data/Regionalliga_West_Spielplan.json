@@ -147,11 +147,11 @@
     "team": "2. Herren",
     "date": "2026-05-03",
     "time": "11:00",
-    "location": "Krefeld",
+    "location": "abgesagt",
     "description": "Regionalliga West",
     "home": "HSV Krefeld I",
     "away": "RHC Recklinghausen II",
-    "result": null
+    "result": "0:10"
   },
   {
     "type": "Spiel",
