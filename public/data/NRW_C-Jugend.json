@@ -12,12 +12,12 @@
   {
     "platz": "2",
     "team": "TuS-Düsseldorf Nord",
-    "spiele": "15",
+    "spiele": "16",
     "siege": "12",
-    "unentschieden": "0",
+    "unentschieden": "1",
     "niederlagen": "3",
-    "tore": "79 : 30",
-    "punkte": "36"
+    "tore": "80 : 31",
+    "punkte": "37"
   },
   {
     "platz": "3",
@@ -42,21 +42,21 @@
   {
     "platz": "5",
     "team": "RSC Cronenberg",
-    "spiele": "13",
+    "spiele": "14",
     "siege": "8",
-    "unentschieden": "0",
+    "unentschieden": "1",
     "niederlagen": "5",
-    "tore": "38 : 27",
-    "punkte": "24"
+    "tore": "39 : 28",
+    "punkte": "25"
   },
   {
     "platz": "6",
     "team": "HSV Krefeld",
-    "spiele": "16",
+    "spiele": "17",
     "siege": "7",
     "unentschieden": "1",
-    "niederlagen": "8",
-    "tore": "37 : 70",
+    "niederlagen": "9",
+    "tore": "38 : 77",
     "punkte": "22"
   },
   {
@@ -82,12 +82,12 @@
   {
     "platz": "9",
     "team": "RSG Bandidos",
-    "spiele": "16",
-    "siege": "1",
+    "spiele": "17",
+    "siege": "2",
     "unentschieden": "3",
     "niederlagen": "12",
-    "tore": "20 : 93",
-    "punkte": "6"
+    "tore": "27 : 94",
+    "punkte": "9"
   },
   {
     "platz": "10",
