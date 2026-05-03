@@ -12,35 +12,25 @@
   {
     "platz": "2",
     "team": "TuS-Düsseldorf Nord",
-    "spiele": "16",
-    "siege": "12",
+    "spiele": "17",
+    "siege": "13",
     "unentschieden": "1",
     "niederlagen": "3",
-    "tore": "80 : 31",
-    "punkte": "37"
+    "tore": "81 : 31",
+    "punkte": "40"
   },
   {
     "platz": "3",
     "team": "RSC Gera",
-    "spiele": "15",
-    "siege": "11",
+    "spiele": "16",
+    "siege": "12",
     "unentschieden": "0",
     "niederlagen": "4",
-    "tore": "88 : 34",
-    "punkte": "33"
+    "tore": "92 : 35",
+    "punkte": "36"
   },
   {
     "platz": "4",
-    "team": "SK Germania Herringen",
-    "spiele": "13",
-    "siege": "8",
-    "unentschieden": "1",
-    "niederlagen": "4",
-    "tore": "37 : 27",
-    "punkte": "25"
-  },
-  {
-    "platz": "5",
     "team": "RSC Cronenberg",
     "spiele": "14",
     "siege": "8",
@@ -50,33 +40,43 @@
     "punkte": "25"
   },
   {
+    "platz": "5",
+    "team": "SK Germania Herringen",
+    "spiele": "15",
+    "siege": "8",
+    "unentschieden": "1",
+    "niederlagen": "6",
+    "tore": "38 : 32",
+    "punkte": "25"
+  },
+  {
     "platz": "6",
     "team": "HSV Krefeld",
-    "spiele": "17",
-    "siege": "7",
+    "spiele": "18",
+    "siege": "8",
     "unentschieden": "1",
     "niederlagen": "9",
-    "tore": "38 : 77",
-    "punkte": "22"
+    "tore": "45 : 83",
+    "punkte": "25"
   },
   {
     "platz": "7",
+    "team": "SG Hüls-Herten",
+    "spiele": "18",
+    "siege": "4",
+    "unentschieden": "1",
+    "niederlagen": "13",
+    "tore": "44 : 111",
+    "punkte": "13"
+  },
+  {
+    "platz": "8",
     "team": "IGR Remscheid II",
     "spiele": "14",
     "siege": "3",
     "unentschieden": "1",
     "niederlagen": "10",
     "tore": "37 : 68",
-    "punkte": "10"
-  },
-  {
-    "platz": "8",
-    "team": "SG Hüls-Herten",
-    "spiele": "16",
-    "siege": "3",
-    "unentschieden": "1",
-    "niederlagen": "12",
-    "tore": "35 : 103",
     "punkte": "10"
   },
   {
@@ -92,11 +92,11 @@
   {
     "platz": "10",
     "team": "RHC Recklinghausen",
-    "spiele": "12",
+    "spiele": "13",
     "siege": "1",
     "unentschieden": "1",
-    "niederlagen": "10",
-    "tore": "18 : 52",
+    "niederlagen": "11",
+    "tore": "19 : 55",
     "punkte": "4"
   }
 ]
