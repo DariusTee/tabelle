@@ -22,22 +22,22 @@
   {
     "platz": "3",
     "team": "RSC Gera",
-    "spiele": "16",
+    "spiele": "17",
     "siege": "12",
     "unentschieden": "0",
-    "niederlagen": "4",
-    "tore": "92 : 35",
+    "niederlagen": "5",
+    "tore": "92 : 36",
     "punkte": "36"
   },
   {
     "platz": "4",
     "team": "RSC Cronenberg",
-    "spiele": "14",
-    "siege": "8",
+    "spiele": "15",
+    "siege": "9",
     "unentschieden": "1",
     "niederlagen": "5",
-    "tore": "39 : 28",
-    "punkte": "25"
+    "tore": "40 : 28",
+    "punkte": "28"
   },
   {
     "platz": "5",
@@ -82,21 +82,21 @@
   {
     "platz": "9",
     "team": "RSG Bandidos",
-    "spiele": "17",
+    "spiele": "18",
     "siege": "2",
     "unentschieden": "3",
-    "niederlagen": "12",
-    "tore": "27 : 94",
+    "niederlagen": "13",
+    "tore": "28 : 98",
     "punkte": "9"
   },
   {
     "platz": "10",
     "team": "RHC Recklinghausen",
-    "spiele": "13",
-    "siege": "1",
+    "spiele": "14",
+    "siege": "2",
     "unentschieden": "1",
     "niederlagen": "11",
-    "tore": "19 : 55",
-    "punkte": "4"
+    "tore": "23 : 56",
+    "punkte": "7"
   }
 ]
