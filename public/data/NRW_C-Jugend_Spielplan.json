@@ -179,22 +179,22 @@
     "type": "Spiel",
     "team": "C-Jugend",
     "date": "2026-05-14",
-    "time": "10:50",
+    "time": "10:00",
     "location": "Düsseldorf",
     "description": "NRW C-Jugend",
     "home": "RHC Recklinghausen",
-    "away": "RSC Gera",
+    "away": "TuS-Düsseldorf Nord",
     "result": null
   },
   {
     "type": "Spiel",
     "team": "C-Jugend",
     "date": "2026-05-14",
-    "time": "12:15",
+    "time": "10:50",
     "location": "Düsseldorf",
     "description": "NRW C-Jugend",
     "home": "RHC Recklinghausen",
-    "away": "TuS-Düsseldorf Nord",
+    "away": "RSC Gera",
     "result": null
   }
 ]
