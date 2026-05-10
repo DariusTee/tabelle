@@ -2,12 +2,12 @@
   {
     "platz": "1",
     "team": "RSC Cronenberg",
-    "spiele": "16",
-    "siege": "16",
+    "spiele": "17",
+    "siege": "17",
     "unentschieden": "0",
     "niederlagen": "0",
-    "tore": "145 : 17",
-    "punkte": "48"
+    "tore": "155 : 23",
+    "punkte": "51"
   },
   {
     "platz": "2",
@@ -32,11 +32,11 @@
   {
     "platz": "4",
     "team": "IGR White Tigers",
-    "spiele": "16",
+    "spiele": "17",
     "siege": "11",
     "unentschieden": "0",
-    "niederlagen": "5",
-    "tore": "100 : 57",
+    "niederlagen": "6",
+    "tore": "106 : 67",
     "punkte": "33"
   },
   {
@@ -52,22 +52,22 @@
   {
     "platz": "6",
     "team": "RHC Recklinghausen",
-    "spiele": "17",
+    "spiele": "18",
     "siege": "7",
     "unentschieden": "0",
-    "niederlagen": "10",
-    "tore": "86 : 107",
+    "niederlagen": "11",
+    "tore": "88 : 116",
     "punkte": "21"
   },
   {
     "platz": "7",
     "team": "HSV Krefeld",
-    "spiele": "17",
-    "siege": "5",
+    "spiele": "18",
+    "siege": "6",
     "unentschieden": "0",
     "niederlagen": "12",
-    "tore": "42 : 97",
-    "punkte": "15"
+    "tore": "51 : 99",
+    "punkte": "18"
   },
   {
     "platz": "8",
