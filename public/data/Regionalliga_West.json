@@ -1,6 +1,16 @@
 [
   {
     "platz": "1",
+    "team": "RSC Cronenberg II",
+    "spiele": "14",
+    "siege": "12",
+    "unentschieden": "1",
+    "niederlagen": "1",
+    "tore": "134 : 46",
+    "punkte": "37"
+  },
+  {
+    "platz": "2",
     "team": "IGR Remscheid II",
     "spiele": "14",
     "siege": "11",
@@ -10,23 +20,13 @@
     "punkte": "35"
   },
   {
-    "platz": "2",
-    "team": "RSC Cronenberg II",
-    "spiele": "13",
-    "siege": "11",
-    "unentschieden": "1",
-    "niederlagen": "1",
-    "tore": "123 : 45",
-    "punkte": "34"
-  },
-  {
     "platz": "3",
     "team": "TuS-Düsseldorf Nord II",
-    "spiele": "14",
+    "spiele": "15",
     "siege": "8",
     "unentschieden": "2",
-    "niederlagen": "4",
-    "tore": "79 : 61",
+    "niederlagen": "5",
+    "tore": "84 : 67",
     "punkte": "26"
   },
   {
@@ -42,12 +42,12 @@
   {
     "platz": "5",
     "team": "RHC Recklinghausen II",
-    "spiele": "14",
-    "siege": "5",
+    "spiele": "15",
+    "siege": "6",
     "unentschieden": "2",
     "niederlagen": "6",
-    "tore": "64 : 70",
-    "punkte": "17"
+    "tore": "70 : 75",
+    "punkte": "20"
   },
   {
     "platz": "6",
@@ -72,11 +72,11 @@
   {
     "platz": "8",
     "team": "RESG Walsum II",
-    "spiele": "13",
+    "spiele": "14",
     "siege": "3",
     "unentschieden": "1",
-    "niederlagen": "9",
-    "tore": "43 : 61",
+    "niederlagen": "10",
+    "tore": "44 : 72",
     "punkte": "10"
   },
   {
