@@ -12,12 +12,12 @@
   {
     "platz": "2",
     "team": "IGR Blue Panthers",
-    "spiele": "16",
-    "siege": "14",
+    "spiele": "17",
+    "siege": "15",
     "unentschieden": "0",
     "niederlagen": "2",
-    "tore": "114 : 18",
-    "punkte": "42"
+    "tore": "121 : 18",
+    "punkte": "45"
   },
   {
     "platz": "3",
@@ -52,21 +52,21 @@
   {
     "platz": "6",
     "team": "RHC Recklinghausen",
-    "spiele": "15",
-    "siege": "6",
+    "spiele": "16",
+    "siege": "7",
     "unentschieden": "0",
     "niederlagen": "9",
-    "tore": "74 : 93",
-    "punkte": "18"
+    "tore": "85 : 97",
+    "punkte": "21"
   },
   {
     "platz": "7",
     "team": "HSV Krefeld",
-    "spiele": "15",
+    "spiele": "16",
     "siege": "4",
     "unentschieden": "0",
-    "niederlagen": "11",
-    "tore": "36 : 87",
+    "niederlagen": "12",
+    "tore": "36 : 94",
     "punkte": "12"
   },
   {
@@ -92,11 +92,11 @@
   {
     "platz": "10",
     "team": "VfL Hüls",
-    "spiele": "16",
+    "spiele": "17",
     "siege": "2",
     "unentschieden": "0",
-    "niederlagen": "14",
-    "tore": "37 : 117",
+    "niederlagen": "15",
+    "tore": "41 : 128",
     "punkte": "6"
   }
 ]
