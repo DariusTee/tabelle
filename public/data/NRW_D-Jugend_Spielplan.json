@@ -173,7 +173,7 @@
     "description": "NRW D-Jugend",
     "home": "VfL Hüls",
     "away": "RHC Recklinghausen",
-    "result": null
+    "result": "4:11"
   },
   {
     "type": "Spiel",
@@ -184,7 +184,7 @@
     "description": "NRW D-Jugend",
     "home": "IGR Blue Panthers",
     "away": "RHC Recklinghausen",
-    "result": null
+    "result": "10:1"
   },
   {
     "type": "Spiel",
@@ -195,6 +195,6 @@
     "description": "NRW D-Jugend",
     "home": "RHC Recklinghausen",
     "away": "HSV Krefeld",
-    "result": null
+    "result": "2:9"
   }
 ]
