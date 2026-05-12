@@ -22,11 +22,11 @@
   {
     "platz": "3",
     "team": "RSC Gera",
-    "spiele": "17",
+    "spiele": "18",
     "siege": "12",
     "unentschieden": "0",
-    "niederlagen": "5",
-    "tore": "92 : 36",
+    "niederlagen": "6",
+    "tore": "92 : 46",
     "punkte": "36"
   },
   {
@@ -81,6 +81,16 @@
   },
   {
     "platz": "9",
+    "team": "RHC Recklinghausen",
+    "spiele": "15",
+    "siege": "3",
+    "unentschieden": "1",
+    "niederlagen": "11",
+    "tore": "33 : 56",
+    "punkte": "10"
+  },
+  {
+    "platz": "10",
     "team": "RSG Bandidos",
     "spiele": "18",
     "siege": "2",
@@ -88,15 +98,5 @@
     "niederlagen": "13",
     "tore": "28 : 98",
     "punkte": "9"
-  },
-  {
-    "platz": "10",
-    "team": "RHC Recklinghausen",
-    "spiele": "14",
-    "siege": "2",
-    "unentschieden": "1",
-    "niederlagen": "11",
-    "tore": "23 : 56",
-    "punkte": "7"
   }
 ]
