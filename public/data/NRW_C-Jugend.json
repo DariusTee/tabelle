@@ -2,22 +2,22 @@
   {
     "platz": "1",
     "team": "IGR Remscheid I",
-    "spiele": "14",
-    "siege": "14",
+    "spiele": "15",
+    "siege": "15",
     "unentschieden": "0",
     "niederlagen": "0",
-    "tore": "120 : 5",
-    "punkte": "42"
+    "tore": "129 : 5",
+    "punkte": "45"
   },
   {
     "platz": "2",
     "team": "TuS-Düsseldorf Nord",
-    "spiele": "17",
-    "siege": "13",
+    "spiele": "18",
+    "siege": "14",
     "unentschieden": "1",
     "niederlagen": "3",
-    "tore": "81 : 31",
-    "punkte": "40"
+    "tore": "83 : 31",
+    "punkte": "43"
   },
   {
     "platz": "3",
@@ -31,22 +31,22 @@
   },
   {
     "platz": "4",
+    "team": "SK Germania Herringen",
+    "spiele": "17",
+    "siege": "10",
+    "unentschieden": "1",
+    "niederlagen": "6",
+    "tore": "43 : 34",
+    "punkte": "31"
+  },
+  {
+    "platz": "5",
     "team": "RSC Cronenberg",
     "spiele": "16",
     "siege": "9",
     "unentschieden": "1",
     "niederlagen": "6",
     "tore": "41 : 30",
-    "punkte": "28"
-  },
-  {
-    "platz": "5",
-    "team": "SK Germania Herringen",
-    "spiele": "16",
-    "siege": "9",
-    "unentschieden": "1",
-    "niederlagen": "6",
-    "tore": "40 : 33",
     "punkte": "28"
   },
   {
@@ -71,22 +71,22 @@
   },
   {
     "platz": "8",
-    "team": "IGR Remscheid II",
-    "spiele": "14",
+    "team": "RHC Recklinghausen",
+    "spiele": "16",
     "siege": "3",
     "unentschieden": "1",
-    "niederlagen": "10",
-    "tore": "37 : 68",
+    "niederlagen": "12",
+    "tore": "33 : 58",
     "punkte": "10"
   },
   {
     "platz": "9",
-    "team": "RHC Recklinghausen",
-    "spiele": "15",
+    "team": "IGR Remscheid II",
+    "spiele": "16",
     "siege": "3",
     "unentschieden": "1",
-    "niederlagen": "11",
-    "tore": "33 : 56",
+    "niederlagen": "12",
+    "tore": "38 : 80",
     "punkte": "10"
   },
   {
