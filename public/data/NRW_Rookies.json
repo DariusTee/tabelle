@@ -21,6 +21,16 @@
   },
   {
     "platz": "3",
+    "team": "IGR Remscheid II",
+    "spiele": "9",
+    "siege": "5",
+    "unentschieden": "0",
+    "niederlagen": "4",
+    "tore": "43 : 24",
+    "punkte": "15"
+  },
+  {
+    "platz": "4",
     "team": "RHC Recklinghausen",
     "spiele": "7",
     "siege": "4",
@@ -28,16 +38,6 @@
     "niederlagen": "2",
     "tore": "24 : 30",
     "punkte": "13"
-  },
-  {
-    "platz": "4",
-    "team": "IGR Remscheid II",
-    "spiele": "8",
-    "siege": "4",
-    "unentschieden": "0",
-    "niederlagen": "4",
-    "tore": "40 : 24",
-    "punkte": "12"
   },
   {
     "platz": "5",
@@ -72,11 +72,11 @@
   {
     "platz": "8",
     "team": "Hülser SV Krefeld",
-    "spiele": "5",
+    "spiele": "6",
     "siege": "0",
     "unentschieden": "0",
-    "niederlagen": "5",
-    "tore": "1 : 49",
+    "niederlagen": "6",
+    "tore": "1 : 52",
     "punkte": "0"
   }
 ]
