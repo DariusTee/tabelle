@@ -2,22 +2,22 @@
   {
     "platz": "1",
     "team": "IGR Remscheid I",
-    "spiele": "8",
-    "siege": "8",
+    "spiele": "9",
+    "siege": "9",
     "unentschieden": "0",
     "niederlagen": "0",
-    "tore": "56 : 10",
-    "punkte": "24"
+    "tore": "62 : 10",
+    "punkte": "27"
   },
   {
     "platz": "2",
     "team": "TuS-Düsseldorf Nord",
-    "spiele": "7",
-    "siege": "5",
+    "spiele": "8",
+    "siege": "6",
     "unentschieden": "1",
     "niederlagen": "1",
-    "tore": "21 : 12",
-    "punkte": "16"
+    "tore": "29 : 13",
+    "punkte": "19"
   },
   {
     "platz": "3",
@@ -62,21 +62,21 @@
   {
     "platz": "7",
     "team": "RSC Cronenberg I",
-    "spiele": "8",
+    "spiele": "9",
     "siege": "1",
     "unentschieden": "1",
-    "niederlagen": "6",
-    "tore": "16 : 28",
+    "niederlagen": "7",
+    "tore": "17 : 36",
     "punkte": "4"
   },
   {
     "platz": "8",
     "team": "Hülser SV Krefeld",
-    "spiele": "6",
+    "spiele": "7",
     "siege": "0",
     "unentschieden": "0",
-    "niederlagen": "6",
-    "tore": "1 : 52",
+    "niederlagen": "7",
+    "tore": "1 : 58",
     "punkte": "0"
   }
 ]
