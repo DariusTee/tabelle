@@ -2,12 +2,12 @@
   {
     "platz": "1",
     "team": "IGR Remscheid I",
-    "spiele": "17",
-    "siege": "17",
+    "spiele": "18",
+    "siege": "18",
     "unentschieden": "0",
     "niederlagen": "0",
-    "tore": "145 : 5",
-    "punkte": "51"
+    "tore": "150 : 5",
+    "punkte": "54"
   },
   {
     "platz": "2",
@@ -31,6 +31,16 @@
   },
   {
     "platz": "4",
+    "team": "RSC Cronenberg",
+    "spiele": "18",
+    "siege": "10",
+    "unentschieden": "1",
+    "niederlagen": "7",
+    "tore": "44 : 36",
+    "punkte": "31"
+  },
+  {
+    "platz": "5",
     "team": "SK Germania Herringen",
     "spiele": "18",
     "siege": "10",
@@ -38,16 +48,6 @@
     "niederlagen": "7",
     "tore": "43 : 40",
     "punkte": "31"
-  },
-  {
-    "platz": "5",
-    "team": "RSC Cronenberg",
-    "spiele": "16",
-    "siege": "9",
-    "unentschieden": "1",
-    "niederlagen": "6",
-    "tore": "41 : 30",
-    "punkte": "28"
   },
   {
     "platz": "6",
@@ -62,11 +62,11 @@
   {
     "platz": "7",
     "team": "IGR Remscheid II",
-    "spiele": "17",
+    "spiele": "18",
     "siege": "4",
     "unentschieden": "1",
-    "niederlagen": "12",
-    "tore": "48 : 80",
+    "niederlagen": "13",
+    "tore": "49 : 83",
     "punkte": "13"
   },
   {
