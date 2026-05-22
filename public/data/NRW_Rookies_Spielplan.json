@@ -36,17 +36,6 @@
     "type": "Spiel",
     "team": "Rookies",
     "date": "2026-03-22",
-    "time": "00:00",
-    "location": "verschoben",
-    "description": "Rookies Landesmeisterschaft",
-    "home": "Hülser SV Krefeld",
-    "away": "RHC Recklinghausen",
-    "result": null
-  },
-  {
-    "type": "Spiel",
-    "team": "Rookies",
-    "date": "2026-03-22",
     "time": "14:15",
     "location": "Recklinghausen",
     "description": "Rookies Landesmeisterschaft",
@@ -91,7 +80,7 @@
     "type": "Spiel",
     "team": "Rookies",
     "date": "2026-05-31",
-    "time": "10:45",
+    "time": "09:45",
     "location": "Herringen",
     "description": "Rookies Landesmeisterschaft",
     "home": "IGR Remscheid I",
@@ -102,7 +91,7 @@
     "type": "Spiel",
     "team": "Rookies",
     "date": "2026-05-31",
-    "time": "12:15",
+    "time": "11:15",
     "location": "Herringen",
     "description": "Rookies Landesmeisterschaft",
     "home": "IGR Remscheid II",
@@ -113,7 +102,7 @@
     "type": "Spiel",
     "team": "Rookies",
     "date": "2026-05-31",
-    "time": "13:45",
+    "time": "12:45",
     "location": "Herringen",
     "description": "Rookies Landesmeisterschaft",
     "home": "RHC Recklinghausen",
@@ -151,6 +140,17 @@
     "description": "Rookies Landesmeisterschaft",
     "home": "RHC Recklinghausen",
     "away": "Hülser SV Krefeld",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Rookies",
+    "date": "2026-07-11",
+    "time": "16:00",
+    "location": "Recklinghausen",
+    "description": "Rookies Landesmeisterschaft",
+    "home": "Hülser SV Krefeld",
+    "away": "RHC Recklinghausen",
     "result": null
   }
 ]
