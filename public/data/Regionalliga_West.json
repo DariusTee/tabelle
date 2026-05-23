@@ -22,11 +22,11 @@
   {
     "platz": "3",
     "team": "TuS-Düsseldorf Nord II",
-    "spiele": "15",
+    "spiele": "16",
     "siege": "8",
     "unentschieden": "2",
-    "niederlagen": "5",
-    "tore": "84 : 67",
+    "niederlagen": "6",
+    "tore": "85 : 74",
     "punkte": "26"
   },
   {
@@ -62,31 +62,31 @@
   {
     "platz": "7",
     "team": "HSV Krefeld II",
-    "spiele": "15",
-    "siege": "4",
+    "spiele": "16",
+    "siege": "5",
     "unentschieden": "2",
     "niederlagen": "9",
-    "tore": "49 : 86",
-    "punkte": "14"
+    "tore": "56 : 87",
+    "punkte": "17"
   },
   {
     "platz": "8",
     "team": "RESG Walsum II",
-    "spiele": "14",
+    "spiele": "15",
     "siege": "3",
-    "unentschieden": "1",
+    "unentschieden": "2",
     "niederlagen": "10",
-    "tore": "44 : 72",
-    "punkte": "10"
+    "tore": "49 : 77",
+    "punkte": "11"
   },
   {
     "platz": "9",
     "team": "SC Moskitos Wuppertal e.V.",
-    "spiele": "14",
+    "spiele": "15",
     "siege": "1",
-    "unentschieden": "1",
+    "unentschieden": "2",
     "niederlagen": "12",
-    "tore": "41 : 118",
-    "punkte": "4"
+    "tore": "46 : 123",
+    "punkte": "5"
   }
 ]
