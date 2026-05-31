@@ -32,15 +32,25 @@
   {
     "platz": "4",
     "team": "RHC Recklinghausen",
-    "spiele": "9",
+    "spiele": "10",
     "siege": "5",
     "unentschieden": "1",
-    "niederlagen": "3",
-    "tore": "31 : 43",
+    "niederlagen": "4",
+    "tore": "34 : 47",
     "punkte": "16"
   },
   {
     "platz": "5",
+    "team": "RSC Cronenberg II",
+    "spiele": "11",
+    "siege": "4",
+    "unentschieden": "1",
+    "niederlagen": "6",
+    "tore": "37 : 43",
+    "punkte": "13"
+  },
+  {
+    "platz": "6",
     "team": "SK Germania Herringen",
     "spiele": "10",
     "siege": "4",
@@ -48,16 +58,6 @@
     "niederlagen": "6",
     "tore": "43 : 42",
     "punkte": "12"
-  },
-  {
-    "platz": "6",
-    "team": "RSC Cronenberg II",
-    "spiele": "10",
-    "siege": "3",
-    "unentschieden": "1",
-    "niederlagen": "6",
-    "tore": "33 : 40",
-    "punkte": "10"
   },
   {
     "platz": "7",
