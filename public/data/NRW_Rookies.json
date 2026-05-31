@@ -2,12 +2,12 @@
   {
     "platz": "1",
     "team": "IGR Remscheid I",
-    "spiele": "10",
-    "siege": "10",
+    "spiele": "11",
+    "siege": "11",
     "unentschieden": "0",
     "niederlagen": "0",
-    "tore": "69 : 11",
-    "punkte": "30"
+    "tore": "81 : 16",
+    "punkte": "33"
   },
   {
     "platz": "2",
@@ -22,42 +22,42 @@
   {
     "platz": "3",
     "team": "IGR Remscheid II",
-    "spiele": "12",
-    "siege": "6",
+    "spiele": "13",
+    "siege": "7",
     "unentschieden": "0",
     "niederlagen": "6",
-    "tore": "45 : 31",
-    "punkte": "18"
+    "tore": "51 : 36",
+    "punkte": "21"
   },
   {
     "platz": "4",
     "team": "RHC Recklinghausen",
-    "spiele": "7",
+    "spiele": "8",
     "siege": "4",
     "unentschieden": "1",
-    "niederlagen": "2",
-    "tore": "24 : 30",
+    "niederlagen": "3",
+    "tore": "29 : 42",
     "punkte": "13"
   },
   {
     "platz": "5",
-    "team": "RSC Cronenberg II",
+    "team": "SK Germania Herringen",
     "spiele": "9",
-    "siege": "3",
-    "unentschieden": "1",
+    "siege": "4",
+    "unentschieden": "0",
     "niederlagen": "5",
-    "tore": "32 : 36",
-    "punkte": "10"
+    "tore": "37 : 34",
+    "punkte": "12"
   },
   {
     "platz": "6",
-    "team": "SK Germania Herringen",
-    "spiele": "7",
+    "team": "RSC Cronenberg II",
+    "spiele": "10",
     "siege": "3",
-    "unentschieden": "0",
-    "niederlagen": "4",
-    "tore": "28 : 27",
-    "punkte": "9"
+    "unentschieden": "1",
+    "niederlagen": "6",
+    "tore": "33 : 40",
+    "punkte": "10"
   },
   {
     "platz": "7",
