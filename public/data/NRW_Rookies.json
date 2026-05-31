@@ -2,12 +2,12 @@
   {
     "platz": "1",
     "team": "IGR Remscheid I",
-    "spiele": "11",
-    "siege": "11",
+    "spiele": "12",
+    "siege": "12",
     "unentschieden": "0",
     "niederlagen": "0",
-    "tore": "81 : 16",
-    "punkte": "33"
+    "tore": "89 : 22",
+    "punkte": "36"
   },
   {
     "platz": "2",
@@ -22,31 +22,31 @@
   {
     "platz": "3",
     "team": "IGR Remscheid II",
-    "spiele": "13",
+    "spiele": "14",
     "siege": "7",
     "unentschieden": "0",
-    "niederlagen": "6",
-    "tore": "51 : 36",
+    "niederlagen": "7",
+    "tore": "52 : 38",
     "punkte": "21"
   },
   {
     "platz": "4",
     "team": "RHC Recklinghausen",
-    "spiele": "8",
-    "siege": "4",
+    "spiele": "9",
+    "siege": "5",
     "unentschieden": "1",
     "niederlagen": "3",
-    "tore": "29 : 42",
-    "punkte": "13"
+    "tore": "31 : 43",
+    "punkte": "16"
   },
   {
     "platz": "5",
     "team": "SK Germania Herringen",
-    "spiele": "9",
+    "spiele": "10",
     "siege": "4",
     "unentschieden": "0",
-    "niederlagen": "5",
-    "tore": "37 : 34",
+    "niederlagen": "6",
+    "tore": "43 : 42",
     "punkte": "12"
   },
   {

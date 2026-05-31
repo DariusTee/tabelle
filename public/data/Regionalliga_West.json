@@ -1,23 +1,23 @@
 [
   {
     "platz": "1",
-    "team": "RSC Cronenberg II",
-    "spiele": "15",
+    "team": "IGR Remscheid II",
+    "spiele": "16",
     "siege": "13",
-    "unentschieden": "1",
+    "unentschieden": "2",
     "niederlagen": "1",
-    "tore": "144 : 53",
-    "punkte": "40"
+    "tore": "147 : 64",
+    "punkte": "41"
   },
   {
     "platz": "2",
-    "team": "IGR Remscheid II",
-    "spiele": "15",
-    "siege": "12",
-    "unentschieden": "2",
-    "niederlagen": "1",
-    "tore": "137 : 58",
-    "punkte": "38"
+    "team": "RSC Cronenberg II",
+    "spiele": "16",
+    "siege": "13",
+    "unentschieden": "1",
+    "niederlagen": "2",
+    "tore": "150 : 63",
+    "punkte": "40"
   },
   {
     "platz": "3",
@@ -42,22 +42,22 @@
   {
     "platz": "5",
     "team": "SK Germania Herringen II",
-    "spiele": "15",
+    "spiele": "16",
     "siege": "7",
     "unentschieden": "1",
-    "niederlagen": "7",
-    "tore": "65 : 79",
+    "niederlagen": "8",
+    "tore": "71 : 86",
     "punkte": "22"
   },
   {
     "platz": "6",
     "team": "HSV Krefeld I",
-    "spiele": "15",
-    "siege": "5",
+    "spiele": "16",
+    "siege": "6",
     "unentschieden": "2",
     "niederlagen": "8",
-    "tore": "64 : 84",
-    "punkte": "17"
+    "tore": "69 : 88",
+    "punkte": "20"
   },
   {
     "platz": "7",
@@ -72,21 +72,21 @@
   {
     "platz": "8",
     "team": "RESG Walsum II",
-    "spiele": "15",
+    "spiele": "16",
     "siege": "3",
     "unentschieden": "2",
-    "niederlagen": "10",
-    "tore": "49 : 77",
+    "niederlagen": "11",
+    "tore": "53 : 82",
     "punkte": "11"
   },
   {
     "platz": "9",
     "team": "SC Moskitos Wuppertal e.V.",
-    "spiele": "15",
-    "siege": "1",
+    "spiele": "16",
+    "siege": "2",
     "unentschieden": "2",
     "niederlagen": "12",
-    "tore": "46 : 123",
-    "punkte": "5"
+    "tore": "53 : 129",
+    "punkte": "8"
   }
 ]
