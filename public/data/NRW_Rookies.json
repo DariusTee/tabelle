@@ -2,12 +2,12 @@
   {
     "platz": "1",
     "team": "IGR Remscheid I",
-    "spiele": "12",
-    "siege": "12",
+    "spiele": "14",
+    "siege": "14",
     "unentschieden": "0",
     "niederlagen": "0",
-    "tore": "89 : 22",
-    "punkte": "36"
+    "tore": "99 : 22",
+    "punkte": "42"
   },
   {
     "platz": "2",
@@ -42,11 +42,11 @@
   {
     "platz": "5",
     "team": "RSC Cronenberg II",
-    "spiele": "11",
+    "spiele": "12",
     "siege": "4",
     "unentschieden": "1",
-    "niederlagen": "6",
-    "tore": "37 : 43",
+    "niederlagen": "7",
+    "tore": "37 : 48",
     "punkte": "13"
   },
   {
@@ -62,11 +62,11 @@
   {
     "platz": "7",
     "team": "RSC Cronenberg I",
-    "spiele": "11",
+    "spiele": "12",
     "siege": "2",
     "unentschieden": "1",
-    "niederlagen": "8",
-    "tore": "19 : 37",
+    "niederlagen": "9",
+    "tore": "19 : 42",
     "punkte": "7"
   },
   {
