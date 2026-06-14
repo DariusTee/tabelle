@@ -41,6 +41,16 @@
   },
   {
     "platz": "5",
+    "team": "SK Germania Herringen",
+    "spiele": "11",
+    "siege": "5",
+    "unentschieden": "0",
+    "niederlagen": "6",
+    "tore": "53 : 42",
+    "punkte": "15"
+  },
+  {
+    "platz": "6",
     "team": "RSC Cronenberg II",
     "spiele": "12",
     "siege": "4",
@@ -48,16 +58,6 @@
     "niederlagen": "7",
     "tore": "37 : 48",
     "punkte": "13"
-  },
-  {
-    "platz": "6",
-    "team": "SK Germania Herringen",
-    "spiele": "10",
-    "siege": "4",
-    "unentschieden": "0",
-    "niederlagen": "6",
-    "tore": "43 : 42",
-    "punkte": "12"
   },
   {
     "platz": "7",
@@ -72,11 +72,11 @@
   {
     "platz": "8",
     "team": "Hülser SV Krefeld",
-    "spiele": "9",
+    "spiele": "10",
     "siege": "0",
     "unentschieden": "0",
-    "niederlagen": "9",
-    "tore": "1 : 70",
+    "niederlagen": "10",
+    "tore": "1 : 80",
     "punkte": "0"
   }
 ]
