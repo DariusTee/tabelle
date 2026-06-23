@@ -7,30 +7,37 @@ const ligas = [
   {
     name: "1. Bundesliga Herren Spielplan",
     url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=407&typ=liga&list=all",
+    allTeams: false,
   },
   {
     name: "Bundesliga Damen Spielplan",
     url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=411&typ=liga&list=all",
+    allTeams: false,
   },
   {
     name: "Regionalliga West Spielplan",
     url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=421&typ=liga&list=all",
+    allTeams: false,
   },
   {
     name: "NRW C-Jugend Spielplan",
     url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=416&typ=liga&list=all",
+    allTeams: false,
   },
   {
     name: "NRW D-Jugend Spielplan",
     url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=417&typ=liga&list=all",
+    allTeams: false,
   },
   {
     name: "NRW Rookies Spielplan",
     url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=418&typ=liga&list=all",
+    allTeams: false,
   },
   {
     name: "Rookies-Cup Spielplan",
     url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=449&typ=liga&list=all",
+    allTeams: true,
   },
 ];
 
@@ -75,23 +82,25 @@ const ligaToTeam = {
         .map((spiel) => {
           const [day, month, yearAndTime] = spiel.datum.split('.');
           const [year, fullTime] = yearAndTime.split(' ');
-          const [hour, minute] = fullTime.split(':'); // Sekunden ignorieren
-          const time = `${hour}:${minute}`;
+          const [hour, minute] = fullTime.split(':');
 
-          return {
-            type: "Spiel",
-            team: ligaToTeam[spiel.liga] || "Unbekannt",
-            date: `${year}-${month}-${day}`, // YYYY-MM-DD
-            time: time, // HH:MM
-            location: spiel.spielort,
-            description: spiel.liga,
-            home: spiel.heim,
-            away: spiel.gast,
-            result: spiel.resultat || null,
-          };
+        return {
+          type: "Spiel",
+          team: ligaToTeam[spiel.liga] || "Unbekannt",
+          date: `${year}-${month}-${day}`,
+          time: `${hour}:${minute}`,
+          location: spiel.spielort,
+          description: spiel.liga,
+          home: spiel.heim,
+          away: spiel.gast,
+          result: spiel.resultat || null,
+         };
         })
         .filter(
-          (spiel) => teams.includes(spiel.home) || teams.includes(spiel.away)
+          (spiel) =>
+            liga.allTeams ||
+            teams.includes(spiel.home) ||
+            teams.includes(spiel.away)
         );
 
       // 🔥 Optional: nach Datum sortieren
