@@ -28,6 +28,10 @@ const ligas = [
     name: "NRW Rookies Spielplan",
     url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=418&typ=liga&list=all",
   },
+  {
+    name: "Rookies-Cup Spielplan",
+    url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=449&typ=liga&list=all",
+  },
 ];
 
 const ligaToTeam = {
