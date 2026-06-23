@@ -10,6 +10,7 @@ const ligas = [
   { name: 'NRW C-Jugend', url: 'https://spielplan.rollhockey.de/lm/saison/29/liga/416/tabelle?displayName=NRW%20C-Jugend&backlinkIds=416&playoffLeagueId=NaN&playoutLeagueId=NaN' },
   { name: 'NRW D-Jugend', url: 'https://spielplan.rollhockey.de/lm/saison/29/liga/417/tabelle?displayName=NRW%20D-Jugend&backlinkIds=417&playoffLeagueId=NaN&playoutLeagueId=NaN' },
   { name: 'NRW Rookies', url: 'https://spielplan.rollhockey.de/lm/saison/29/liga/418/tabelle?displayName=Rookies%20Landesmeisterschaft&backlinkIds=418&playoffLeagueId=NaN&playoutLeagueId=NaN' },
+  { name: 'Rookies-Cup', url: 'https://spielplan.rollhockey.de/lm/saison/29/liga/449/tabelle?displayName=Rookie%20Cup%20&backlinkIds=449&playoffLeagueId=NaN&playoutLeagueId=NaN' },
 ];
 
 (async () => {
