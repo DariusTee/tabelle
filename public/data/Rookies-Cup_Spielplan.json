@@ -14,11 +14,66 @@
     "type": "Spiel",
     "team": "Unbekannt",
     "date": "2026-06-27",
+    "time": "10:45",
+    "location": "Recklinghausen",
+    "description": "Rookie Cup",
+    "home": "RSC Cronenberg",
+    "away": "IGR Remscheid",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-06-27",
     "time": "12:15",
     "location": "Recklinghausen",
     "description": "Rookie Cup",
     "home": "RHC Recklinghausen",
     "away": "RSC Gera",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-06-27",
+    "time": "14:00",
+    "location": "Recklinghausen",
+    "description": "Rookie Cup",
+    "home": "Hülser SV Krefeld",
+    "away": "RSC Cronenberg",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-06-27",
+    "time": "14:45",
+    "location": "Recklinghausen",
+    "description": "Rookie Cup",
+    "home": "RSC Gera",
+    "away": "IGR Remscheid",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-06-28",
+    "time": "10:00",
+    "location": "Recklinghausen",
+    "description": "Rookie Cup",
+    "home": "RSC Cronenberg",
+    "away": "RSC Gera",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-06-28",
+    "time": "10:45",
+    "location": "Recklinghausen",
+    "description": "Rookie Cup",
+    "home": "IGR Remscheid",
+    "away": "Hülser SV Krefeld",
     "result": null
   },
   {
@@ -30,6 +85,17 @@
     "description": "Rookie Cup",
     "home": "RHC Recklinghausen",
     "away": "RSC Cronenberg",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-06-28",
+    "time": "13:45",
+    "location": "Recklinghausen",
+    "description": "Rookie Cup",
+    "home": "Hülser SV Krefeld",
+    "away": "RSC Gera",
     "result": null
   },
   {
