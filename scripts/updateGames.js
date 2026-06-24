@@ -39,6 +39,11 @@ const ligas = [
     url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=449&typ=liga&list=all",
     allTeams: true,
   },
+  {
+    name: "Regio Final Four Spielplan",
+    url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=404&typ=liga&list=all",
+    allTeams: false,
+  },
 ];
 
 const ligaToTeam = {
