@@ -8,6 +8,17 @@
     "description": "NRW Regionalliga - Final Four",
     "home": "IGR Remscheid II",
     "away": "RHC Recklinghausen II",
+    "result": "0:10"
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-06-27",
+    "time": "12:00",
+    "location": "Düsseldorf - Finale",
+    "description": "NRW Regionalliga - Final Four",
+    "home": "RHC Recklinghausen II",
+    "away": "Gewinner Halbfinale 2",
     "result": null
   }
 ]
