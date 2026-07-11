@@ -12,15 +12,25 @@
   {
     "platz": "2",
     "team": "TuS-Düsseldorf Nord",
-    "spiele": "12",
+    "spiele": "13",
     "siege": "9",
-    "unentschieden": "1",
+    "unentschieden": "2",
     "niederlagen": "2",
-    "tore": "51 : 20",
-    "punkte": "28"
+    "tore": "56 : 25",
+    "punkte": "29"
   },
   {
     "platz": "3",
+    "team": "RHC Recklinghausen",
+    "spiele": "13",
+    "siege": "7",
+    "unentschieden": "2",
+    "niederlagen": "4",
+    "tore": "53 : 58",
+    "punkte": "23"
+  },
+  {
+    "platz": "4",
     "team": "IGR Remscheid II",
     "spiele": "14",
     "siege": "7",
@@ -30,24 +40,14 @@
     "punkte": "21"
   },
   {
-    "platz": "4",
-    "team": "RHC Recklinghausen",
-    "spiele": "12",
-    "siege": "6",
-    "unentschieden": "2",
-    "niederlagen": "4",
-    "tore": "46 : 57",
-    "punkte": "20"
-  },
-  {
     "platz": "5",
     "team": "SK Germania Herringen",
-    "spiele": "13",
+    "spiele": "14",
     "siege": "6",
-    "unentschieden": "0",
+    "unentschieden": "1",
     "niederlagen": "7",
-    "tore": "69 : 57",
-    "punkte": "18"
+    "tore": "74 : 62",
+    "punkte": "19"
   },
   {
     "platz": "6",
@@ -72,11 +72,11 @@
   {
     "platz": "8",
     "team": "Hülser SV Krefeld",
-    "spiele": "12",
+    "spiele": "13",
     "siege": "0",
     "unentschieden": "0",
-    "niederlagen": "12",
-    "tore": "1 : 92",
+    "niederlagen": "13",
+    "tore": "2 : 99",
     "punkte": "0"
   }
 ]
