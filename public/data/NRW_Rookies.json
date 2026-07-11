@@ -12,12 +12,12 @@
   {
     "platz": "2",
     "team": "TuS-Düsseldorf Nord",
-    "spiele": "11",
-    "siege": "8",
+    "spiele": "12",
+    "siege": "9",
     "unentschieden": "1",
     "niederlagen": "2",
-    "tore": "44 : 20",
-    "punkte": "25"
+    "tore": "51 : 20",
+    "punkte": "28"
   },
   {
     "platz": "3",
@@ -31,6 +31,16 @@
   },
   {
     "platz": "4",
+    "team": "SK Germania Herringen",
+    "spiele": "12",
+    "siege": "6",
+    "unentschieden": "0",
+    "niederlagen": "6",
+    "tore": "63 : 49",
+    "punkte": "18"
+  },
+  {
+    "platz": "5",
     "team": "RHC Recklinghausen",
     "spiele": "11",
     "siege": "5",
@@ -38,16 +48,6 @@
     "niederlagen": "4",
     "tore": "38 : 51",
     "punkte": "17"
-  },
-  {
-    "platz": "5",
-    "team": "SK Germania Herringen",
-    "spiele": "11",
-    "siege": "5",
-    "unentschieden": "0",
-    "niederlagen": "6",
-    "tore": "53 : 42",
-    "punkte": "15"
   },
   {
     "platz": "6",
@@ -62,21 +62,21 @@
   {
     "platz": "7",
     "team": "RSC Cronenberg I",
-    "spiele": "13",
+    "spiele": "14",
     "siege": "2",
     "unentschieden": "2",
-    "niederlagen": "9",
-    "tore": "23 : 46",
+    "niederlagen": "10",
+    "tore": "30 : 56",
     "punkte": "8"
   },
   {
     "platz": "8",
     "team": "Hülser SV Krefeld",
-    "spiele": "10",
+    "spiele": "11",
     "siege": "0",
     "unentschieden": "0",
-    "niederlagen": "10",
-    "tore": "1 : 80",
+    "niederlagen": "11",
+    "tore": "1 : 87",
     "punkte": "0"
   }
 ]
