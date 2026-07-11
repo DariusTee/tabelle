@@ -52,12 +52,12 @@
   {
     "platz": "6",
     "team": "RSC Cronenberg II",
-    "spiele": "12",
-    "siege": "4",
+    "spiele": "13",
+    "siege": "5",
     "unentschieden": "1",
     "niederlagen": "7",
-    "tore": "37 : 48",
-    "punkte": "13"
+    "tore": "42 : 48",
+    "punkte": "16"
   },
   {
     "platz": "7",
@@ -72,11 +72,11 @@
   {
     "platz": "8",
     "team": "Hülser SV Krefeld",
-    "spiele": "11",
+    "spiele": "12",
     "siege": "0",
     "unentschieden": "0",
-    "niederlagen": "11",
-    "tore": "1 : 87",
+    "niederlagen": "12",
+    "tore": "1 : 92",
     "punkte": "0"
   }
 ]
