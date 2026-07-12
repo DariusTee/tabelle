@@ -118,7 +118,7 @@
     "description": "Rookies Landesmeisterschaft",
     "home": "RHC Recklinghausen",
     "away": "RSC Cronenberg I",
-    "result": null
+    "result": "4:4"
   },
   {
     "type": "Spiel",
@@ -129,7 +129,7 @@
     "description": "Rookies Landesmeisterschaft",
     "home": "RHC Recklinghausen",
     "away": "SK Germania Herringen",
-    "result": null
+    "result": "8:6"
   },
   {
     "type": "Spiel",
@@ -140,7 +140,7 @@
     "description": "Rookies Landesmeisterschaft",
     "home": "RHC Recklinghausen",
     "away": "Hülser SV Krefeld",
-    "result": null
+    "result": "7:1"
   },
   {
     "type": "Spiel",
@@ -151,6 +151,6 @@
     "description": "Rookies Landesmeisterschaft",
     "home": "Hülser SV Krefeld",
     "away": "RHC Recklinghausen",
-    "result": null
+    "result": "1:4"
   }
 ]
