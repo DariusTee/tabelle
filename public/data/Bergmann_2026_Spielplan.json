@@ -1,0 +1,233 @@
+[
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-08-29",
+    "time": "10:00",
+    "location": "Recklinghausen",
+    "description": "19. Recklinghäuser Bergmann",
+    "home": "RHC Team Alt",
+    "away": "RHC Team Jung",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-08-29",
+    "time": "10:50",
+    "location": "Recklinghausen",
+    "description": "19. Recklinghäuser Bergmann",
+    "home": "SK Germania Herringen",
+    "away": "TuS-Düsseldorf Nord",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-08-29",
+    "time": "11:40",
+    "location": "Recklinghausen",
+    "description": "19. Recklinghäuser Bergmann",
+    "home": "Zaanse RC",
+    "away": "RSC Gera",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-08-29",
+    "time": "12:30",
+    "location": "Recklinghausen",
+    "description": "19. Recklinghäuser Bergmann",
+    "home": "RHC Team Alt",
+    "away": "RHC Gipf-Oberfrick",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-08-29",
+    "time": "13:20",
+    "location": "Recklinghausen",
+    "description": "19. Recklinghäuser Bergmann",
+    "home": "RHC Team Jung",
+    "away": "SK Germania Herringen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-08-29",
+    "time": "14:10",
+    "location": "Recklinghausen",
+    "description": "19. Recklinghäuser Bergmann",
+    "home": "TuS-Düsseldorf Nord",
+    "away": "Zaanse RC",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-08-29",
+    "time": "15:00",
+    "location": "Recklinghausen",
+    "description": "19. Recklinghäuser Bergmann",
+    "home": "RSC Gera",
+    "away": "RHC Gipf-Oberfrick",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-08-29",
+    "time": "15:50",
+    "location": "Recklinghausen",
+    "description": "19. Recklinghäuser Bergmann",
+    "home": "RHC Team Alt",
+    "away": "SK Germania Herringen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-08-29",
+    "time": "16:40",
+    "location": "Recklinghausen",
+    "description": "19. Recklinghäuser Bergmann",
+    "home": "RHC Team Jung",
+    "away": "Zaanse RC",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-08-29",
+    "time": "17:30",
+    "location": "Recklinghausen",
+    "description": "19. Recklinghäuser Bergmann",
+    "home": "TuS-Düsseldorf Nord",
+    "away": "RHC Gipf-Oberfrick",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-08-29",
+    "time": "18:20",
+    "location": "Recklinghausen",
+    "description": "19. Recklinghäuser Bergmann",
+    "home": "SK Germania Herringen",
+    "away": "Zaanse RC",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-08-29",
+    "time": "19:10",
+    "location": "Recklinghausen",
+    "description": "19. Recklinghäuser Bergmann",
+    "home": "RHC Team Alt",
+    "away": "RSC Gera",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-08-30",
+    "time": "09:00",
+    "location": "Recklinghausen",
+    "description": "19. Recklinghäuser Bergmann",
+    "home": "TuS-Düsseldorf Nord",
+    "away": "RSC Gera",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-08-30",
+    "time": "09:50",
+    "location": "Recklinghausen",
+    "description": "19. Recklinghäuser Bergmann",
+    "home": "RHC Team Jung",
+    "away": "RHC Gipf-Oberfrick",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-08-30",
+    "time": "10:40",
+    "location": "Recklinghausen",
+    "description": "19. Recklinghäuser Bergmann",
+    "home": "RHC Team Alt",
+    "away": "Zaanse RC",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-08-30",
+    "time": "11:30",
+    "location": "Recklinghausen",
+    "description": "19. Recklinghäuser Bergmann",
+    "home": "SK Germania Herringen",
+    "away": "RHC Gipf-Oberfrick",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-08-30",
+    "time": "12:20",
+    "location": "Recklinghausen",
+    "description": "19. Recklinghäuser Bergmann",
+    "home": "RHC Team Jung",
+    "away": "RSC Gera",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-08-30",
+    "time": "13:10",
+    "location": "Recklinghausen",
+    "description": "19. Recklinghäuser Bergmann",
+    "home": "RHC Team Alt",
+    "away": "TuS-Düsseldorf Nord",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-08-30",
+    "time": "14:00",
+    "location": "Recklinghausen",
+    "description": "19. Recklinghäuser Bergmann",
+    "home": "Zaanse RC",
+    "away": "RHC Gipf-Oberfrick",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-08-30",
+    "time": "14:50",
+    "location": "Recklinghausen",
+    "description": "19. Recklinghäuser Bergmann",
+    "home": "SK Germania Herringen",
+    "away": "RSC Gera",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-08-30",
+    "time": "15:40",
+    "location": "Recklinghausen",
+    "description": "19. Recklinghäuser Bergmann",
+    "home": "RHC Team Jung",
+    "away": "TuS-Düsseldorf Nord",
+    "result": null
+  }
+]
