@@ -1,17 +1,17 @@
 [
   {
     "platz": "1",
-    "team": "RHC Team Alt",
-    "spiele": "0",
-    "siege": "0",
+    "team": "RHC Team Jung",
+    "spiele": "1",
+    "siege": "1",
     "unentschieden": "0",
     "niederlagen": "0",
-    "tore": "0 : 0",
-    "punkte": "0"
+    "tore": "1 : 0",
+    "punkte": "3"
   },
   {
     "platz": "2",
-    "team": "RHC Team Jung",
+    "team": "RHC Gipf-Oberfrick",
     "spiele": "0",
     "siege": "0",
     "unentschieden": "0",
@@ -21,36 +21,6 @@
   },
   {
     "platz": "3",
-    "team": "SK Germania Herringen",
-    "spiele": "0",
-    "siege": "0",
-    "unentschieden": "0",
-    "niederlagen": "0",
-    "tore": "0 : 0",
-    "punkte": "0"
-  },
-  {
-    "platz": "4",
-    "team": "TuS-Düsseldorf Nord",
-    "spiele": "0",
-    "siege": "0",
-    "unentschieden": "0",
-    "niederlagen": "0",
-    "tore": "0 : 0",
-    "punkte": "0"
-  },
-  {
-    "platz": "5",
-    "team": "Zaanse RC",
-    "spiele": "0",
-    "siege": "0",
-    "unentschieden": "0",
-    "niederlagen": "0",
-    "tore": "0 : 0",
-    "punkte": "0"
-  },
-  {
-    "platz": "6",
     "team": "RSC Gera",
     "spiele": "0",
     "siege": "0",
@@ -60,13 +30,43 @@
     "punkte": "0"
   },
   {
-    "platz": "7",
-    "team": "RHC Gipf-Oberfrick",
+    "platz": "4",
+    "team": "SK Germania Herringen",
     "spiele": "0",
     "siege": "0",
     "unentschieden": "0",
     "niederlagen": "0",
     "tore": "0 : 0",
+    "punkte": "0"
+  },
+  {
+    "platz": "5",
+    "team": "TuS-Düsseldorf Nord",
+    "spiele": "0",
+    "siege": "0",
+    "unentschieden": "0",
+    "niederlagen": "0",
+    "tore": "0 : 0",
+    "punkte": "0"
+  },
+  {
+    "platz": "6",
+    "team": "Zaanse RC",
+    "spiele": "0",
+    "siege": "0",
+    "unentschieden": "0",
+    "niederlagen": "0",
+    "tore": "0 : 0",
+    "punkte": "0"
+  },
+  {
+    "platz": "7",
+    "team": "RHC Team Alt",
+    "spiele": "1",
+    "siege": "0",
+    "unentschieden": "0",
+    "niederlagen": "1",
+    "tore": "0 : 1",
     "punkte": "0"
   }
 ]
