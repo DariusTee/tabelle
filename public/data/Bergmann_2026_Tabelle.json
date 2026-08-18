@@ -1,27 +1,27 @@
 [
   {
     "platz": "1",
-    "team": "RHC Team Alt",
-    "spiele": "1",
+    "team": "RHC Gipf-Oberfrick",
+    "spiele": "0",
     "siege": "0",
-    "unentschieden": "1",
+    "unentschieden": "0",
     "niederlagen": "0",
     "tore": "0 : 0",
-    "punkte": "1"
+    "punkte": "0"
   },
   {
     "platz": "2",
-    "team": "RHC Team Jung",
-    "spiele": "1",
+    "team": "RHC Team Alt",
+    "spiele": "0",
     "siege": "0",
-    "unentschieden": "1",
+    "unentschieden": "0",
     "niederlagen": "0",
     "tore": "0 : 0",
-    "punkte": "1"
+    "punkte": "0"
   },
   {
     "platz": "3",
-    "team": "RHC Gipf-Oberfrick",
+    "team": "RHC Team Jung",
     "spiele": "0",
     "siege": "0",
     "unentschieden": "0",
