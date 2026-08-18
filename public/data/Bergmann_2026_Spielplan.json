@@ -8,7 +8,7 @@
     "description": "19. Recklinghäuser Bergmann",
     "home": "RHC Team Alt",
     "away": "RHC Team Jung",
-    "result": null
+    "result": null // Ergebnis eintragen. Beispiel: 4:5
   },
   {
     "type": "Spiel",
