@@ -6,8 +6,8 @@
     "time": "10:00",
     "location": "Recklinghausen",
     "description": "19. Recklinghäuser Bergmann",
-    "home": "RHC Team Alt",
-    "away": "RHC Team Jung",
+    "home": "RHC Team Jung",
+    "away": "RHC Team Alt",
     "result": null
   },
   {
@@ -39,7 +39,7 @@
     "time": "12:30",
     "location": "Recklinghausen",
     "description": "19. Recklinghäuser Bergmann",
-    "home": "RHC Team Alt",
+    "home": "RHC Team Jung",
     "away": "RHC Gipf-Oberfrick",
     "result": null
   },
@@ -50,7 +50,7 @@
     "time": "13:20",
     "location": "Recklinghausen",
     "description": "19. Recklinghäuser Bergmann",
-    "home": "RHC Team Jung",
+    "home": "RHC Team Alt",
     "away": "SK Germania Herringen",
     "result": null
   },
@@ -83,7 +83,7 @@
     "time": "15:50",
     "location": "Recklinghausen",
     "description": "19. Recklinghäuser Bergmann",
-    "home": "RHC Team Alt",
+    "home": "RHC Team Jung",
     "away": "SK Germania Herringen",
     "result": null
   },
@@ -94,7 +94,7 @@
     "time": "16:40",
     "location": "Recklinghausen",
     "description": "19. Recklinghäuser Bergmann",
-    "home": "RHC Team Jung",
+    "home": "RHC Team Alt",
     "away": "Zaanse RC",
     "result": null
   },
@@ -127,7 +127,7 @@
     "time": "19:10",
     "location": "Recklinghausen",
     "description": "19. Recklinghäuser Bergmann",
-    "home": "RHC Team Alt",
+    "home": "RHC Team Jung",
     "away": "RSC Gera",
     "result": null
   },
@@ -149,7 +149,7 @@
     "time": "09:50",
     "location": "Recklinghausen",
     "description": "19. Recklinghäuser Bergmann",
-    "home": "RHC Team Jung",
+    "home": "RHC Team Alt",
     "away": "RHC Gipf-Oberfrick",
     "result": null
   },
@@ -160,7 +160,7 @@
     "time": "10:40",
     "location": "Recklinghausen",
     "description": "19. Recklinghäuser Bergmann",
-    "home": "RHC Team Alt",
+    "home": "RHC Team Jung",
     "away": "Zaanse RC",
     "result": null
   },
@@ -182,7 +182,7 @@
     "time": "12:20",
     "location": "Recklinghausen",
     "description": "19. Recklinghäuser Bergmann",
-    "home": "RHC Team Jung",
+    "home": "RHC Team Alt",
     "away": "RSC Gera",
     "result": null
   },
@@ -193,7 +193,7 @@
     "time": "13:10",
     "location": "Recklinghausen",
     "description": "19. Recklinghäuser Bergmann",
-    "home": "RHC Team Alt",
+    "home": "RHC Team Jung",
     "away": "TuS-Düsseldorf Nord",
     "result": null
   },
@@ -226,7 +226,7 @@
     "time": "15:40",
     "location": "Recklinghausen",
     "description": "19. Recklinghäuser Bergmann",
-    "home": "RHC Team Jung",
+    "home": "RHC Team Alt",
     "away": "TuS-Düsseldorf Nord",
     "result": null
   }
