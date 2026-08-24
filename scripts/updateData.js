@@ -4,7 +4,8 @@ import path from 'path';
 
 // ⚡ Hier alle Ligen eintragen
 const ligas = [
-  { name: '1. Bundesliga Herren', url: 'https://spielplan.rollhockey.de/lm/saison/29/liga/407/tabelle?displayName=1.%20Bundesliga%20Herren&backlinkIds=407' },
+  { name: '1. Bundesliga Herren 26/27', url: 'https://service.liga.rollhockey.de/xml/tabelle.aspx?typ=liga&id=643' },
+  { name: '1. Bundesliga Herren 25/26', url: 'https://spielplan.rollhockey.de/lm/saison/29/liga/407/tabelle?displayName=1.%20Bundesliga%20Herren&backlinkIds=407' },
   { name: 'Regionalliga West', url: 'https://spielplan.rollhockey.de/lm/saison/29/liga/421/tabelle?displayName=Regionalliga%20West&backlinkIds=421&playoffLeagueId=NaN&playoutLeagueId=NaN' },
   { name: 'Bundesliga Damen', url: 'https://spielplan.rollhockey.de/lm/saison/29/liga/411/tabelle?displayName=1.%20Bundesliga%20Damen&backlinkIds=411&playoffLeagueId=NaN&playoutLeagueId=NaN' },
   { name: 'NRW C-Jugend', url: 'https://spielplan.rollhockey.de/lm/saison/29/liga/416/tabelle?displayName=NRW%20C-Jugend&backlinkIds=416&playoffLeagueId=NaN&playoutLeagueId=NaN' },
