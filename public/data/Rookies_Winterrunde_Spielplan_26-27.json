@@ -1,0 +1,90 @@
+[
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-09-27",
+    "time": "10:00",
+    "location": "Wuppertal-Cronenberg",
+    "description": "Rookies Winterrunde",
+    "home": "RSC Cronenberg",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-09-27",
+    "time": "12:15",
+    "location": "Wuppertal-Cronenberg",
+    "description": "Rookies Winterrunde",
+    "home": "RHC Recklinghausen",
+    "away": "IGR Remscheid II",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-11-15",
+    "time": "13:00",
+    "location": "Recklinghausen",
+    "description": "Rookies Winterrunde",
+    "home": "RHC Recklinghausen",
+    "away": "TuS Düsseldorf-Nord",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-11-15",
+    "time": "16:00",
+    "location": "Recklinghausen",
+    "description": "Rookies Winterrunde",
+    "home": "RHC Recklinghausen",
+    "away": "RSC Cronenberg",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-12-06",
+    "time": "10:30",
+    "location": "Krefeld-Hüls",
+    "description": "Rookies Winterrunde",
+    "home": "RHC Recklinghausen",
+    "away": "IGR Remscheid I",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-12-06",
+    "time": "12:00",
+    "location": "Krefeld-Hüls",
+    "description": "Rookies Winterrunde",
+    "home": "Hülser SV Krefeld*",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2027-01-24",
+    "time": "10:30",
+    "location": "Remscheid",
+    "description": "Rookies Winterrunde",
+    "home": "TuS Düsseldorf-Nord",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2027-01-24",
+    "time": "12:45",
+    "location": "Remscheid",
+    "description": "Rookies Winterrunde",
+    "home": "IGR Remscheid II",
+    "away": "RHC Recklinghausen",
+    "result": null
+  }
+]

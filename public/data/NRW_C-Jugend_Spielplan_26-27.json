@@ -1,0 +1,222 @@
+[
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2026-09-27",
+    "time": "09:00",
+    "location": "Krefeld-Hüls",
+    "description": "NRW C-Jugend",
+    "home": "Hülser SV Krefeld I",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2026-09-27",
+    "time": "11:10",
+    "location": "Krefeld-Hüls",
+    "description": "NRW C-Jugend",
+    "home": "Hülser SV Krefeld II*",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2026-10-11",
+    "time": "14:20",
+    "location": "Düsseldorf",
+    "description": "NRW C-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "IGR Remscheid II",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2026-10-11",
+    "time": "15:40",
+    "location": "Düsseldorf",
+    "description": "NRW C-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "IGR Remscheid I",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2026-12-06",
+    "time": "10:00",
+    "location": "Recklinghausen",
+    "description": "NRW C-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "SK Germania Herringen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2026-12-06",
+    "time": "13:20",
+    "location": "Recklinghausen",
+    "description": "NRW C-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "RSC Cronenberg",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2027-01-24",
+    "time": "10:00",
+    "location": "Iserlohn",
+    "description": "NRW C-Jugend",
+    "home": "ERG Iserlohn*",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2027-01-24",
+    "time": "10:00",
+    "location": "Recklinghausen",
+    "description": "NRW C-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "RSC Gera*",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2027-01-24",
+    "time": "12:00",
+    "location": "Recklinghausen",
+    "description": "NRW C-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "TuS Düsseldorf-Nord",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2027-01-24",
+    "time": "12:10",
+    "location": "Iserlohn",
+    "description": "NRW C-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "VfL Hüls",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2027-02-21",
+    "time": "10:00",
+    "location": "Krefeld-Hüls",
+    "description": "NRW C-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "Hülser SV Krefeld II*",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2027-02-21",
+    "time": "12:10",
+    "location": "Krefeld-Hüls",
+    "description": "NRW C-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "Hülser SV Krefeld I",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2027-03-07",
+    "time": "10:40",
+    "location": "Wuppertal-Cronenberg",
+    "description": "NRW C-Jugend",
+    "home": "IGR Remscheid II",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2027-03-07",
+    "time": "12:20",
+    "location": "Wuppertal-Cronenberg",
+    "description": "NRW C-Jugend",
+    "home": "RSC Cronenberg",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2027-04-11",
+    "time": "10:00",
+    "location": "Recklinghausen",
+    "description": "NRW C-Jugend",
+    "home": "SK Germania Herringen",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2027-04-11",
+    "time": "13:00",
+    "location": "Recklinghausen",
+    "description": "NRW C-Jugend",
+    "home": "RSC Gera*",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2027-04-25",
+    "time": "10:00",
+    "location": "Marl-Hüls",
+    "description": "NRW C-Jugend",
+    "home": "VfL Hüls",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2027-04-25",
+    "time": "12:10",
+    "location": "Marl-Hüls",
+    "description": "NRW C-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "ERG Iserlohn*",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2027-05-23",
+    "time": "09:00",
+    "location": "Düsseldorf",
+    "description": "NRW C-Jugend",
+    "home": "TuS Düsseldorf-Nord",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "C-Jugend",
+    "date": "2027-05-23",
+    "time": "10:00",
+    "location": "Düsseldorf",
+    "description": "NRW C-Jugend",
+    "home": "IGR Remscheid I",
+    "away": "RHC Recklinghausen",
+    "result": null
+  }
+]

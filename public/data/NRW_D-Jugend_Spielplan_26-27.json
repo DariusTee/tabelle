@@ -1,0 +1,156 @@
+[
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2026-09-13",
+    "time": "10:00",
+    "location": "Iserlohn",
+    "description": "NRW D-Jugend",
+    "home": "ERG Iserlohn*",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2026-09-13",
+    "time": "12:10",
+    "location": "Iserlohn",
+    "description": "NRW D-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "TuS Düsseldorf-Nord",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2026-10-04",
+    "time": "10:00",
+    "location": "Remscheid",
+    "description": "NRW D-Jugend",
+    "home": "IGR Remscheid I",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2026-10-04",
+    "time": "12:10",
+    "location": "Remscheid",
+    "description": "NRW D-Jugend",
+    "home": "IGR Remscheid II",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2026-11-29",
+    "time": "10:00",
+    "location": "Recklinghausen",
+    "description": "NRW D-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "RSC Cronenberg",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2026-11-29",
+    "time": "13:00",
+    "location": "Recklinghausen",
+    "description": "NRW D-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "IGR Remscheid II",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2027-01-17",
+    "time": "10:50",
+    "location": "Wuppertal-Cronenberg (+B)",
+    "description": "NRW D-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "SK Germania Herringen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2027-01-17",
+    "time": "12:40",
+    "location": "Wuppertal-Cronenberg (+B)",
+    "description": "NRW D-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "RESG Walsum",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2027-02-28",
+    "time": "10:00",
+    "location": "Recklinghausen",
+    "description": "NRW D-Jugend",
+    "home": "RSC Cronenberg",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2027-02-28",
+    "time": "13:00",
+    "location": "Recklinghausen",
+    "description": "NRW D-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "IGR Remscheid I",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2027-04-18",
+    "time": "10:00",
+    "location": "Hamm-Herringen",
+    "description": "NRW D-Jugend",
+    "home": "SK Germania Herringen",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2027-04-18",
+    "time": "12:10",
+    "location": "Hamm-Herringen",
+    "description": "NRW D-Jugend",
+    "home": "TuS Düsseldorf-Nord",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2027-05-30",
+    "time": "09:00",
+    "location": "Iserlohn",
+    "description": "NRW D-Jugend",
+    "home": "RHC Recklinghausen",
+    "away": "ERG Iserlohn*",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "D-Jugend",
+    "date": "2027-05-30",
+    "time": "11:10",
+    "location": "Iserlohn",
+    "description": "NRW D-Jugend",
+    "home": "RESG Walsum",
+    "away": "RHC Recklinghausen",
+    "result": null
+  }
+]
