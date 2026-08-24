@@ -5,7 +5,12 @@ import { parseStringPromise } from "xml2js";
 // ⚡ Ligen hier eintragen
 const ligas = [
   {
-    name: "1. Bundesliga Herren Spielplan",
+    name: "1. Bundesliga Herren Spielplan 26/27",
+    url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=643&typ=liga&list=all",
+    allTeams: false,
+  },
+  {
+    name: "1. Bundesliga Herren Spielplan 25/26",
     url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=407&typ=liga&list=all",
     allTeams: false,
   },
