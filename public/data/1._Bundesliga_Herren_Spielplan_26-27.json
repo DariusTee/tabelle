@@ -1,0 +1,167 @@
+[
+  {
+    "type": "Spiel",
+    "team": "1. Herren",
+    "date": "2026-10-03",
+    "time": "15:00",
+    "location": "Remscheid",
+    "description": "1. Bundesliga Herren",
+    "home": "IGR Remscheid",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "1. Herren",
+    "date": "2026-10-10",
+    "time": "16:00",
+    "location": "Düsseldorf",
+    "description": "1. Bundesliga Herren",
+    "home": "TuS-Düsseldorf Nord",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "1. Herren",
+    "date": "2026-10-17",
+    "time": "16:00",
+    "location": "Recklinghausen",
+    "description": "1. Bundesliga Herren",
+    "home": "RHC Recklinghausen",
+    "away": "RESG Walsum",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "1. Herren",
+    "date": "2026-10-24",
+    "time": "18:00",
+    "location": "Recklinghausen",
+    "description": "1. Bundesliga Herren",
+    "home": "RHC Recklinghausen",
+    "away": "RSC Cronenberg",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "1. Herren",
+    "date": "2026-10-31",
+    "time": "16:00",
+    "location": "Herringen",
+    "description": "1. Bundesliga Herren",
+    "home": "SK Germania Herringen",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "1. Herren",
+    "date": "2026-11-21",
+    "time": "18:00",
+    "location": "Walsum",
+    "description": "1. Bundesliga Herren",
+    "home": "RESG Walsum",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "1. Herren",
+    "date": "2026-12-12",
+    "time": "18:00",
+    "location": "Recklinghausen",
+    "description": "1. Bundesliga Herren",
+    "home": "RHC Recklinghausen",
+    "away": "TuS-Düsseldorf Nord",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "1. Herren",
+    "date": "2027-01-09",
+    "time": "18:00",
+    "location": "Recklinghausen",
+    "description": "1. Bundesliga Herren",
+    "home": "RHC Recklinghausen",
+    "away": "IGR Remscheid",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "1. Herren",
+    "date": "2027-01-16",
+    "time": "15:30",
+    "location": "Cronenberg",
+    "description": "1. Bundesliga Herren",
+    "home": "RSC Cronenberg",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "1. Herren",
+    "date": "2027-01-23",
+    "time": "18:00",
+    "location": "Recklinghausen",
+    "description": "1. Bundesliga Herren",
+    "home": "RHC Recklinghausen",
+    "away": "SK Germania Herringen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "1. Herren",
+    "date": "2027-01-30",
+    "time": "18:00",
+    "location": "Recklinghausen",
+    "description": "1. Bundesliga Herren",
+    "home": "RHC Recklinghausen",
+    "away": "TuS-Düsseldorf Nord",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "1. Herren",
+    "date": "2027-02-27",
+    "time": "18:00",
+    "location": "Walsum",
+    "description": "1. Bundesliga Herren",
+    "home": "RESG Walsum",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "1. Herren",
+    "date": "2027-04-03",
+    "time": "18:00",
+    "location": "Recklinghausen",
+    "description": "1. Bundesliga Herren",
+    "home": "RHC Recklinghausen",
+    "away": "IGR Remscheid",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "1. Herren",
+    "date": "2027-04-17",
+    "time": "16:00",
+    "location": "Herringen",
+    "description": "1. Bundesliga Herren",
+    "home": "SK Germania Herringen",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "1. Herren",
+    "date": "2027-04-24",
+    "time": "16:00",
+    "location": "ggf. Heimrechttausch",
+    "description": "1. Bundesliga Herren",
+    "home": "RSC Cronenberg",
+    "away": "RHC Recklinghausen",
+    "result": null
+  }
+]
