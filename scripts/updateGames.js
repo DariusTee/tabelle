@@ -10,6 +10,26 @@ const ligas = [
     allTeams: false,
   },
   {
+    name: "Regionalliga West Spielplan 26-27",
+    url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=657&typ=liga&list=all",
+    allTeams: false,
+  },
+  {
+    name: "NRW C-Jugend Spielplan 26-27",
+    url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=652&typ=liga&list=all",
+    allTeams: false,
+  },
+  {
+    name: "NRW D-Jugend Spielplan 26-27",
+    url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=653&typ=liga&list=all",
+    allTeams: false,
+  },
+  {
+    name: "Rookies Winterrunde Spielplan 26-27",
+    url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=642&typ=liga&list=all",
+    allTeams: false,
+  },
+  {
     name: "1. Bundesliga Herren Spielplan 25-26",
     url: "https://service.liga.rollhockey.de/xml/spielplan.aspx?id=407&typ=liga&list=all",
     allTeams: false,
