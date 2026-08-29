@@ -11,26 +11,16 @@
   },
   {
     "platz": "2",
-    "team": "SK Germania Herringen",
+    "team": "TuS-Düsseldorf Nord",
     "spiele": "1",
-    "siege": "0",
-    "unentschieden": "1",
+    "siege": "1",
+    "unentschieden": "0",
     "niederlagen": "0",
-    "tore": "3 : 3",
-    "punkte": "1"
+    "tore": "4 : 3",
+    "punkte": "3"
   },
   {
     "platz": "3",
-    "team": "TuS-Düsseldorf Nord",
-    "spiele": "1",
-    "siege": "0",
-    "unentschieden": "1",
-    "niederlagen": "0",
-    "tore": "3 : 3",
-    "punkte": "1"
-  },
-  {
-    "platz": "4",
     "team": "RHC Gipf-Oberfrick",
     "spiele": "0",
     "siege": "0",
@@ -40,7 +30,7 @@
     "punkte": "0"
   },
   {
-    "platz": "5",
+    "platz": "4",
     "team": "RSC Gera",
     "spiele": "0",
     "siege": "0",
@@ -50,13 +40,23 @@
     "punkte": "0"
   },
   {
-    "platz": "6",
+    "platz": "5",
     "team": "Zaanse RC",
     "spiele": "0",
     "siege": "0",
     "unentschieden": "0",
     "niederlagen": "0",
     "tore": "0 : 0",
+    "punkte": "0"
+  },
+  {
+    "platz": "6",
+    "team": "SK Germania Herringen",
+    "spiele": "1",
+    "siege": "0",
+    "unentschieden": "0",
+    "niederlagen": "1",
+    "tore": "3 : 4",
     "punkte": "0"
   },
   {
