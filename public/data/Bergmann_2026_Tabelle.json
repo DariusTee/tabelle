@@ -11,16 +11,6 @@
   },
   {
     "platz": "2",
-    "team": "RSC Gera",
-    "spiele": "2",
-    "siege": "2",
-    "unentschieden": "0",
-    "niederlagen": "0",
-    "tore": "6 : 1",
-    "punkte": "6"
-  },
-  {
-    "platz": "3",
     "team": "RHC Team Alt",
     "spiele": "2",
     "siege": "2",
@@ -28,6 +18,16 @@
     "niederlagen": "0",
     "tore": "8 : 4",
     "punkte": "6"
+  },
+  {
+    "platz": "3",
+    "team": "RSC Gera",
+    "spiele": "2",
+    "siege": "1",
+    "unentschieden": "1",
+    "niederlagen": "0",
+    "tore": "6 : 2",
+    "punkte": "4"
   },
   {
     "platz": "4",
@@ -44,10 +44,10 @@
     "team": "RHC Gipf-Oberfrick",
     "spiele": "2",
     "siege": "0",
-    "unentschieden": "0",
-    "niederlagen": "2",
-    "tore": "1 : 4",
-    "punkte": "0"
+    "unentschieden": "1",
+    "niederlagen": "1",
+    "tore": "2 : 4",
+    "punkte": "1"
   },
   {
     "platz": "6",
