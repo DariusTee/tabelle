@@ -21,27 +21,27 @@
   },
   {
     "platz": "3",
-    "team": "RHC Gipf-Oberfrick",
-    "spiele": "0",
+    "team": "RSC Gera",
+    "spiele": "1",
     "siege": "0",
-    "unentschieden": "0",
+    "unentschieden": "1",
     "niederlagen": "0",
-    "tore": "0 : 0",
-    "punkte": "0"
+    "tore": "1 : 1",
+    "punkte": "1"
   },
   {
     "platz": "4",
-    "team": "RSC Gera",
-    "spiele": "0",
+    "team": "Zaanse RC",
+    "spiele": "1",
     "siege": "0",
-    "unentschieden": "0",
+    "unentschieden": "1",
     "niederlagen": "0",
-    "tore": "0 : 0",
-    "punkte": "0"
+    "tore": "1 : 1",
+    "punkte": "1"
   },
   {
     "platz": "5",
-    "team": "Zaanse RC",
+    "team": "RHC Gipf-Oberfrick",
     "spiele": "0",
     "siege": "0",
     "unentschieden": "0",
