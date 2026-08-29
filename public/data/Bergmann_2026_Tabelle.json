@@ -1,22 +1,22 @@
 [
   {
     "platz": "1",
+    "team": "RHC Team Alt",
+    "spiele": "3",
+    "siege": "3",
+    "unentschieden": "0",
+    "niederlagen": "0",
+    "tore": "12 : 5",
+    "punkte": "9"
+  },
+  {
+    "platz": "2",
     "team": "TuS-Düsseldorf Nord",
     "spiele": "2",
     "siege": "2",
     "unentschieden": "0",
     "niederlagen": "0",
     "tore": "10 : 5",
-    "punkte": "6"
-  },
-  {
-    "platz": "2",
-    "team": "RHC Team Alt",
-    "spiele": "2",
-    "siege": "2",
-    "unentschieden": "0",
-    "niederlagen": "0",
-    "tore": "8 : 4",
     "punkte": "6"
   },
   {
@@ -62,11 +62,11 @@
   {
     "platz": "7",
     "team": "Zaanse RC",
-    "spiele": "2",
+    "spiele": "3",
     "siege": "0",
     "unentschieden": "0",
-    "niederlagen": "2",
-    "tore": "3 : 9",
+    "niederlagen": "3",
+    "tore": "4 : 13",
     "punkte": "0"
   }
 ]
