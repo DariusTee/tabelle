@@ -21,22 +21,22 @@
   },
   {
     "platz": "3",
+    "team": "RHC Team Jung",
+    "spiele": "3",
+    "siege": "2",
+    "unentschieden": "0",
+    "niederlagen": "1",
+    "tore": "8 : 8",
+    "punkte": "6"
+  },
+  {
+    "platz": "4",
     "team": "RHC Gipf-Oberfrick",
     "spiele": "2",
     "siege": "1",
     "unentschieden": "0",
     "niederlagen": "1",
     "tore": "9 : 4",
-    "punkte": "3"
-  },
-  {
-    "platz": "4",
-    "team": "RHC Team Jung",
-    "spiele": "2",
-    "siege": "1",
-    "unentschieden": "0",
-    "niederlagen": "1",
-    "tore": "4 : 5",
     "punkte": "3"
   },
   {
@@ -52,11 +52,11 @@
   {
     "platz": "6",
     "team": "SK Germania Herringen",
-    "spiele": "2",
+    "spiele": "3",
     "siege": "0",
     "unentschieden": "0",
-    "niederlagen": "2",
-    "tore": "6 : 10",
+    "niederlagen": "3",
+    "tore": "9 : 14",
     "punkte": "0"
   },
   {
