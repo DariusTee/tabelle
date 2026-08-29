@@ -22,11 +22,11 @@
   {
     "platz": "3",
     "team": "RSC Gera",
-    "spiele": "1",
+    "spiele": "2",
     "siege": "1",
     "unentschieden": "0",
-    "niederlagen": "0",
-    "tore": "5 : 1",
+    "niederlagen": "1",
+    "tore": "5 : 2",
     "punkte": "3"
   },
   {
@@ -42,12 +42,12 @@
   {
     "platz": "5",
     "team": "RHC Gipf-Oberfrick",
-    "spiele": "1",
-    "siege": "0",
+    "spiele": "2",
+    "siege": "1",
     "unentschieden": "0",
     "niederlagen": "1",
-    "tore": "1 : 3",
-    "punkte": "0"
+    "tore": "2 : 3",
+    "punkte": "3"
   },
   {
     "platz": "6",
