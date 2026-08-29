@@ -12,12 +12,12 @@
   {
     "platz": "2",
     "team": "TuS-Düsseldorf Nord",
-    "spiele": "2",
-    "siege": "2",
+    "spiele": "3",
+    "siege": "3",
     "unentschieden": "0",
     "niederlagen": "0",
-    "tore": "10 : 5",
-    "punkte": "6"
+    "tore": "12 : 6",
+    "punkte": "9"
   },
   {
     "platz": "3",
@@ -32,11 +32,11 @@
   {
     "platz": "4",
     "team": "RHC Gipf-Oberfrick",
-    "spiele": "2",
+    "spiele": "3",
     "siege": "1",
     "unentschieden": "0",
-    "niederlagen": "1",
-    "tore": "9 : 4",
+    "niederlagen": "2",
+    "tore": "10 : 6",
     "punkte": "3"
   },
   {
