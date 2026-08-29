@@ -26,27 +26,27 @@
     "siege": "1",
     "unentschieden": "0",
     "niederlagen": "1",
-    "tore": "6 : 3",
+    "tore": "6 : 4",
     "punkte": "3"
   },
   {
     "platz": "4",
+    "team": "RHC Gipf-Oberfrick",
+    "spiele": "2",
+    "siege": "1",
+    "unentschieden": "0",
+    "niederlagen": "1",
+    "tore": "4 : 4",
+    "punkte": "3"
+  },
+  {
+    "platz": "5",
     "team": "RHC Team Jung",
     "spiele": "2",
     "siege": "1",
     "unentschieden": "0",
     "niederlagen": "1",
     "tore": "4 : 5",
-    "punkte": "3"
-  },
-  {
-    "platz": "5",
-    "team": "RHC Gipf-Oberfrick",
-    "spiele": "2",
-    "siege": "1",
-    "unentschieden": "0",
-    "niederlagen": "1",
-    "tore": "3 : 4",
     "punkte": "3"
   },
   {
