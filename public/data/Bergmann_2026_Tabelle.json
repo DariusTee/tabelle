@@ -21,32 +21,32 @@
   },
   {
     "platz": "3",
-    "team": "RSC Gera",
-    "spiele": "2",
-    "siege": "1",
-    "unentschieden": "0",
-    "niederlagen": "1",
-    "tore": "6 : 4",
-    "punkte": "3"
-  },
-  {
-    "platz": "4",
     "team": "RHC Gipf-Oberfrick",
     "spiele": "2",
     "siege": "1",
     "unentschieden": "0",
     "niederlagen": "1",
-    "tore": "4 : 4",
+    "tore": "9 : 4",
     "punkte": "3"
   },
   {
-    "platz": "5",
+    "platz": "4",
     "team": "RHC Team Jung",
     "spiele": "2",
     "siege": "1",
     "unentschieden": "0",
     "niederlagen": "1",
     "tore": "4 : 5",
+    "punkte": "3"
+  },
+  {
+    "platz": "5",
+    "team": "RSC Gera",
+    "spiele": "2",
+    "siege": "1",
+    "unentschieden": "0",
+    "niederlagen": "1",
+    "tore": "6 : 9",
     "punkte": "3"
   },
   {
