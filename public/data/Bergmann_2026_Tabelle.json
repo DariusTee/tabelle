@@ -11,6 +11,26 @@
   },
   {
     "platz": "2",
+    "team": "SK Germania Herringen",
+    "spiele": "1",
+    "siege": "0",
+    "unentschieden": "1",
+    "niederlagen": "0",
+    "tore": "1 : 1",
+    "punkte": "1"
+  },
+  {
+    "platz": "3",
+    "team": "TuS-Düsseldorf Nord",
+    "spiele": "1",
+    "siege": "0",
+    "unentschieden": "1",
+    "niederlagen": "0",
+    "tore": "1 : 1",
+    "punkte": "1"
+  },
+  {
+    "platz": "4",
     "team": "RHC Gipf-Oberfrick",
     "spiele": "0",
     "siege": "0",
@@ -20,28 +40,8 @@
     "punkte": "0"
   },
   {
-    "platz": "3",
-    "team": "RSC Gera",
-    "spiele": "0",
-    "siege": "0",
-    "unentschieden": "0",
-    "niederlagen": "0",
-    "tore": "0 : 0",
-    "punkte": "0"
-  },
-  {
-    "platz": "4",
-    "team": "SK Germania Herringen",
-    "spiele": "0",
-    "siege": "0",
-    "unentschieden": "0",
-    "niederlagen": "0",
-    "tore": "0 : 0",
-    "punkte": "0"
-  },
-  {
     "platz": "5",
-    "team": "TuS-Düsseldorf Nord",
+    "team": "RSC Gera",
     "spiele": "0",
     "siege": "0",
     "unentschieden": "0",
