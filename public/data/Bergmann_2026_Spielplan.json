@@ -120,7 +120,8 @@
     "description": "19. Recklinghäuser Bergmann",
     "home": "SK Germania Herringen",
     "away": "Zaanse RC",
-    "result": null
+    "result": "7:1",
+    "afterPenalty": false
   },
   {
     "type": "Spiel",

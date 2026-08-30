@@ -31,6 +31,16 @@
   },
   {
     "platz": "4",
+    "team": "SK Germania Herringen",
+    "spiele": "4",
+    "siege": "1",
+    "unentschieden": "0",
+    "niederlagen": "3",
+    "tore": "16 : 15",
+    "punkte": "5"
+  },
+  {
+    "platz": "5",
     "team": "RHC Gipf-Oberfrick",
     "spiele": "3",
     "siege": "1",
@@ -40,7 +50,7 @@
     "punkte": "3"
   },
   {
-    "platz": "5",
+    "platz": "6",
     "team": "RSC Gera",
     "spiele": "3",
     "siege": "1",
@@ -50,23 +60,13 @@
     "punkte": "3"
   },
   {
-    "platz": "6",
-    "team": "SK Germania Herringen",
-    "spiele": "3",
-    "siege": "0",
-    "unentschieden": "0",
-    "niederlagen": "3",
-    "tore": "9 : 14",
-    "punkte": "2"
-  },
-  {
     "platz": "7",
     "team": "Zaanse RC",
-    "spiele": "3",
+    "spiele": "4",
     "siege": "0",
     "unentschieden": "0",
-    "niederlagen": "3",
-    "tore": "4 : 13",
+    "niederlagen": "4",
+    "tore": "5 : 20",
     "punkte": "0"
   }
 ]
