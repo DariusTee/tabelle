@@ -52,7 +52,8 @@
     "description": "19. Recklinghäuser Bergmann",
     "home": "RHC Team Alt",
     "away": "SK Germania Herringen",
-    "result": "4:3"
+    "result": "4:3",
+    "afterPenalty": true
   },
   {
     "type": "Spiel",
