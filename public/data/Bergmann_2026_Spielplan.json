@@ -131,7 +131,8 @@
     "description": "19. Recklinghäuser Bergmann",
     "home": "RHC Team Jung",
     "away": "RSC Gera",
-    "result": null
+    "result": "2:1",
+    "afterPenalty": false
   },
   {
     "type": "Spiel",
