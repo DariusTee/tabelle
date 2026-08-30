@@ -204,7 +204,8 @@
     "description": "19. Recklinghäuser Bergmann",
     "home": "RHC Team Jung",
     "away": "TuS-Düsseldorf Nord",
-    "result": null
+    "result": "1:2",
+    "afterPenalty": false
   },
   {
     "type": "Spiel",
