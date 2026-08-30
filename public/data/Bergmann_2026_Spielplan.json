@@ -180,7 +180,8 @@
     "description": "19. Recklinghäuser Bergmann",
     "home": "SK Germania Herringen",
     "away": "RHC Gipf-Oberfrick",
-    "result": null
+    "result": "7:1",
+    "afterPenalty": false
   },
   {
     "type": "Spiel",
