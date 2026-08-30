@@ -228,7 +228,8 @@
     "description": "19. Recklinghäuser Bergmann",
     "home": "SK Germania Herringen",
     "away": "RSC Gera",
-    "result": null
+    "result": "1:4",
+    "afterPenalty": false
   },
   {
     "type": "Spiel",
