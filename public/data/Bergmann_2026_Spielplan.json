@@ -216,7 +216,8 @@
     "description": "19. Recklinghäuser Bergmann",
     "home": "Zaanse RC",
     "away": "RHC Gipf-Oberfrick",
-    "result": null
+    "result": "2:5",
+    "afterPenalty": false
   },
   {
     "type": "Spiel",
