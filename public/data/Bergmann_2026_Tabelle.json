@@ -2,21 +2,21 @@
   {
     "platz": "1",
     "team": "TuS-Düsseldorf Nord",
-    "spiele": "5",
-    "siege": "5",
+    "spiele": "6",
+    "siege": "6",
     "unentschieden": "0",
     "niederlagen": "0",
-    "tore": "18 : 7",
-    "punkte": "15"
+    "tore": "21 : 9",
+    "punkte": "18"
   },
   {
     "platz": "2",
     "team": "RHC Team Alt",
-    "spiele": "5",
+    "spiele": "6",
     "siege": "5",
     "unentschieden": "0",
-    "niederlagen": "0",
-    "tore": "23 : 11",
+    "niederlagen": "1",
+    "tore": "25 : 14",
     "punkte": "13"
   },
   {
