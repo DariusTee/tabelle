@@ -156,7 +156,8 @@
     "description": "19. Recklinghäuser Bergmann",
     "home": "RHC Team Alt",
     "away": "RHC Gipf-Oberfrick",
-    "result": null
+    "result": "4:3",
+    "afterPenalty": false
   },
   {
     "type": "Spiel",
