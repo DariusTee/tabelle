@@ -2,12 +2,12 @@
   {
     "platz": "1",
     "team": "TuS-Düsseldorf Nord",
-    "spiele": "3",
-    "siege": "3",
+    "spiele": "4",
+    "siege": "4",
     "unentschieden": "0",
     "niederlagen": "0",
-    "tore": "12 : 6",
-    "punkte": "9"
+    "tore": "16 : 6",
+    "punkte": "12"
   },
   {
     "platz": "2",
@@ -52,11 +52,11 @@
   {
     "platz": "6",
     "team": "RSC Gera",
-    "spiele": "3",
+    "spiele": "4",
     "siege": "1",
     "unentschieden": "0",
-    "niederlagen": "2",
-    "tore": "7 : 11",
+    "niederlagen": "3",
+    "tore": "7 : 15",
     "punkte": "3"
   },
   {

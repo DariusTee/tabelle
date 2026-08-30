@@ -144,7 +144,8 @@
     "description": "19. Recklinghäuser Bergmann",
     "home": "TuS-Düsseldorf Nord",
     "away": "RSC Gera",
-    "result": null
+    "result": "4:0",
+    "afterPenalty": false
   },
   {
     "type": "Spiel",
