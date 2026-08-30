@@ -11,6 +11,16 @@
   },
   {
     "platz": "2",
+    "team": "RHC Team Jung",
+    "spiele": "5",
+    "siege": "4",
+    "unentschieden": "0",
+    "niederlagen": "1",
+    "tore": "14 : 9",
+    "punkte": "11"
+  },
+  {
+    "platz": "3",
     "team": "RHC Team Alt",
     "spiele": "4",
     "siege": "4",
@@ -18,16 +28,6 @@
     "niederlagen": "0",
     "tore": "16 : 8",
     "punkte": "10"
-  },
-  {
-    "platz": "3",
-    "team": "RHC Team Jung",
-    "spiele": "4",
-    "siege": "3",
-    "unentschieden": "0",
-    "niederlagen": "1",
-    "tore": "10 : 9",
-    "punkte": "8"
   },
   {
     "platz": "4",
@@ -62,11 +62,11 @@
   {
     "platz": "7",
     "team": "Zaanse RC",
-    "spiele": "4",
+    "spiele": "5",
     "siege": "0",
     "unentschieden": "0",
-    "niederlagen": "4",
-    "tore": "5 : 20",
+    "niederlagen": "5",
+    "tore": "5 : 24",
     "punkte": "0"
   }
 ]

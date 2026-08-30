@@ -168,7 +168,8 @@
     "description": "19. Recklinghäuser Bergmann",
     "home": "RHC Team Jung",
     "away": "Zaanse RC",
-    "result": null
+    "result": "4:0",
+    "afterPenalty": false
   },
   {
     "type": "Spiel",
