@@ -157,7 +157,7 @@
     "home": "RHC Team Alt",
     "away": "RHC Gipf-Oberfrick",
     "result": "4:3",
-    "afterPenalty": false
+    "afterPenalty": true
   },
   {
     "type": "Spiel",
