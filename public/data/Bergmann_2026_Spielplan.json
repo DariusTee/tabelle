@@ -192,7 +192,8 @@
     "description": "19. Recklinghäuser Bergmann",
     "home": "RHC Team Alt",
     "away": "RSC Gera",
-    "result": null
+    "result": "7:3",
+    "afterPenalty": false
   },
   {
     "type": "Spiel",
