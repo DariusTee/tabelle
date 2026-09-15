@@ -17,7 +17,7 @@
     "time": "13:00",
     "location": "Lichstad",
     "description": "Regionalliga West Herren",
-    "home": "RC de Lichtstad",
+    "home": "SG Lichtstad/Calenberg",
     "away": "RHC Recklinghausen II",
     "result": null
   },
@@ -46,22 +46,22 @@
   {
     "type": "Spiel",
     "team": "Unbekannt",
-    "date": "2026-10-31",
-    "time": "12:00",
-    "location": "Herringen",
+    "date": "2026-11-01",
+    "time": "18:30",
+    "location": "Remscheid",
     "description": "Regionalliga West Herren",
-    "home": "SK Germania Herringen II",
+    "home": "IGR Remscheid II",
     "away": "RHC Recklinghausen II",
     "result": null
   },
   {
     "type": "Spiel",
     "team": "Unbekannt",
-    "date": "2026-11-01",
-    "time": "18:30",
-    "location": "Remscheid",
+    "date": "2026-11-14",
+    "time": "18:00",
+    "location": "Herringen",
     "description": "Regionalliga West Herren",
-    "home": "IGR Remscheid II",
+    "home": "SK Germania Herringen II",
     "away": "RHC Recklinghausen II",
     "result": null
   },
@@ -139,7 +139,7 @@
     "location": "Recklinghausen",
     "description": "Regionalliga West Herren",
     "home": "RHC Recklinghausen II",
-    "away": "RC de Lichtstad",
+    "away": "SG Lichtstad/Calenberg",
     "result": null
   },
   {
