@@ -24,6 +24,28 @@
   {
     "type": "Spiel",
     "team": "Unbekannt",
+    "date": "2026-10-11",
+    "time": "10:30",
+    "location": "Düsseldorf",
+    "description": "Rookies Winterrunde",
+    "home": "IGR Remscheid I",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2026-10-11",
+    "time": "12:45",
+    "location": "Düsseldorf",
+    "description": "Rookies Winterrunde",
+    "home": "RHC Recklinghausen",
+    "away": "Hülser SV Krefeld*",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
     "date": "2026-11-15",
     "time": "13:00",
     "location": "Recklinghausen",

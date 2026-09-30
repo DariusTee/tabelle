@@ -2,28 +2,6 @@
   {
     "type": "Spiel",
     "team": "Unbekannt",
-    "date": "2026-09-27",
-    "time": "00:00",
-    "location": "abgesagt",
-    "description": "C-Jugend Landesmeisterschaft/Landesliga* NRW",
-    "home": "Hülser SV Krefeld I",
-    "away": "RHC Recklinghausen",
-    "result": null
-  },
-  {
-    "type": "Spiel",
-    "team": "Unbekannt",
-    "date": "2026-09-27",
-    "time": "00:02",
-    "location": "abgesagt",
-    "description": "C-Jugend Landesmeisterschaft/Landesliga* NRW",
-    "home": "Hülser SV Krefeld II*",
-    "away": "RHC Recklinghausen",
-    "result": null
-  },
-  {
-    "type": "Spiel",
-    "team": "Unbekannt",
     "date": "2026-10-11",
     "time": "14:20",
     "location": "Düsseldorf",
@@ -63,6 +41,28 @@
     "description": "C-Jugend Landesmeisterschaft/Landesliga* NRW",
     "home": "RHC Recklinghausen",
     "away": "RSC Cronenberg",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2027-01-17",
+    "time": "10:00",
+    "location": "Krefeld-Hüls",
+    "description": "C-Jugend Landesmeisterschaft/Landesliga* NRW",
+    "home": "Hülser SV Krefeld I",
+    "away": "RHC Recklinghausen",
+    "result": null
+  },
+  {
+    "type": "Spiel",
+    "team": "Unbekannt",
+    "date": "2027-01-17",
+    "time": "12:10",
+    "location": "Krefeld-Hüls",
+    "description": "C-Jugend Landesmeisterschaft/Landesliga* NRW",
+    "home": "Hülser SV Krefeld II*",
+    "away": "RHC Recklinghausen",
     "result": null
   },
   {
